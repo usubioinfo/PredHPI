@@ -1,0 +1,117 @@
+Evaluating  at Fri May 24 17:58:45 CDT 2019
+24/05/2019 17:58:45:951 Welcome to InterProScan-5.33-72.0
+24/05/2019 17:58:52:199 Running InterProScan v5 in STANDALONE mode... on Linux
+24/05/2019 17:59:06:655 Loading file /home/cloaiza/PredHPI_SLURM/1558737557721_PathogenInterproInput.txt
+24/05/2019 17:59:06:664 Running the following analyses:
+[PANTHER-12.0,Pfam-32.0,ProSitePatterns-2018_02,ProSiteProfiles-2018_02]
+Available matches will be retrieved from the pre-calculated match lookup service.
+
+Matches for any sequences that are not represented in the lookup service will be calculated locally.
+2019-05-24 17:59:06,687 [amqEmbeddedWorkerJmsContainer-4] [uk.ac.ebi.interpro.scan.jms.worker.LocalJobQueueListener:204] ERROR - Execution thrown when attempting to executeInTransaction the StepExecution.  All database activity rolled back.
+java.lang.IllegalArgumentException: You have submitted a protein sequence which contains an asterix (*). This may be from an ORF prediction program. '*' is not a valid IUPAC amino acid character and amino acid sequences which go through our pipeline should not contain it. Please strip out all asterix characters from your sequence and resubmit your search.
+	at uk.ac.ebi.interpro.scan.model.Protein.setSequence(Protein.java:346)
+	at uk.ac.ebi.interpro.scan.model.Protein.setSequenceAndMd5(Protein.java:227)
+	at uk.ac.ebi.interpro.scan.model.Protein.<init>(Protein.java:134)
+	at uk.ac.ebi.interpro.scan.business.sequence.fasta.LoadProteinFastaFile.addToMoleculeCollection(LoadProteinFastaFile.java:19)
+	at uk.ac.ebi.interpro.scan.business.sequence.fasta.LoadFastaFileImpl.loadSequences(LoadFastaFileImpl.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:302)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy103.loadSequences(Unknown Source)
+	at uk.ac.ebi.interpro.scan.management.model.implementations.stepInstanceCreation.proteinLoad.FastaFileLoadStep.execute(FastaFileLoadStep.java:253)
+	at uk.ac.ebi.interpro.scan.jms.activemq.StepExecutionTransactionImpl.executeInTransaction(StepExecutionTransactionImpl.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:302)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy106.executeInTransaction(Unknown Source)
+	at uk.ac.ebi.interpro.scan.jms.worker.LocalJobQueueListener.onMessage(LocalJobQueueListener.java:192)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:746)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:684)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:651)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:315)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:253)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1150)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1142)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1039)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-24 17:59:06,692 [amqEmbeddedWorkerJmsContainer-4] [uk.ac.ebi.interpro.scan.jms.worker.LocalJobQueueListener:206] ERROR - StepExecution with errors - stepName: stepLoadFromFasta
+2019-05-24 17:59:06,751 [main] [uk.ac.ebi.interpro.scan.jms.master.StandaloneBlackBoxMaster:143] WARN - StepInstance 1 is being re-run following a failure.
+24/05/2019 17:59:06:764 Loading file /home/cloaiza/PredHPI_SLURM/1558737557721_PathogenInterproInput.txt
+24/05/2019 17:59:06:768 Running the following analyses:
+[PANTHER-12.0,Pfam-32.0,ProSitePatterns-2018_02,ProSiteProfiles-2018_02]
+Available matches will be retrieved from the pre-calculated match lookup service.
+
+Matches for any sequences that are not represented in the lookup service will be calculated locally.
+2019-05-24 17:59:06,773 [amqEmbeddedWorkerJmsContainer-1] [uk.ac.ebi.interpro.scan.jms.worker.LocalJobQueueListener:204] ERROR - Execution thrown when attempting to executeInTransaction the StepExecution.  All database activity rolled back.
+java.lang.IllegalArgumentException: You have submitted a protein sequence which contains an asterix (*). This may be from an ORF prediction program. '*' is not a valid IUPAC amino acid character and amino acid sequences which go through our pipeline should not contain it. Please strip out all asterix characters from your sequence and resubmit your search.
+	at uk.ac.ebi.interpro.scan.model.Protein.setSequence(Protein.java:346)
+	at uk.ac.ebi.interpro.scan.model.Protein.setSequenceAndMd5(Protein.java:227)
+	at uk.ac.ebi.interpro.scan.model.Protein.<init>(Protein.java:134)
+	at uk.ac.ebi.interpro.scan.business.sequence.fasta.LoadProteinFastaFile.addToMoleculeCollection(LoadProteinFastaFile.java:19)
+	at uk.ac.ebi.interpro.scan.business.sequence.fasta.LoadFastaFileImpl.loadSequences(LoadFastaFileImpl.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:302)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy103.loadSequences(Unknown Source)
+	at uk.ac.ebi.interpro.scan.management.model.implementations.stepInstanceCreation.proteinLoad.FastaFileLoadStep.execute(FastaFileLoadStep.java:253)
+	at uk.ac.ebi.interpro.scan.jms.activemq.StepExecutionTransactionImpl.executeInTransaction(StepExecutionTransactionImpl.java:86)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:302)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:190)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:99)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:281)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:207)
+	at com.sun.proxy.$Proxy106.executeInTransaction(Unknown Source)
+	at uk.ac.ebi.interpro.scan.jms.worker.LocalJobQueueListener.onMessage(LocalJobQueueListener.java:192)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:746)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:684)
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:651)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:315)
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:253)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1150)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1142)
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1039)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-24 17:59:06,776 [amqEmbeddedWorkerJmsContainer-1] [uk.ac.ebi.interpro.scan.jms.worker.LocalJobQueueListener:206] ERROR - StepExecution with errors - stepName: stepLoadFromFasta
+2019-05-24 17:59:06,873 [main] [uk.ac.ebi.interpro.scan.jms.activemq.NonZeroExitOnUnrecoverableError:24] FATAL - Analysis step 1 : Load proteins from a fasta file and create required JobInstance objects for proteins null to null has failed irretrievably.  Available StackTraces follow.
+2019-05-24 17:59:06,874 [main] [uk.ac.ebi.interpro.scan.jms.activemq.NonZeroExitOnUnrecoverableError:41] FATAL - The JVM will now exit with a non-zero exit status.
+2019-05-24 17:59:06,874 [main] [uk.ac.ebi.interpro.scan.jms.master.StandaloneBlackBoxMaster:258] ERROR - Exception thrown by StandaloneBlackBoxMaster: 
+java.lang.IllegalStateException: InterProScan exiting with non-zero status, see logs for further information.
+	at uk.ac.ebi.interpro.scan.jms.activemq.NonZeroExitOnUnrecoverableError.failed(NonZeroExitOnUnrecoverableError.java:42)
+	at uk.ac.ebi.interpro.scan.jms.master.StandaloneBlackBoxMaster.run(StandaloneBlackBoxMaster.java:134)
+	at uk.ac.ebi.interpro.scan.jms.main.Run.main(Run.java:377)
+InterProScan analysis failed. Exception thrown by StandaloneBlackBoxMaster. Check the log file for details
+End of program at Fri May 24 17:59:07 CDT 2019

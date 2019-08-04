@@ -1,0 +1,36 @@
+Evaluating  at Fri May 24 18:54:55 CDT 2019
+24/05/2019 18:54:56:040 Welcome to InterProScan-5.33-72.0
+24/05/2019 18:55:02:708 Running InterProScan v5 in STANDALONE mode... on Linux
+24/05/2019 18:55:16:798 Loading file /home/cloaiza/PredHPI_SLURM/1558737557721_PathogenInterproInput.txt
+24/05/2019 18:55:16:808 Running the following analyses:
+[PANTHER-12.0,Pfam-32.0,ProSitePatterns-2018_02,ProSiteProfiles-2018_02]
+Available matches will be retrieved from the pre-calculated match lookup service.
+
+Matches for any sequences that are not represented in the lookup service will be calculated locally.
+2019-05-24 18:55:18,025 [amqEmbeddedWorkerJmsContainer-1] [uk.ac.ebi.interpro.scan.business.sequence.BerkeleyPrecalculatedProteinLookup:410] WARN - 
+
+The version of InterProScan you are using is 5.33-72.0
+The version of the lookup service you are using is 5.35-74.0
+As the data in these versions is not the same, you cannot use this match lookup service.
+InterProScan will now run locally
+If you would like to use the match lookup service, you have the following options:
+i) Download the newest version of InterProScan5 from our FTP site by following the instructions on:
+   https://www.ebi.ac.uk/interpro/interproscan.html
+ii) Download the match lookup service for your version of InterProScan from our FTP site and install it locally.
+    You will then need to edit the following property in your configuration file to point to your local installation:
+    precalculated.match.lookup.service.url=
+
+In the meantime, the analysis will continue to run locally.
+
+
+24/05/2019 18:55:32:020 25% completed
+24/05/2019 19:00:06:587 51% completed
+24/05/2019 19:01:38:955 77% completed
+24/05/2019 19:01:49:608 96% completed
+Found 2 non unique identifier(s). These identifiers do have different sequences, within the FASTA protein sequence input file.
+InterProScan will make them unique by adding '_sequential number' in the order of their appearance (e.g. P11111 will be P11111_1 for the first protein sequence).
+Please find below a list of detected identifiers:
+HARXLL108
+HARXL89
+24/05/2019 19:01:57:857 100% done:  InterProScan analyses completed
+End of program at Fri May 24 19:01:58 CDT 2019

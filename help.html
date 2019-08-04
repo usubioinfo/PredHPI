@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-119048537-7');
+        </script>
+        <meta charset="utf-8">
+        <meta name="description" content="PredHPI-Help">
+        <meta name="author" content="Cristian Loaiza">
+
+        <!-- App Favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App title -->
+        <title>PredHPI-Help</title>
+
+        <!-- Plugins css-->
+        <link href="assets/plugins/multiselect/css/multi-select.css"  rel="stylesheet" type="text/css" />
+
+        <!-- form Uploads -->
+        <link href="assets/plugins/fileuploads/css/dropify.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- Custom box css -->
+        <link href="assets/plugins/custombox/css/custombox.min.css" rel="stylesheet">
+
+        <!-- Switchery css -->
+        <link href="assets/plugins/switchery/switchery.min.css" rel="stylesheet" />
+
+        <!-- Bootstrap CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- App CSS -->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+        <!-- Modernizr js -->
+        <script src="assets/js/modernizr.min.js"></script>
+
+
+        <style>
+
+
+          .text-muted2{
+            color: #039cfd;
+          }
+
+
+        </style>
+
+
+    </head>
+
+
+        <body>
+
+
+
+        <header id="topnav">
+
+            <div class="navbar-custom">
+                <div class="container">
+                    <div id="navigation">
+                        <ul class="navigation-menu">
+                            <li>
+                                <a href="index.html" style="font-size: 18px;"><i class="zmdi zmdi-device-hub" style="font-size: 25px;"></i> <span> Submit </span> </a>
+                            </li>
+                            <li>
+                                <a href="about.html" style="font-size: 18px;"><i class="zmdi zmdi-grid" style="font-size: 25px;"></i> <span> About </span> </a>
+                            </li>
+                            <li>
+                                <a href="help.html" style="font-size: 18px;"><i class="zmdi zmdi-info" style="font-size: 25px;"></i> <span> Help </span> </a>
+                            </li>
+                             <li>
+                                <a href="faq.html" style="font-size: 18px;"><i class="zmdi zmdi-help" style="font-size: 25px;"></i><span> FAQ </span> </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="wrapper" style='margin-top: 90px;'>
+            <div class="container">
+                <h1 class="display-3" align="Center"> Tutorial</h1>
+                <div class="row" style="margin-top: 5px;">
+                    <div class="col-md-4" ></div>
+                    <div class="col-md-3" style="position: fixed">
+                        <div class="card-box" >
+                            <a href="#tool_selection" class="btn btn-sm btn-block btn-purple waves-effect waves-light" >Tool selection</a>
+                            <a href="#data_loading" class="btn btn-sm btn-block btn-info waves-effect waves-light">Data loading</a>
+                            <a href="#interolog_options" class="btn btn-sm btn-block btn-success waves-effect waves-light">Interolog Options</a>
+                            <a href="#domain_options" class="btn btn-sm btn-block btn-purple waves-effect waves-light">Domain-based Options</a>
+                            <a href="#gosim_options" class="btn btn-sm btn-block btn-info waves-effect waves-light">GOsim Options</a>
+                            <a href="#phylo_options" class="btn btn-sm btn-block btn-success waves-effect waves-light">Phylo-profiling Options</a>
+                            <a href="#submit_options" class="btn btn-sm btn-block btn-purple waves-effect waves-light">Submit Options</a>
+                            <a href="#result_options" class="btn btn-sm btn-block btn-info waves-effect waves-light">Output Example</a>
+                            <a href="#network_visualization" class="btn btn-sm btn-block btn-success waves-effect waves-light">Visualization Network Example</a>
+                            <a href="#browser_compatibility" class="btn btn-sm btn-block btn-purple waves-effect waves-light">Browser Compability</a>
+                        </div>
+                    </div>
+                    <div class="col-md-8" style="font-size: 18px;">
+                        <div class="card-box" >
+                            <div id="tool_selection"  style="margin-bottom: 40px;"></div>
+                            Help section page of PredHPI, here you will find an step by step guide to submit and display the result of an analysis, as well as the different options regarding each module and what each parameter of a certain module means. If you have any questions that are not covered in this page please refer to FAQ page or send an email to crissloaiza@gmail.com.
+                            For this tutorial we will use the Demo data, so if you want to replicate the results obtained in this tutorial just click in the Demo data links of the Interolog module.
+                            <div id="tool_selection"  style="margin-bottom: 100px;"></div>
+                            <div  class="card" style="margin-top: 30px;"></div>
+                            <h4 ><b class="text-muted2">Tool selection</b></h4>
+                            <p>PredHPI have four (4) flavors. You can decide to use any of the tools by selecting the proper tab in the navigation tab. Interolog is the default tab.</p>
+                            <b>Interolog method</b>
+                            <p>The concept from which the module strategy relies upon is the conservation of protein-protein
+                            interactions among similar systems, e.g. if A and A'; are orthologs and B and B' are orthologs, then the
+                            interactions between A and B (in a certain system) and between A' and B' (in another system) are
+                            interologs (Matthews, 2001) . Subsequently, the ortholog proteins obtained through this process are
+                            used as query to search against the PPI databases. If there is a match in the PPI database which
+                            corresponds to a host and pathogen proteins, that protein pair is predicted as interacting. In practice,
+                            the sequences are aligned (host and pathogen sets separately) to the PPI sequences using Diamond
+                            BLAST (Buchfink et al., 2015) in PredHPI. We have implemented Diamond because it is a high-
+                            throughput program for aligning sequences at up to 20,000 times the speed of normal BLAST with
+                            high sensitivity (Buchfink et al., 2015).</p>
+                            <b>Domain-based</b>
+                            <p>The domain-based module follows a similar logic like Interolog method, although predictions are
+                            made against domain-domain interaction (DDI) databases instead of PPI databases. Domains
+                            structures are inferred from the host and pathogen protein sequences using the HMMER aligner
+                            (Eddy, 2011) , which align the sequences into domain patterns from the Pfam database (Finn et al.,
+                            2014) . As a result, this will assign domains to the sequences that contain the specific domain pattern.
+                            With the list of domains inferred, a query is performed to search inside the DDI databases for matches
+                            between host and pathogen domains. If there is a match, the proteins from which those domains were
+                            inferred will be predicted as interacting.</p>
+                            <b>GOsim</b>
+                            <p>This module is divided into two steps; i) Assigning gene ontology terms to the sequences using
+                            InterProScan (Jones et al., 2014) , and then ii) Finding the similarities between GO terms sets using
+                            GOSemSim (Yu et al., 2010) . A threshold and a similarity value will determine if the protein pair is
+                            interacting or not. GOSemSim is a R package that calculates a similarity matrix between the GO
+                            terms set of the host and the pathogen sequences. It will combine those values (pairwise similarities
+                            between two GO terms set) according to the strategy selected. PredHPI uses Wang method (Wang et
+                            al., 2007) to calculate the similarities, as Wang calculation ignores BP, CC and MF sub-ontologies
+                            from the GO graph, which is useful in the cases when there is a comparison between two proteins
+                            that have GO terms connected from different sub-ontologies.</p>
+                            <b>Phylo-profiling</b>
+                            <p>This module computes the appearance or absence of a certain protein in a wide genome pool. It is
+                            well known that interacting proteins are concurrent in presence to execute their functions. This is likely
+                            due to co-evolution of proteins connected with the same biological processes. If the co-appearance of
+                            both the host protein and pathogen protein are found, it leads to evidence that an interaction occurs.
+                            We use binary variables (1 and 0) to indicate whether a given protein is found in the compared
+                            genomes or not. These established profiles can be linked by finding the Hamming distance, indicating
+                            physical interaction of functional association (Pellegrini et al., 1999).</p>
+                            <img src='assets/images/gallery/WT1.png'></a>
+                            <div id="data_loading"  style="margin-bottom: 200px;"></div>
+                            <div  class="card" style="margin-top: 30px;"></div>
+                            <h4><b class="text-muted2">Data loading</b></h4>
+                            <p>After you select the tool you want to use for the prediction, the next step is to upload the data. PredHPI supports FASTA format. You can either upload a file or paste your sequences in the text area bellow. If you are using Interolog, you can upload nucleotide or amino acid sequences and the system will detect how to deal with it. </p>
+                            <img src='assets/images/gallery/WT2.png'></a>
+                            <p>If you are using Interolog or Domain-based, you can deactivate one of the two input data panes, in that case the prediction will be run against the template protein of the databases. For Phylo-profiling and GOsim PPI, you will need to provide both datasets. To deactivate one of the panes just click on the button next to the dataset pane name.</p>
+                            <img src='assets/images/gallery/WT3.png'></a>
+                            <img src='assets/images/gallery/WT4.png'></a>
+                            <div id="interolog_options"  style="margin-bottom: 200px;"></div>
+                            <div class="card" style="margin-top: 30px;"></div>
+                            <h4><b class="text-muted2">Interolog options</b></h4>
+                            <p>There are nine databases with protein-protein interaction templates that you can choose to run Interolog, you can also select multiple databases at once (more information about the databases used in the “Select Protein-Protein Interaction Databases” information button). </p>
+                            <p>Aditionally, you can select which match strategy to use for the interolog alignemnt, you can select to retrieve all the aligments (all-hits) or select the best aligment (best-hit/top-hit).</p>
+                            <img src='assets/images/gallery/FigureS5.png' width="600">
+                            <img src='assets/images/gallery/FigureS6.png' >
+                            <p>You can also select some alignment filters (coverage, identity and e-value) for both Host and Pathogen data sets.</p>
+                            <p>e-value: Value that represent if an aligment is due to chance, lower means more confidence in the aligment.</p>
+                            <p>coverage: How much of the database protein the query protein have to cover (percentually).</p>
+                            <p>identity: How identical  the database protein the query protein needs to be (percentually).</p>
+                            <img src='assets/images/gallery/WT6.png'>
+                            <div id="domain_options"  style="margin-bottom: 200px;"></div>
+                            <div class="card" style="margin-top: 30px;"></div>
+                            <h4><b class="text-muted2">Domain-based options</b></h4>
+                            <p>There are two databases with domain-domain interaction templates that you can choose to run Domain-based, (more information about the databases used in the “Select Domain-Domain Interaction Databases” information button).  Also you can select the e-value used in HMMScan and the no filters option, which relax the alignment criteria and usually returns more domains associated to the proteins inputted.</p>
+                            <p>e-value: Value that represent if an aligment is due to chance, lower means more confidence in the aligment.</p>
+                            <p>no filters: Hmmscan use a set of parameters (MSV, viterbi, etc) to optimize the heuristics behind the algorithm, changing those parameters will not change the algorithm itself but will change which aligments will be considered at the end for the output, no filters options remove all those filters which makes the algorithm to take longer (much longer) but increase (usually) the number of domains predicted. Consider to use this option only if you are not getting any results with this module.</p>
+                            <img src='assets/images/gallery/FigureS10.png' width="580">
+                            <div id="gosim_options"  style="margin-bottom: 200px;"></div>
+                            <div class="card" style="margin-top: 30px;"></div>
+                            <h4><b class="text-muted2">GO Sim PPI options</b></h4>
+                            <p>You can select between all orgDB organisms GO graphs in which perform the similarity calculation. You can also select the threshold that determine if a pair of proteins are interacting or not, and the combination strategy used by GoSemSim to calculate the similarity between the GO term sets.</p>
+                            <p>Threshold: from 0 to 1, the similarity proteins GO terms must have to be considered as interacting.</p>
+                            <p>Dataset GO Similarity calculation: "From GOSemSim vignette". For IC-based methods, information of GO term is species specific. We need to calculate IC for all GO terms of a species before we measure semantic similarity.</p>
+                            <p>Combine strategy method: Pair comparison with multiple GO terms associated will need a way to summarize the final single similarity value, you can select the average across all pairs, the maximum, etc.</p>
+                            <img src='assets/images/gallery/WT8.png'>
+                            <div id="phylo_options"  style="margin-bottom: 200px;"></div>
+                            <div  class="card" style="margin-top: 30px;"></div>
+                            <h4><b class="text-muted2">Phylogenetic-Profiling  options</b></h4>
+                            <p>You can select the genome pool from which the profile is calculated, and the threshold.</p>
+                            <p>Threshold: from 0 to 1, the similarity proteins paterns must have to be considered as interacting.</p>
+                            <p>Pools: BC18, It means Bioconductor 18, which is the pool of genomes made from the 18 Bioconductor Org.DB species annotated. UP82: It means Uniprot 82, which is the pool of genomes made from model uniprot proteomes.</p>
+                            <img src='assets/images/gallery/WT9.png'>
+                            <p>And you can also select some blast filters for both Host and Pathogen datasets.</p>
+                            <p>e-value: "From NCBI Website". The Expect value (E) is a parameter that describes the number of hits one can "expect" to see by chance when searching a database of a particular size. It decreases exponentially as the Score (S) of the match increases. Essentially, the E value describes the random background noise.</p>
+                            <p>coverage: How much of the database protein the query protein have to cover (percentually).</p>
+                            <p>identity: How identical  the database protein the query protein needs to be (percentually).</p>
+                            <img src='assets/images/gallery/FigureS11.png' width="580">
+                            <div id="submit_options"  style="margin-bottom: 200px;"></div>
+                            <div  class="card" style="margin-top: 30px;"></div>
+                            <h4><b class="text-muted2">Submit</b></h4>
+                            <p>For each module you will have a similar submit section, in which you can provide an email to receive a link to your results when they are done. You can reset the form. There is an icon with general information about the tool and a brief explanation on how it works.</p>
+                            <img src='assets/images/gallery/WT11.png'>
+                            <div id="result_options"  style="margin-bottom: 200px;"></div>
+                            <div class="card" style="margin-top: 30px;"></div>
+                            <h4><b class="text-muted2">Output Example</b></h4>
+                            <p>The result table will change depending of the tool used but they are all similar. On the top, you will have three buttons, the first to download the comprehensive table result which includes information from each specific tool. The second is a link to visualize the network generated by the interacting proteins. And the third, to download the network in JSON.</p>
+                            <p> You can sort the table content by each of the variables and search inside its content.</p>
+                            <img src='assets/images/gallery/FigureS13.png' width="580">
+                            <img src='assets/images/gallery/FigureS4.png' width="1050">
+                            <p>And You will have a summary of the job execution.</p>
+                            <img src='assets/images/gallery/FigureS12.png' width="580">
+                            <div id="network_visualization"  style="margin-bottom: 200px;"></div>
+                            <div class="card" style="margin-top: 30px;"></div>
+                            <h4><b class="text-muted2">Visualization Network Example</b></h4>
+                            <p>When you select the network link, it will display the visualization. Host proteins will be shown in blue and Pathogen proteins in red. For Interolog you will have different edge colors for each database. </p>
+                            <img src='assets/images/gallery/FigureS7.png' width="680">
+                            <p>When you click a node, it will display different information about the protein, with links to the uniprot and ncbi website to get more information about the inputted protein id. Also you will get similar information for the hit on Interolog, or the domain predicted in Domain-based, the phylogenetic profiling in Phylo-profiling and the GOterms with links to the description, and more.</p>
+                            <img src='assets/images/gallery/FigureS8.png' width="500">
+                            <p>Similarly, when you click in one of the edges, it will display information about the interaction between the protein nodes.</p>
+                            <img src='assets/images/gallery/WT17.png'>
+                            <p>You can download the network in json (To be open in Cytoscape or similar software ) format clicking the button and the bottom right of the page. You can also download the network as a PNG image.</p>
+                            <img src='assets/images/gallery/FigureS9.png' width="680">
+                            
+                            <div id="browser_compatibility" class="card" style="margin-top: 30px;"></div>
+                            <h4><b class="text-muted2">Browser compatibility</b></h4>
+                            <p>PredHPI have been tested in the following setups.</p>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>OS</th>
+                                        <th>Version</th>
+                                        <th>Chrome</th>
+                                        <th>Firefox</th>
+                                        <th>Safari</th>
+                                        <th>Opera</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Linux</td>
+                                        <td>CentOS 7</td>
+                                        <td>72.0.3626.96</td>
+                                        <td>60.5.0</td>
+                                        <td>n/a</td>
+                                        <td>58.0.3135.53</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MacOS</td>
+                                        <td>Mojave 10.14.2</td>
+                                        <td>72.0.3626.121</td>
+                                        <td>65.0.1</td>
+                                        <td>12.0.2</td>
+                                        <td>not tested</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Windows</td>
+                                        <td>7</td>
+                                        <td>72.0.3626.121</td>
+                                        <td>63.0.3</td>
+                                        <td>not tested</td>
+                                        <td>45.0.2552.888</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+            </div> <!-- container -->
+
+
+            <!-- Footer -->
+            <footer class="footer" style='background-color: #d0d0d0;position: fixed;'>
+                © 2018 &nbsp|&nbsp <a  href="https://www.usu.edu"  target="_blank">Utah State University</a> &nbsp|&nbsp  <a href="http://bioinfo.usu.edu"  target="_blank">Kaundal Bioinformatics Laboratory</a> &nbsp|&nbsp <a href="https://www.psc.usu.edu"  target="_blank">Department of Plants, Soils and Climate</a> &nbsp|&nbsp <a href="http://www.biosystems.usu.edu"  target="_blank">Center for Integrated BioSystems </a>
+            </footer>
+            <!-- End Footer -->
+
+
+        
+
+
+        </div> <!-- End wrapper -->
+
+
+
+
+        
+
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script><!-- Tether for Bootstrap -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/waves.js"></script>
+        <script src="assets/js/jquery.nicescroll.js"></script>
+        <script src="assets/plugins/switchery/switchery.min.js"></script>
+
+        <script src="assets/plugins/bootstrap-tagsinput/js/bootstrap-tagsinput.js"></script>
+        <script type="text/javascript" src="assets/plugins/multiselect/js/jquery.multi-select.js"></script>
+        <script type="text/javascript" src="assets/plugins/jquery-quicksearch/jquery.quicksearch.js"></script>
+        <script src="assets/plugins/select2/js/select2.full.min.js" type="text/javascript"></script>
+
+
+        <!-- file uploads js -->
+        <script src="assets/plugins/fileuploads/js/dropify.min.js"></script>
+
+        <!-- Modal-Effect -->
+        <script src="assets/plugins/custombox/js/custombox.min.js"></script>
+        <script src="assets/plugins/custombox/js/legacy.min.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/jquery.core.js"></script>
+        <script src="assets/js/jquery.app.js"></script>
+
+        <script type="text/javascript">
+            $('.dropify').dropify({
+                messages: {
+                    'default': 'Drag and drop a file here or click',
+                    'replace': 'Drag and drop or click to replace',
+                    'remove': 'Remove',
+                    'error': 'Ooops, something wrong appended.'
+                },
+                error: {
+                    'fileSize': 'The file size is too big (1M max).' // TODO BECAUSE 1M IS TOO SMALL
+                }
+            });
+        </script>
+
+        
+
+    </body>
+</html>

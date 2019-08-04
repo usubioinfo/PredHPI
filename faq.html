@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-119048537-7');
+        </script>
+        <meta charset="utf-8">
+        <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+        <meta name="author" content="Coderthemes">
+
+        <!-- App Favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App title -->
+        <title>PredHPI-FAQ</title>
+
+        <!-- Plugins css-->
+        <link href="assets/plugins/multiselect/css/multi-select.css"  rel="stylesheet" type="text/css" />
+
+        <!-- form Uploads -->
+        <link href="assets/plugins/fileuploads/css/dropify.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- Custom box css -->
+        <link href="assets/plugins/custombox/css/custombox.min.css" rel="stylesheet">
+
+        <!-- Switchery css -->
+        <link href="assets/plugins/switchery/switchery.min.css" rel="stylesheet" />
+
+        <!-- Bootstrap CSS -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+        <!-- App CSS -->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+
+        <!-- Modernizr js -->
+        <script src="assets/js/modernizr.min.js"></script>
+
+
+        <style>
+
+          .card-box{
+            background-color: #F5F5F5;
+          }
+
+
+
+
+        </style>
+
+
+    </head>
+
+
+        <body>
+
+
+  
+        <header id="topnav">
+            <div class="topbar-custom">
+                <div class="container">
+                    <div class="row" style='background-image: url("assets/images/gallery/network.png");background-color: #d0d0d0;height: 110px;'>
+                        <div align="left" class="col-sm-8 col-xs-12">
+                            <a href="https://www.usu.edu"  target="_blank"><img src='assets/images/gallery/usulogo.png'></a>
+                            <a href="http://bioinfo.usu.edu"  target="_blank" ><h6 style="font-size: 14px;">Kaundal Bioinformatics Laboratory</h6></a>
+                        </div>
+                        <div align="right" class="col-sm-4 col-xs-12">
+                            <a href="http://bioinfo.usu.edu/PredHPI"><img src='assets/images/gallery/favicon.png'></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-custom">
+                <div class="container">
+                    <div id="navigation">
+                        <ul class="navigation-menu">
+                            <li>
+                                <a href="index.html" style="font-size: 18px;"><i class="zmdi zmdi-device-hub" style="font-size: 25px;"></i> <span> Submit </span> </a>
+                            </li>
+                            <li>
+                                <a href="about.html" style="font-size: 18px;"><i class="zmdi zmdi-grid" style="font-size: 25px;"></i> <span> About </span> </a>
+                            </li>
+                            <li>
+                                <a href="help.html" style="font-size: 18px;"><i class="zmdi zmdi-info" style="font-size: 25px;"></i> <span> Help </span> </a>
+                            </li>
+                             <li>
+                                <a href="faq.html" style="font-size: 18px;"><i class="zmdi zmdi-help" style="font-size: 25px;"></i> <span> FAQ </span> </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+        <!-- ============================================================== -->
+        <!-- Start right Content here -->
+        <!-- ============================================================== -->
+        <div class="wrapper" style='margin-top: 220px;'>
+            <div class="container">
+                <div style="margin-top: 50px"></div>
+                <h1 class="display-4" align="Center"> Frequently Asked Questions (FAQ)</h1>
+                    <div class="col-md-12" >
+                        <div class="card-box" style="font-size: 18px;margin-top: 30px;">
+
+                            <button type="button" id="howsubmitH" class="btn btn-large btn-light waves-effect" data-toggle="collapse" data-target="#howsubmitB">How to Submit a Job in PredHPI <span class="btn-label btn-label-right" style="z-index: 0;"> <i class="fa fa-arrow-down"></i></span> </button>
+                            <div id="howsubmitB" class="collapse" style="font-size: 18px;">
+                                <p> You can select from each of the four (4) tools provide by PredHPI (Interolog, Domain-based, GOsim-PPIpred and Phylo-profiling), then you can either upload a multifasta file or paste your sequence(s) in the boxes, depending on the specific tool used you will have. When the result is ready you can download a file with that information to be open in a Spreadsheet (e.g: Excel) or visualize the proteins that were predicted as interacting, you can download your predicted network in Newick format. You can take a look of the step-by-step tutorial at <a href="help.html">Help</a>.</p>
+                            </div>
+                            <br>
+                            <br>
+                            <button type="button" id="maxseqH" class="btn btn-large btn-light waves-effect" data-toggle="collapse" data-target="#maxseqB" style="z-index: 0;">Maximum number of sequences <span class="btn-label btn-label-right"> <i class="fa fa-arrow-down"></i></span></button>
+                            <div id="maxseqB" class="collapse" style="font-size: 18px;">
+                                <table class="table table-bordered">
+                                    <thead>
+                                    <tr>
+                                        <th>Module</th>
+                                        <th>Maximum number of Host sequences</th>
+                                        <th>Maximum number of Pathogen sequences</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>Interolog</td>
+                                        <td>40,000</td>
+                                        <td>10,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Domain-based</td>
+                                        <td>10,000</td>
+                                        <td>5,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>GOsim</td>
+                                        <td>2,000</td>
+                                        <td>1,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phylo-profiling</td>
+                                        <td>2,000</td>
+                                        <td>1,000</td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                                <p>PredHPI has been thought to annotated intra-species and inter-species interactions from non-model organisms. However, our resources are limited so we encouraged our users to do a proper preparation of the queries that are large before submitting to avoid multiple submissions.</p>
+                            </div>
+                            <br>
+                            <br>
+                            <button type="button" id="bannotH" class="btn btn-large btn-light waves-effect" data-toggle="collapse" data-target="#bannotB" style="z-index: 0;">Which tool should I use if I want the best annotation<span class="btn-label btn-label-right"> <i class="fa fa-arrow-down"></i></span></button>
+                            <div id="bannotB" class="collapse" style="font-size: 18px;">
+                                <p>In that case you probably want to use each module separately and combine the results.</p>
+                            </div>
+                            <br>
+                            <br>
+                            <button type="button" id="fannotH" class="btn btn-large btn-light waves-effect" data-toggle="collapse" data-target="#fannotB" style="z-index: 0;">Which tool should I use if I want the fastest annotation<span class="btn-label btn-label-right"> <i class="fa fa-arrow-down"></i></span></button>
+                            <div id="fannotB" class="collapse" style="font-size: 18px;">
+                                 <p>If you want fast results Interolog would be the best choice. Domain-based and Phylo-profiling have a similar performance as Interolog for small dataset. GOsim prediction is the slowest.</p>
+                            </div>
+                            <br>
+                            <br>
+                            <button type="button" id="thirdsH" class="btn btn-large btn-light waves-effect" data-toggle="collapse" data-target="#thirdsB" style="z-index: 0;">Which third party software and resources do you use in the service <span class="btn-label btn-label-right"> <i class="fa fa-arrow-down"></i></span></button>
+                            <div id="thirdsB" class="collapse" style="font-size: 18px;">
+                                <p>All independent resource databases or software used to implement PredHPI are named (and linked) in the tools pages by clicking the information buttons. A manuscript about this service is in progress in which all tools will be properly cited.</p>
+
+                            </div>
+                            <br>
+                            <br>
+                            <button type="button" id="poolsH" class="btn btn-large btn-light waves-effect" data-toggle="collapse" data-target="#poolsB" style="z-index: 0;">In Phylo-Profiling, what UP82 and BC18 means<span class="btn-label btn-label-right"> <i class="fa fa-arrow-down"></i></span> </button>
+                            <div id="poolsB" class="collapse" style="font-size: 18px;">
+                                <b>BC18</b>: It means Bioconductor 18, which is the pool of genomes made from the 18 Bioconductor Org.DB species annotated.</p>
+                            <div class="col-sm-8">
+                                <table class="table table-bordered" style="font-size: 16px">
+                                    <thead>
+                                        <tr>
+                                            <th>Species name</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Anopheles_gambiae</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Arabidopsis_thaliana</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bos_taurus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Caenorhabditis_elegans</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Canis_lupus_familiaris</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Drosophila_melanogaster</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Danio_rerio</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Escherichia_coli</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gallus_gallus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Homo_sapiens</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mus_musculus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Macaca_mulatta</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Plasmodium</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pan_troglodytes</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rattus_norvegicus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Saccharomyces_cerevisiae</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sus_scrofa</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Xenopus_laevis</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <p><b>UP82</b>: It means Uniprot 82, which is the pool of genomes made from model uniprot proteomes.</p>
+                            <div class="col-sm-8">
+                                <table class="table table-bordered" style="font-size: 16px">
+                                    <thead>
+                                        <tr>
+                                            <th>Species name</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Absidia_glauca</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Adelaide_River_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Apis_mellifera</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Aquifex_aeolicus_strain_VF5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Berne_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bombyx_mori</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bos_taurus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bovine_adenovirus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Brassica_napus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Breda_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Brome_mosaic_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Brucella_abortus_strain</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Bunyamwera_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Canarypox_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Candida_auris</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Capsicum_annuum</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cavia_porcellus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Chrysanthemum_virus_B</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Columba_livia</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Corchorus_capsularis</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cowpox_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Cucumis_melo</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ehrlichia_canis_strain_Jake</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Escherichia_coli_strain_K12</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Eurypyga_helias</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Folsomia_candida</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Frankia_alni_strain_ACN14a</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Galinsoga_mosaic_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gallus_gallus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Glycine_soja</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Gonium_pectorale</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Hepatitis_delta_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Homo_sapiens</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Isfahan_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jatropha_curcas</td>
+                                        </tr>
+                                        <tr>
+                                            <td>JC_polyomavirus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Jembrana_disease_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Juglans_regia</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Lagos_bat_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Lily_symptomless_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mokola_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Musca_domestica</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Mus_musculus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Myotis_brandtii</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Naegleria_gruberi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Nestor_notabilis</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Oikopleura_dioica</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Orchesella_cincta</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Oryctolagus_cuniculus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ovis_aries</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Pan_troglodytes</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Papio_anubis</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Phlebotomus_papatasi</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Punica_granatum</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Quercus_suber</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rattus_norvegicus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rice_gall_dwarf_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Ricinus_communis</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Rosa_chinensis</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Salmo_salar</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Schmallenberg_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Semliki_forest_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Shallot_virus_X</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sindbis_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Solanum_tuberosum</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Southern_tomato_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Spinacia_oleracea</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Stylonychia_lemnae</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sulcia_muelleri_strain_CARI</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sus_scrofa</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Thermincola_potens_strain_JR</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Toscana_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Trichuris_suis</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Triticum_aestivum</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tupaia_paramyxovirus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Turnip_crinkle_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Tyto_alba</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Vitis_vinifera</td>
+                                        </tr>
+                                        <tr>
+                                            <td>WU_polyomavirus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Zea_mays</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Zika_virus</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Zostera_marina</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            </div>
+                            <br>
+                            <br>
+                            <button type="button" id="problH" class="btn btn-large btn-light waves-effect" data-toggle="collapse" data-target="#problB" style="z-index: 0;">Problems/Suggestion about PredHPI<span class="btn-label btn-label-right"> <i class="fa fa-arrow-down"></i></span></button>
+                            <div id="problB" class="collapse" style="font-size: 18px;">
+                                <p>If you can't get something to work or you want to suggest something that makes this application works better, the developer would be happy to address any question at crissloaiza@gmail.com or cdloaiza@aggiemail.usu.edu.</p>
+                            </div>
+
+                    </div> <!-- container -->
+                </div>
+            </div>
+
+
+        </div> <!-- End wrapper -->
+            <!-- Footer -->
+        <footer class="footer" style='background-color: #d0d0d0;position: fixed;'>
+            © 2018 &nbsp|&nbsp <a  href="https://www.usu.edu"  target="_blank">Utah State University</a> &nbsp|&nbsp  <a href="http://bioinfo.usu.edu"  target="_blank">Kaundal Bioinformatics Laboratory</a> &nbsp|&nbsp <a href="https://www.psc.usu.edu"  target="_blank">Department of Plants, Soils and Climate</a> &nbsp|&nbsp <a href="http://www.biosystems.usu.edu"  target="_blank">Center for Integrated BioSystems </a>
+        </footer>
+            <!-- End Footer -->
+
+
+        
+
+
+
+
+
+        
+
+        <!-- jQuery  -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/popper.min.js"></script><!-- Tether for Bootstrap -->
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/waves.js"></script>
+        <script src="assets/js/jquery.nicescroll.js"></script>
+        <script src="assets/plugins/switchery/switchery.min.js"></script>
+
+        <script src="assets/plugins/bootstrap-tagsinput/js/bootstrap-tagsinput.js"></script>
+        <script type="text/javascript" src="assets/plugins/multiselect/js/jquery.multi-select.js"></script>
+        <script type="text/javascript" src="assets/plugins/jquery-quicksearch/jquery.quicksearch.js"></script>
+        <script src="assets/plugins/select2/js/select2.full.min.js" type="text/javascript"></script>
+
+
+        <!-- file uploads js -->
+        <script src="assets/plugins/fileuploads/js/dropify.min.js"></script>
+
+        <!-- Modal-Effect -->
+        <script src="assets/plugins/custombox/js/custombox.min.js"></script>
+        <script src="assets/plugins/custombox/js/legacy.min.js"></script>
+
+        <!-- App js -->
+        <script src="assets/js/jquery.core.js"></script>
+        <script src="assets/js/jquery.app.js"></script>
+
+        <script >
+
+
+
+        </script>
+
+        
+
+    </body>
+</html>

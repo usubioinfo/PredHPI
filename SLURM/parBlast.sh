@@ -1,0 +1,2 @@
+module load parallel/20190422
+cat /home/cloaiza/PredHPI_SLURM/inputfile | parallel -j64 -S :chela02,chela03 --block 100k --recstart '>' --pipe /opt/software/ncbi-blast-2.7.1+-src/c++/bin/blastalgorithm  -db /home/cloaiza/PredHPI_SLURM/database -evalue defevalue -max_target_seqs options -outfmt \'6 qseqid sseqid pident length mismatch gapopen qstart qend sstart send evalue bitscore qcovhsp qcovhsp \' -query - > /home/cloaiza/PredHPI_SLURM/outfile

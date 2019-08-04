@@ -1,0 +1,31 @@
+Ciclev10008405m	edffa26df36b07a3f40555907ba849e6	423	ProSitePatterns	PS01215	Mrp family signature.	174	190	-	T	25-02-2019	IPR000808	Mrp, conserved site	GO:0005524
+Ciclev10008405m	edffa26df36b07a3f40555907ba849e6	423	Pfam	PF06155	Protein of unknown function (DUF971)	333	408	6.1E-10	T	25-02-2019	IPR010376	Gamma-butyrobetaine hydroxylase-like, N-terminal	
+Ciclev10008405m	edffa26df36b07a3f40555907ba849e6	423	Pfam	PF10609	NUBPL iron-transfer P-loop NTPase	67	304	6.7E-80	T	25-02-2019	IPR033756	Flagellum site-determining protein YlxH/ Fe-S cluster assembling factor NBP35	
+Ciclev10008405m	edffa26df36b07a3f40555907ba849e6	423	Pfam	PF01883	Iron-sulfur cluster assembly protein	3	47	6.8E-7	T	25-02-2019	IPR002744	MIP18 family-like	
+IMPA4_ARATH	6c4b44e6676f203d02300f3f923c0d30	538	Pfam	PF00514	Armadillo/beta-catenin-like repeat	409	446	3.1E-7	T	25-02-2019	IPR000225	Armadillo	GO:0005515
+IMPA4_ARATH	6c4b44e6676f203d02300f3f923c0d30	538	Pfam	PF00514	Armadillo/beta-catenin-like repeat	196	237	5.3E-9	T	25-02-2019	IPR000225	Armadillo	GO:0005515
+IMPA4_ARATH	6c4b44e6676f203d02300f3f923c0d30	538	Pfam	PF00514	Armadillo/beta-catenin-like repeat	155	193	7.1E-12	T	25-02-2019	IPR000225	Armadillo	GO:0005515
+IMPA4_ARATH	6c4b44e6676f203d02300f3f923c0d30	538	Pfam	PF00514	Armadillo/beta-catenin-like repeat	367	404	5.2E-10	T	25-02-2019	IPR000225	Armadillo	GO:0005515
+IMPA4_ARATH	6c4b44e6676f203d02300f3f923c0d30	538	Pfam	PF00514	Armadillo/beta-catenin-like repeat	281	319	5.4E-9	T	25-02-2019	IPR000225	Armadillo	GO:0005515
+IMPA4_ARATH	6c4b44e6676f203d02300f3f923c0d30	538	Pfam	PF00514	Armadillo/beta-catenin-like repeat	112	152	5.4E-11	T	25-02-2019	IPR000225	Armadillo	GO:0005515
+IMPA4_ARATH	6c4b44e6676f203d02300f3f923c0d30	538	Pfam	PF00514	Armadillo/beta-catenin-like repeat	323	363	4.3E-11	T	25-02-2019	IPR000225	Armadillo	GO:0005515
+IMPA4_ARATH	6c4b44e6676f203d02300f3f923c0d30	538	Pfam	PF00514	Armadillo/beta-catenin-like repeat	250	278	4.2E-5	T	25-02-2019	IPR000225	Armadillo	GO:0005515
+IMPA4_ARATH	6c4b44e6676f203d02300f3f923c0d30	538	ProSiteProfiles	PS50176	Armadillo/plakoglobin ARM repeat profile.	333	376	8.837	T	25-02-2019	IPR000225	Armadillo	GO:0005515
+IMPA4_ARATH	6c4b44e6676f203d02300f3f923c0d30	538	Pfam	PF01749	Importin beta binding domain	12	101	1.7E-23	T	25-02-2019	IPR002652	Importin-alpha, importin-beta-binding domain	GO:0006606|GO:0061608
+IMPA4_ARATH	6c4b44e6676f203d02300f3f923c0d30	538	ProSiteProfiles	PS50176	Armadillo/plakoglobin ARM repeat profile.	122	165	10.097	T	25-02-2019	IPR000225	Armadillo	GO:0005515
+IMPA4_ARATH	6c4b44e6676f203d02300f3f923c0d30	538	ProSiteProfiles	PS50176	Armadillo/plakoglobin ARM repeat profile.	165	207	11.567	T	25-02-2019	IPR000225	Armadillo	GO:0005515
+IMPA4_ARATH	6c4b44e6676f203d02300f3f923c0d30	538	Pfam	PF16186	Atypical Arm repeat	463	510	1.8E-19	T	25-02-2019	IPR032413	Atypical Arm repeat	
+IMPA4_ARATH	6c4b44e6676f203d02300f3f923c0d30	538	ProSiteProfiles	PS51214	IBB domain profile.	1	58	15.145	T	25-02-2019	IPR002652	Importin-alpha, importin-beta-binding domain	GO:0006606|GO:0061608
+Ciclev10008464m	0237b1f83920ab39b2e6acc61f747261	412	ProSitePatterns	PS01215	Mrp family signature.	174	190	-	T	25-02-2019	IPR000808	Mrp, conserved site	GO:0005524
+Ciclev10008464m	0237b1f83920ab39b2e6acc61f747261	412	Pfam	PF06155	Protein of unknown function (DUF971)	333	400	4.2E-9	T	25-02-2019	IPR010376	Gamma-butyrobetaine hydroxylase-like, N-terminal	
+Ciclev10008464m	0237b1f83920ab39b2e6acc61f747261	412	Pfam	PF10609	NUBPL iron-transfer P-loop NTPase	67	304	6.3E-80	T	25-02-2019	IPR033756	Flagellum site-determining protein YlxH/ Fe-S cluster assembling factor NBP35	
+Ciclev10008464m	0237b1f83920ab39b2e6acc61f747261	412	Pfam	PF01883	Iron-sulfur cluster assembly protein	3	47	6.5E-7	T	25-02-2019	IPR002744	MIP18 family-like	
+Ciclev10002055m	46ab74ab8fc3ad789ce6aa33689dbbd6	291	ProSitePatterns	PS00061	Short-chain dehydrogenases/reductases family signature.	182	210	-	T	25-02-2019	IPR020904	Short-chain dehydrogenase/reductase, conserved site	GO:0016491
+Ciclev10002055m	46ab74ab8fc3ad789ce6aa33689dbbd6	291	Pfam	PF13561	Enoyl-(Acyl carrier protein) reductase	50	286	5.3E-55	T	25-02-2019
+O22544	d304d252f7d53beed234b20c8d277a45	369	ProSiteProfiles	PS51349	FMN-dependent alpha-hydroxy acid dehydrogenase domain profile.	1	360	108.846	T	25-02-2019	IPR037396	FMN hydroxy acid dehydrogenase domain	
+O22544	d304d252f7d53beed234b20c8d277a45	369	ProSitePatterns	PS00557	FMN-dependent alpha-hydroxy acid dehydrogenases active site.	253	259	-	T	25-02-2019	IPR008259	FMN-dependent alpha-hydroxy acid dehydrogenase, active site	GO:0016491|GO:0055114
+O22544	d304d252f7d53beed234b20c8d277a45	369	Pfam	PF01070	FMN-dependent dehydrogenase	14	356	1.3E-130	T	25-02-2019	IPR000262	FMN-dependent dehydrogenase	GO:0016491
+B9F676	86154176fc09ba2cfab07299923567a1	919	Pfam	PF01055	Glycosyl hydrolases family 31	333	777	0.0	T	25-02-2019	IPR000322	Glycoside hydrolase family 31	GO:0004553|GO:0005975
+B9F676	86154176fc09ba2cfab07299923567a1	919	Pfam	PF13802	Galactose mutarotase-like	227	302	2.7E-19	T	25-02-2019	IPR025887	Glycoside hydrolase family 31, N-terminal domain	
+B9F676	86154176fc09ba2cfab07299923567a1	919	ProSitePatterns	PS00129	Glycosyl hydrolases family 31 active site.	506	513	-	T	25-02-2019	IPR030458	Glycosyl hydrolases family 31, active site	
+B9F676	86154176fc09ba2cfab07299923567a1	919	Pfam	PF17137	Domain of unknown function (DUF5110)	797	845	3.7E-6	T	25-02-2019	IPR033403	Domain of unknown function DUF5110	

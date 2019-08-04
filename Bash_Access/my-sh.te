@@ -1,0 +1,14 @@
+
+module my-sh 1.0;
+
+require {
+	type httpd_user_content_t;
+	type httpd_t;
+	class file { execute execute_no_trans };
+}
+
+#============= httpd_t ==============
+allow httpd_t httpd_user_content_t:file execute_no_trans;
+
+#!!!! This avc is allowed in the current policy
+allow httpd_t httpd_user_content_t:file execute;

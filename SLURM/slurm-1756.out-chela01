@@ -1,0 +1,35 @@
+Evaluating  at Wed May 22 13:54:40 CDT 2019
+Error: NCBI C++ Exception:
+    T0 "/opt/software/ncbi-blast-2.7.1+-src/c++/build/../src/objmgr/data_source.cpp", line 1146: Error: ncbi::objects::CDataSource::x_FindBestTSE() - Multiple seq-id matches found for lcl|NP_002107.3
+
+End of program at Wed May 22 13:54:40 CDT 2019
+Evaluating  at Wed May 22 13:54:40 CDT 2019
+Error: NCBI C++ Exception:
+    T0 "/opt/software/ncbi-blast-2.7.1+-src/c++/build/../src/objmgr/data_source.cpp", line 1146: Error: ncbi::objects::CDataSource::x_FindBestTSE() - Multiple seq-id matches found for lcl|NP_002107.3
+
+End of program at Wed May 22 13:54:40 CDT 2019
+Evaluating  at Wed May 22 13:54:40 CDT 2019
+Error: NCBI C++ Exception:
+    T0 "/opt/software/ncbi-blast-2.7.1+-src/c++/build/../src/objmgr/data_source.cpp", line 1146: Error: ncbi::objects::CDataSource::x_FindBestTSE() - Multiple seq-id matches found for lcl|NP_002107.3
+
+End of program at Wed May 22 13:54:40 CDT 2019
+Evaluating  at Wed May 22 13:54:40 CDT 2019
+Error: NCBI C++ Exception:
+    T0 "/opt/software/ncbi-blast-2.7.1+-src/c++/build/../src/objmgr/data_source.cpp", line 1146: Error: ncbi::objects::CDataSource::x_FindBestTSE() - Multiple seq-id matches found for lcl|NP_002107.3
+
+End of program at Wed May 22 13:54:40 CDT 2019
+Evaluating  at Wed May 22 13:54:40 CDT 2019
+Error: NCBI C++ Exception:
+    T0 "/opt/software/ncbi-blast-2.7.1+-src/c++/build/../src/objmgr/data_source.cpp", line 1146: Error: ncbi::objects::CDataSource::x_FindBestTSE() - Multiple seq-id matches found for lcl|NP_002107.3
+
+End of program at Wed May 22 13:54:40 CDT 2019
+Evaluating  at Wed May 22 13:54:40 CDT 2019
+Error: NCBI C++ Exception:
+    T0 "/opt/software/ncbi-blast-2.7.1+-src/c++/build/../src/objmgr/data_source.cpp", line 1146: Error: ncbi::objects::CDataSource::x_FindBestTSE() - Multiple seq-id matches found for lcl|NP_002107.3
+
+End of program at Wed May 22 13:54:40 CDT 2019
+Evaluating  at Wed May 22 13:54:40 CDT 2019
+Error: NCBI C++ Exception:
+    T0 "/opt/software/ncbi-blast-2.7.1+-src/c++/build/../src/objmgr/data_source.cpp", line 1146: Error: ncbi::objects::CDataSource::x_FindBestTSE() - Multiple seq-id matches found for lcl|NP_002107.3
+
+End of program at Wed May 22 13:54:40 CDT 2019

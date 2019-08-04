@@ -1,0 +1,3450 @@
+BLASTP 2.7.1+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: MINT sequences
+           24,226 sequences; 14,220,065 total letters
+
+
+
+Query= A8VZX9 Rcorf28 OS=Agrobacterium rhizogenes OX=359 PE=1 SV=1
+
+Length=1769
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  uniprotkb:Q8NG08 HELB_HUMAN DNA helicase B OS=Homo sapiens OX=9...  41.6    0.007
+  uniprotkb:P04993 RECD_ECOLI RecBCD enzyme subunit RecD OS=Esche...  35.4    0.37 
+  uniprotkb:P48616 VIME_BOVIN Vimentin OS=Bos taurus OX=9913 GN=V...  33.5    1.4  
+  uniprotkb:P14781 CNTN1_CHICK Contactin-1 OS=Gallus gallus OX=90...  33.1    2.2  
+  uniprotkb:P51452 DUS3_HUMAN Dual specificity protein phosphatas...  31.2    4.2  
+  uniprotkb:P12110 CO6A2_HUMAN Collagen alpha-2(VI) chain OS=Homo...  32.0    4.5  
+  uniprotkb:P84198 VIME_CHLAE Vimentin OS=Chlorocebus aethiops OX...  31.6    5.4  
+  uniprotkb:Q9D7X3 DUS3_MOUSE Dual specificity protein phosphatas...  30.4    6.9  
+  uniprotkb:P20152 VIME_MOUSE Vimentin OS=Mus musculus OX=10090 G...  31.2    7.7  
+  uniprotkb:P34243 HCS1_YEAST DNA polymerase alpha-associated DNA...  31.2    7.9  
+  uniprotkb:Q9NY27 PP4R2_HUMAN Serine/threonine-protein phosphata...  31.2    8.3  
+  uniprotkb:P08670 VIME_HUMAN Vimentin OS=Homo sapiens OX=9606 GN...  30.8    8.8  
+
+
+> uniprotkb:Q8NG08  HELB_HUMAN DNA helicase B OS=Homo sapiens OX=9606 
+GN=HELB PE=1 SV=2
+Length=1087
+
+ Score = 41.6 bits (96),  Expect = 0.007, Method: Compositional matrix adjust.
+ Identities = 33/113 (29%), Positives = 55/113 (49%), Gaps = 20/113 (18%)
+
+Query  196  IKLIAFVPTNRAAQELREKG------LRDVATTFKAKDRTIGKNT---------IVVIDE  240
+            I+++   PT +AA  LR+K       L  V  +F +  +T+             ++V+DE
+Sbjct  532  IEVLLTAPTGKAAGLLRQKTGLHAYTLCQVNYSFYSWTQTMMTTNKPWKFSSVRVLVVDE  591
+
+Query  241  MSMAKTQEIAQLIETVANATSYHPTERPKLICVGDDRQLPPVGPGDLLPIIME  293
+             S+        + ++V N    H ++  KLI +GD RQLP + PG+LL  + E
+Sbjct  592  GSLVS----VGIFKSVLNLLCEH-SKLSKLIILGDIRQLPSIEPGNLLKDLFE  639
+
+
+> uniprotkb:P04993  RECD_ECOLI RecBCD enzyme subunit RecD OS=Escherichia 
+coli (strain K12) OX=83333 GN=recD PE=1 SV=2
+Length=608
+
+ Score = 35.4 bits (80),  Expect = 0.37, Method: Compositional matrix adjust.
+ Identities = 18/48 (38%), Positives = 28/48 (58%), Gaps = 4/48 (8%)
+
+Query  514  YAATIYKSQGATVDHAILLCDG----ALSDKLTYVGLTRHRSRLDVIA  557
+            +A T++KSQG+  DHA L+        ++ +L Y  +TR R RL + A
+Sbjct  534  WAMTVHKSQGSEFDHAALILPSQRTPVVTRELVYTAVTRARRRLSLYA  581
+
+
+> uniprotkb:P48616  VIME_BOVIN Vimentin OS=Bos taurus OX=9913 GN=VIM 
+PE=1 SV=3
+Length=466
+
+ Score = 33.5 bits (75),  Expect = 1.4, Method: Compositional matrix adjust.
+ Identities = 43/172 (25%), Positives = 77/172 (45%), Gaps = 27/172 (16%)
+
+Query  1072  PDYTAAIDRIAKRQEVVAARGEEKTSAPIDLAPQTPPDAADAAVNNQKRIVEALQ-AGDH  1130
+             PD TAA+  + ++ E VAA+  ++     +       D ++AA  N   + +A Q + ++
+Sbjct  263   PDLTAALRDVRQQYESVAAKNLQEAE---EWYKSKFADLSEAANRNNDALRQAKQESNEY  319
+
+Query  1131  KKLVETLAATGSLVENTNLVSTLKAIAQTYERDISADPEKVRALYANKRDHVDLLAEEIE  1190
+             ++ V+TL            V  LK   ++ ER +    E      AN +D +  L +EI+
+Sbjct  320   RRQVQTLTCE---------VDALKGTNESLERQMREMEENFSVEAANYQDTIGRLQDEIQ  370
+
+Query  1191  --KQGLASG-RLSGDPVSFKAFNNKDIRFRVGDRLSVTSSYRNLIAGEAGRI  1239
+               K+ +A   R   D ++ K   + +I           ++YR L+ GE  RI
+Sbjct  371   NMKEEMARHLREYQDLLNVKMALDIEI-----------ATYRKLLEGEESRI  411
+
+
+> uniprotkb:P14781  CNTN1_CHICK Contactin-1 OS=Gallus gallus OX=9031 
+GN=CNTN1 PE=1 SV=1
+Length=1010
+
+ Score = 33.1 bits (74),  Expect = 2.2, Method: Compositional matrix adjust.
+ Identities = 36/132 (27%), Positives = 57/132 (43%), Gaps = 21/132 (16%)
+
+Query  1170  KVRALYANKRDHVDLLAEEIEKQGLASGRLSGDPVSFKAFNNKDIRF----RVGDRLSVT  1225
+             K+  L  N R H+D+ A      G      + D ++ KA  ++  R     R G R  +T
+Sbjct  858   KLENLKPNTRYHIDVSA--FNSAGYGPPSRTIDIITRKAPPSQRPRIISSVRSGSRYIIT  915
+
+Query  1226  SSYRNLIAGEAGRIEKIEGKSVTFKPDGSSQSKTFEASTGEPGDRGVKGYKIEGPTTIIG  1285
+               +   ++ E+     +EG  V ++PDG  + K F  STG+        + IE P    G
+Sbjct  916   WDHVKAMSNESA----VEGYKVLYRPDGQHEGKLF--STGK--------HTIEVPVPSDG  961
+
+Query  1286  S-AYEIRNHDDG  1296
+                 E+R H +G
+Sbjct  962   EYVVEVRAHSEG  973
+
+
+> uniprotkb:P51452  DUS3_HUMAN Dual specificity protein phosphatase 
+3 OS=Homo sapiens OX=9606 GN=DUSP3 PE=1 SV=1
+Length=185
+
+ Score = 31.2 bits (69),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 17/60 (28%), Positives = 29/60 (48%), Gaps = 1/60 (2%)
+
+Query  286  DLLPIIMEQAGCYEL-VQPLRQLDARSRIETEKLGRDIRRDAKSAVGHYLTALEQMGLVH  344
+            DL  ++ + +GCY L  QP  ++  R  +    + +DI +  K  + H L A E    +H
+Sbjct  11   DLNDLLSDGSGCYSLPSQPCNEVTPRIYVGNASVAQDIPKLQKLGITHVLNAAEGRSFMH  70
+
+
+> uniprotkb:P12110  CO6A2_HUMAN Collagen alpha-2(VI) chain OS=Homo 
+sapiens OX=9606 GN=COL6A2 PE=1 SV=4
+Length=1019
+
+ Score = 32.0 bits (71),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 27/87 (31%), Positives = 38/87 (44%), Gaps = 14/87 (16%)
+
+Query  141  RGIFTPELRGALHYLSRRNRASTMVGVA-----GSAKTSVLGALNEAVDRFNEEALPTEK  195
+            RG FT      +    R++R+   V  A     G    S  G +    +R  EE      
+Sbjct  130  RGTFTDCALANMTEQIRQDRSKGTVHFAVVITDGHVTGSPCGGIKLQAERAREEG-----  184
+
+Query  196  IKLIAFVPTNRAAQELREKGLRDVATT  222
+            I+L A  P     Q L+E+GLRD+A+T
+Sbjct  185  IRLFAVAPN----QNLKEQGLRDIAST  207
+
+
+> uniprotkb:P84198  VIME_CHLAE Vimentin OS=Chlorocebus aethiops 
+OX=9534 GN=VIM PE=1 SV=3
+Length=466
+
+ Score = 31.6 bits (70),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 42/172 (24%), Positives = 77/172 (45%), Gaps = 27/172 (16%)
+
+Query  1072  PDYTAAIDRIAKRQEVVAARGEEKTSAPIDLAPQTPPDAADAAVNNQKRIVEALQ-AGDH  1130
+             PD TAA+  + ++ E VAA+  ++     +       D ++AA  N   + +A Q + ++
+Sbjct  263   PDLTAALRDVRQQYESVAAKNLQEAE---EWYKSKFADLSEAANRNNDALRQAKQESNEY  319
+
+Query  1131  KKLVETLAATGSLVENTNLVSTLKAIAQTYERDISADPEKVRALYANKRDHVDLLAEEIE  1190
+             ++ V++L            V  LK   ++ ER +    E      AN +D +  L +EI+
+Sbjct  320   RRQVQSLTCE---------VDALKGTNESLERQMREMEENFAVEAANYQDTIGRLQDEIQ  370
+
+Query  1191  --KQGLASG-RLSGDPVSFKAFNNKDIRFRVGDRLSVTSSYRNLIAGEAGRI  1239
+               K+ +A   R   D ++ K   + +I           ++YR L+ GE  RI
+Sbjct  371   NMKEEMARHLREYQDLLNVKMALDIEI-----------ATYRKLLEGEESRI  411
+
+
+> uniprotkb:Q9D7X3  DUS3_MOUSE Dual specificity protein phosphatase 
+3 OS=Mus musculus OX=10090 GN=Dusp3 PE=1 SV=1
+Length=185
+
+ Score = 30.4 bits (67),  Expect = 6.9, Method: Compositional matrix adjust.
+ Identities = 17/60 (28%), Positives = 29/60 (48%), Gaps = 1/60 (2%)
+
+Query  286  DLLPIIMEQAGCYEL-VQPLRQLDARSRIETEKLGRDIRRDAKSAVGHYLTALEQMGLVH  344
+            DL  ++ + +GCY L  QP  ++  R  +    + +DI +  K  + H L A E    +H
+Sbjct  11   DLNDLLSDGSGCYSLPSQPCNEVVPRVYVGNASVAQDITQLQKLGITHVLNAAEGRSFMH  70
+
+
+> uniprotkb:P20152  VIME_MOUSE Vimentin OS=Mus musculus OX=10090 
+GN=Vim PE=1 SV=3
+Length=466
+
+ Score = 31.2 bits (69),  Expect = 7.7, Method: Compositional matrix adjust.
+ Identities = 42/172 (24%), Positives = 77/172 (45%), Gaps = 27/172 (16%)
+
+Query  1072  PDYTAAIDRIAKRQEVVAARGEEKTSAPIDLAPQTPPDAADAAVNNQKRIVEALQ-AGDH  1130
+             PD TAA+  + ++ E VAA+  ++     +       D ++AA  N   + +A Q + ++
+Sbjct  263   PDLTAALRDVRQQYESVAAKNLQEAE---EWYKSKFADLSEAANRNNDALRQAKQESNEY  319
+
+Query  1131  KKLVETLAATGSLVENTNLVSTLKAIAQTYERDISADPEKVRALYANKRDHVDLLAEEIE  1190
+             ++ V++L            V  LK   ++ ER +    E      AN +D +  L +EI+
+Sbjct  320   RRQVQSLTCE---------VDALKGTNESLERQMREMEENFALEAANYQDTIGRLQDEIQ  370
+
+Query  1191  --KQGLASG-RLSGDPVSFKAFNNKDIRFRVGDRLSVTSSYRNLIAGEAGRI  1239
+               K+ +A   R   D ++ K   + +I           ++YR L+ GE  RI
+Sbjct  371   NMKEEMARHLREYQDLLNVKMALDIEI-----------ATYRKLLEGEESRI  411
+
+
+> uniprotkb:P34243  HCS1_YEAST DNA polymerase alpha-associated 
+DNA helicase A OS=Saccharomyces cerevisiae (strain ATCC 204508 
+/ S288c) OX=559292 GN=HCS1 PE=1 SV=1
+Length=683
+
+ Score = 31.2 bits (69),  Expect = 7.9, Method: Compositional matrix adjust.
+ Identities = 17/46 (37%), Positives = 26/46 (57%), Gaps = 7/46 (15%)
+
+Query  236  VVIDEMSMAKTQEIAQLIETVANATSYHPTERPKLICVGDDRQLPP  281
+            ++IDE+S A   E    I  +A+   +H     KL+  GD++QLPP
+Sbjct  392  LIIDEVSQA--MEPQCWIPLIAHQNQFH-----KLVLAGDNKQLPP  430
+
+
+> uniprotkb:Q9NY27  PP4R2_HUMAN Serine/threonine-protein phosphatase 
+4 regulatory subunit 2 OS=Homo sapiens OX=9606 GN=PPP4R2 
+PE=1 SV=3
+Length=417
+
+ Score = 31.2 bits (69),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 15/48 (31%), Positives = 29/48 (60%), Gaps = 1/48 (2%)
+
+Query  580  NSIQFPALEPAAFQERSSVSNAHLLRPLDQMEISPTTPLSFQGRQESS  627
+            N + FP   P+ + ERS+++     RPL++ ++S + P++  G  ES+
+Sbjct  151  NGVMFPGNSPS-YTERSNINGPGTPRPLNRPKVSLSAPMTTNGLPEST  197
+
+
+> uniprotkb:P08670  VIME_HUMAN Vimentin OS=Homo sapiens OX=9606 
+GN=VIM PE=1 SV=4
+Length=466
+
+ Score = 30.8 bits (68),  Expect = 8.8, Method: Compositional matrix adjust.
+ Identities = 42/172 (24%), Positives = 77/172 (45%), Gaps = 27/172 (16%)
+
+Query  1072  PDYTAAIDRIAKRQEVVAARGEEKTSAPIDLAPQTPPDAADAAVNNQKRIVEALQ-AGDH  1130
+             PD TAA+  + ++ E VAA+  ++     +       D ++AA  N   + +A Q + ++
+Sbjct  263   PDLTAALRDVRQQYESVAAKNLQEAE---EWYKSKFADLSEAANRNNDALRQAKQESTEY  319
+
+Query  1131  KKLVETLAATGSLVENTNLVSTLKAIAQTYERDISADPEKVRALYANKRDHVDLLAEEIE  1190
+             ++ V++L            V  LK   ++ ER +    E      AN +D +  L +EI+
+Sbjct  320   RRQVQSLTCE---------VDALKGTNESLERQMREMEENFAVEAANYQDTIGRLQDEIQ  370
+
+Query  1191  --KQGLASG-RLSGDPVSFKAFNNKDIRFRVGDRLSVTSSYRNLIAGEAGRI  1239
+               K+ +A   R   D ++ K   + +I           ++YR L+ GE  RI
+Sbjct  371   NMKEEMARHLREYQDLLNVKMALDIEI-----------ATYRKLLEGEESRI  411
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.129    0.354    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 18911960050
+
+
+Query= P8_RDVA Outer capsid protein P8 OS=Rice dwarf virus (isolate Akita)
+OX=142803 PE=1 SV=1
+
+Length=421
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  uniprotkb:Q85449 P8_RDVA Outer capsid protein P8 OS=Rice dwarf ...  863     0.0  
+  uniprotkb:P40879 S26A3_HUMAN Chloride anion exchanger OS=Homo s...  33.5    0.34 
+  uniprotkb:Q8NGJ1 OR4D6_HUMAN Olfactory receptor 4D6 OS=Homo sap...  30.4    2.0  
+  uniprotkb:Q06554 IRC20_YEAST Uncharacterized ATP-dependent heli...  30.4    3.3  
+
+
+> uniprotkb:Q85449  P8_RDVA Outer capsid protein P8 OS=Rice dwarf 
+virus (isolate Akita) OX=142803 PE=1 SV=1
+Length=421
+
+ Score = 863 bits (2230),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 421/421 (100%), Positives = 421/421 (100%), Gaps = 0/421 (0%)
+
+Query  1    MSRQMWLDTSALLEAISEYVVRCNGDTFSGLTTGDFNALSNMFTQLSVSSAGYVSDPRVP  60
+            MSRQMWLDTSALLEAISEYVVRCNGDTFSGLTTGDFNALSNMFTQLSVSSAGYVSDPRVP
+Sbjct  1    MSRQMWLDTSALLEAISEYVVRCNGDTFSGLTTGDFNALSNMFTQLSVSSAGYVSDPRVP  60
+
+Query  61   LQTMSNMFVSFITSTDRCGYMLRKTWFNSDTKPTVSDDFITTYIRPRLQVPMSDTVRQLN  120
+            LQTMSNMFVSFITSTDRCGYMLRKTWFNSDTKPTVSDDFITTYIRPRLQVPMSDTVRQLN
+Sbjct  61   LQTMSNMFVSFITSTDRCGYMLRKTWFNSDTKPTVSDDFITTYIRPRLQVPMSDTVRQLN  120
+
+Query  121  NLSLQPSAKPKLYERQNAIMKGLDIPYSEPIEPCKLFRSVAGQTGNIPMMGILATPPAAQ  180
+            NLSLQPSAKPKLYERQNAIMKGLDIPYSEPIEPCKLFRSVAGQTGNIPMMGILATPPAAQ
+Sbjct  121  NLSLQPSAKPKLYERQNAIMKGLDIPYSEPIEPCKLFRSVAGQTGNIPMMGILATPPAAQ  180
+
+Query  181  QQPFFVAERRRILFGIRSNAAIPAGAYQFVVPAWASVLSVTGAYVYFTNSFFGTTIAGVT  240
+            QQPFFVAERRRILFGIRSNAAIPAGAYQFVVPAWASVLSVTGAYVYFTNSFFGTTIAGVT
+Sbjct  181  QQPFFVAERRRILFGIRSNAAIPAGAYQFVVPAWASVLSVTGAYVYFTNSFFGTTIAGVT  240
+
+Query  241  ATATAADAATTFTVPTDANNLPVQTDSRLSFSLGGGNINLELGVAKTGFCVAIEGEFTIL  300
+            ATATAADAATTFTVPTDANNLPVQTDSRLSFSLGGGNINLELGVAKTGFCVAIEGEFTIL
+Sbjct  241  ATATAADAATTFTVPTDANNLPVQTDSRLSFSLGGGNINLELGVAKTGFCVAIEGEFTIL  300
+
+Query  301  ANRSQAYYTLNSITQTPTSIDDFDVSDFLTTFLSQLRACGQYEIFSDAMDQLTNSLITNY  360
+            ANRSQAYYTLNSITQTPTSIDDFDVSDFLTTFLSQLRACGQYEIFSDAMDQLTNSLITNY
+Sbjct  301  ANRSQAYYTLNSITQTPTSIDDFDVSDFLTTFLSQLRACGQYEIFSDAMDQLTNSLITNY  360
+
+Query  361  MDPPALPAGLAFTSPWFRFSERARTILALQNVDLNIRKLIVRHLWVITSLIAVFGRYYRP  420
+            MDPPALPAGLAFTSPWFRFSERARTILALQNVDLNIRKLIVRHLWVITSLIAVFGRYYRP
+Sbjct  361  MDPPALPAGLAFTSPWFRFSERARTILALQNVDLNIRKLIVRHLWVITSLIAVFGRYYRP  420
+
+Query  421  N  421
+            N
+Sbjct  421  N  421
+
+
+> uniprotkb:P40879  S26A3_HUMAN Chloride anion exchanger OS=Homo 
+sapiens OX=9606 GN=SLC26A3 PE=1 SV=1
+Length=764
+
+ Score = 33.5 bits (75),  Expect = 0.34, Method: Compositional matrix adjust.
+ Identities = 31/118 (26%), Positives = 47/118 (40%), Gaps = 13/118 (11%)
+
+Query  233  GTTIAGVTATATAADAATTFTVPTDANNLPVQTDSRL------SFSLGGGNINLELGVAK  286
+            G  ++G  + A     ATT  +P ++NN  +  D R+      S ++  G I L  G+ +
+Sbjct  138  GLAVSGAVSKAVPDRNATTLGLPNNSNNSSLLDDERVRVAAAASVTVLSGIIQLAFGILR  197
+
+Query  287  TGFCVAIEGE-----FTILANRSQAYYTLNSITQ--TPTSIDDFDVSDFLTTFLSQLR  337
+             GF V    E     FT  A        L  I Q   P+  D   +   L +  SQ+ 
+Sbjct  198  IGFVVIYLSESLISGFTTAAAVHVLVSQLKFIFQLTVPSHTDPVSIFKVLYSVFSQIE  255
+
+
+> uniprotkb:Q8NGJ1  OR4D6_HUMAN Olfactory receptor 4D6 OS=Homo 
+sapiens OX=9606 GN=OR4D6 PE=2 SV=1
+Length=314
+
+ Score = 30.4 bits (67),  Expect = 2.0, Method: Compositional matrix adjust.
+ Identities = 15/43 (35%), Positives = 22/43 (51%), Gaps = 1/43 (2%)
+
+Query  100  ITTYIRPRLQVPMSDTVRQLNNLSLQPSAKPKLYERQNAIMKG  142
+            +  Y RP + +PM DT   +NN  + P   P +Y  +N  MK 
+Sbjct  255  VYIYCRPFMTLPM-DTTISINNTVITPMLNPIIYSLRNQEMKS  296
+
+
+> uniprotkb:Q06554  IRC20_YEAST Uncharacterized ATP-dependent helicase 
+IRC20 OS=Saccharomyces cerevisiae (strain ATCC 204508 
+/ S288c) OX=559292 GN=IRC20 PE=1 SV=1
+Length=1556
+
+ Score = 30.4 bits (67),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 29/51 (57%), Gaps = 5/51 (10%)
+
+Query  311  NSITQTPTSIDDFDVSDFLTTFLSQLRACGQYEIFSDAMDQLTNSLITNYM  361
+            NS++ TPT ID+  + DF+  + +       YE+ + + D++  SL+ N +
+Sbjct  310  NSLSDTPTVIDEVGLIDFMNEYYAY-----GYELIARSPDEVGPSLLWNKL  355
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.134    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3709077837
+
+
+Query= D2U9U2 Putative alpha-xylosidase protein (Xanthomonas albilineans)
+
+Length=964
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  uniprotkb:Q8BHN3 GANAB_MOUSE Neutral alpha-glucosidase AB OS=Mu...  183     2e-47
+  uniprotkb:Q8BVW0 GANC_MOUSE Neutral alpha-glucosidase C OS=Mus ...  163     6e-41
+  uniprotkb:P10253 LYAG_HUMAN Lysosomal alpha-glucosidase OS=Homo...  149     9e-37
+  uniprotkb:P70699 LYAG_MOUSE Lysosomal alpha-glucosidase OS=Mus ...  149     1e-36
+  uniprotkb:P38138 GLU2A_YEAST Glucosidase 2 subunit alpha OS=Sac...  141     4e-34
+  uniprotkb:P12683 HMDH1_YEAST 3-hydroxy-3-methylglutaryl-coenzym...  36.6    0.11 
+  uniprotkb:P13423 PAG_BACAN Protective antigen OS=Bacillus anthr...  36.2    0.14 
+  uniprotkb:Q80YR5 SAFB2_MOUSE Scaffold attachment factor B2 OS=M...  31.2    4.0  
+  uniprotkb:Q9Y2I6 NINL_HUMAN Ninein-like protein OS=Homo sapiens...  31.2    5.0  
+
+
+> uniprotkb:Q8BHN3  GANAB_MOUSE Neutral alpha-glucosidase AB OS=Mus 
+musculus OX=10090 GN=Ganab PE=1 SV=1
+Length=944
+
+ Score = 183 bits (465),  Expect = 2e-47, Method: Compositional matrix adjust.
+ Identities = 151/530 (28%), Positives = 244/530 (46%), Gaps = 50/530 (9%)
+
+Query  377  WSEVGQMIDYYVVAGDNADQVIAGYRALTGKAVLLPKWAYGFWQSRERYKRQDELLAVLA  436
+            W     +ID +++ G +   V   Y +LTG   L P ++ G+ QSR  Y+ + ++L V  
+Sbjct  355  WMSESGIIDVFLMLGPSVFDVFRQYASLTGTQALPPLFSLGYHQSRWNYRDEADVLEVDQ  414
+
+Query  437  EYRRRRLPIDNIVQDWSYWPEDAWGAHTFDKSRFPDPDGMVKMVHDLHAQIMISVWPKFY  496
+             +    +P D I  D  +   D     T+D +RFP P  M++ +     +++  V P   
+Sbjct  415  GFDDHNMPCDVIWLDIEH--ADGKRYFTWDPTRFPQPLNMLEHLASKRRKLVAIVDPHIK  472
+
+Query  497  PSTAH--YKELDAAGYIYRRNVQVGERDWIGKGYKNAFYDPYAAQAQAIYWRQIEETLNR  554
+              + +  ++EL   G   +         W   G  +A Y  +       +W  +    N 
+Sbjct  473  VDSGYRVHEELRNHGLYVKTRDGSDYEGWCWPG--SASYPDFTNPRMRAWWSNMFSFDNY  530
+
+Query  555  KGFDA---WWLDADEPDVHSNLDIAERKARTTPTALGPSTEF--FNSYPLPHTHGVYVGD  609
+            +G       W D +EP V +  ++         T L  +  +  +    + + +G+YV  
+Sbjct  531  EGSAPNLYVWNDMNEPSVFNGPEV---------TMLKDAVHYGGWEHRDIHNIYGLYVHM  581
+
+Query  610  RAADG--------KRVFILSRKGYAGTQRNAVAVWSGDIASRWDDLREQISAGVNLSMSG  661
+              ADG        +R F+LSR  ++G+QR   AVW+GD  + WD L+  I   ++L++ G
+Sbjct  582  ATADGLIQRSGGIERPFVLSRAFFSGSQRFG-AVWTGDNTAEWDHLKISIPMCLSLALVG  640
+
+Query  662  LPNWTFDIGGFAVETRYEHQDPAHLPEWRELNTRWFQFGAFVPLFRSHGQFPY--REIWN  719
+            L     D+GGF     +++ +P       EL  RW+Q GA+ P FR+H       RE W 
+Sbjct  641  LSFCGADVGGF-----FKNPEP-------ELLVRWYQMGAYQPFFRAHAHLDTGRREPWL  688
+
+Query  720  IAPEGTPYYASMAYYSRLRYTLLPYIYTLAGDTYHHDGVIMRGLPMDFPDDPKVADINDQ  779
+            +A +   Y  ++      RY+LLP+ YTL    +     +MR L + +P+D     I DQ
+Sbjct  689  LASQ---YQDAIRDALFQRYSLLPFWYTLFYQAHKEGFPVMRPLWVQYPEDMSTFSIEDQ  745
+
+Query  780  YLFGPAFLVAPVTRFGATSRQVYLPAGTS-WIDFNSGKRYDGGQTIEAAAPLERMPLFVR  838
+            ++ G A L+ PV+  GA   QVYLP     W D  S +++ G QT+     L  +P+F R
+Sbjct  746  FMLGDALLIHPVSDAGAHGVQVYLPGQEEVWYDIQSYQKHHGPQTLYLPVTLSSIPVFQR  805
+
+Query  839  AGAIVPT-AHVQQYVDETPDAPLTLVVYTGTDG--RFSLYEDDGKGYGYE  885
+             G IVP    V++  D   D P+TL V     G  +  L+ DDG  + Y+
+Sbjct  806  GGTIVPRWMRVRRSSDCMKDDPITLFVALSPQGTAQGELFLDDGHTFNYQ  855
+
+
+> uniprotkb:Q8BVW0  GANC_MOUSE Neutral alpha-glucosidase C OS=Mus 
+musculus OX=10090 GN=Ganc PE=1 SV=2
+Length=898
+
+ Score = 163 bits (412),  Expect = 6e-41, Method: Compositional matrix adjust.
+ Identities = 145/536 (27%), Positives = 234/536 (44%), Gaps = 33/536 (6%)
+
+Query  367  PAAEAKDLSLWSEVGQMIDYYVVAGDNADQVIAGYRALTGKAVLLPKWAYGFWQSRERYK  426
+            P    +    W     +ID +++ G     V   Y  +TG   + P ++ G+ Q R  Y+
+Sbjct  298  PKVRCRTDVHWMSESGIIDVFLLTGPTPADVFKQYSYITGTQAMPPLFSLGYHQCRWNYE  357
+
+Query  427  RQDELLAVLAEYRRRRLPIDNIVQDWSYWPEDAWGAHTFDKSRFPDPDGMVKMVHDLHAQ  486
+             + ++ AV A +    +P D +  D  +  +  +   T+DK RF +P  M +++     +
+Sbjct  358  DEQDVKAVDAGFDEHDIPYDVMWLDIEHTEDKKY--FTWDKKRFANPKRMQELLRSKKRK  415
+
+Query  487  IMISVWP--KFYPSTAHYKELDAAGYIYRRNVQVGERDWIGKGYKNAFYDPYAAQAQAIY  544
+            +++   P  K  P    Y +    G+ + +N + G+ + +     +++ D    + +  Y
+Sbjct  416  LVVISDPHIKVDPDYTVYAQAKEQGF-FVKNPEGGDFEGVCWPGLSSYLDFTNPKVREWY  474
+
+Query  545  WRQIEETLNRKGFDAW--WLDADEPDVHSNLDIAERKARTTPTALGPSTEFFNSYPLPHT  602
+                   + +   D    W D +EP V    ++   K+           E  N Y     
+Sbjct  475  SSLFAFPVYQGSTDILFLWNDMNEPSVFRGPELTMHKS-AVHYGDWEHRELHNIYGFYQQ  533
+
+Query  603  HGVYVG--DRAADGKRVFILSRKGYAGTQRNAVAVWSGDIASRWDDLREQISAGVNLSMS  660
+                 G   R+   +R F+LSR  +AG+Q+   AVW+GD  + W  L+  I   + LS+S
+Sbjct  534  MATAEGLIQRSKGKERPFVLSRSFFAGSQKYG-AVWTGDNKAEWSYLKISIPMLLTLSVS  592
+
+Query  661  GLPNWTFDIGGFAVETRYEHQDPAHLPEWRELNTRWFQFGAFVPLFRSHGQF--PYREIW  718
+            G+     D+GGF              PE  EL  RW+Q GA+ P FR H       RE W
+Sbjct  593  GISFCGADVGGFIGN-----------PE-AELLVRWYQAGAYQPFFRGHATMNTKRREPW  640
+
+Query  719  NIAPEGTPYYASMAYYSRLRYTLLPYIYTLAGDTYHHDGVIMRGLPMDFPDDPKVADIND  778
+                E   Y   +    R RY LLPY+Y+L   T+     +MR L +++PDD +   + D
+Sbjct  641  LFGEE---YTQLIREAIRQRYALLPYLYSLFYHTHVSSQPVMRPLWVEYPDDLETFAVED  697
+
+Query  779  QYLFGPAFLVAPVTRFGATSRQVYLPAGTS-WIDFNSGKRYDGGQTIEAAAPLERMPLFV  837
+            +Y+ G A LV PVT     +  V+LP     W D  +   + GG T++    L+ +P+F 
+Sbjct  698  EYMLGSALLVHPVTDPQTATIDVFLPGSDEVWYDSKTFAYWKGGCTVKIPVTLDTIPVFQ  757
+
+Query  838  RAGAIVPT-AHVQQYVDETPDAPLTLVVYTGTDGRF--SLYEDDGKGYGY-EQGEF  889
+            R G++VP    V        D+P  L V   T G     LY DDG  + Y  Q +F
+Sbjct  758  RGGSVVPVKTTVGTSTGWMADSPYELRVALSTQGSAVGELYLDDGHSFQYLHQNQF  813
+
+
+> uniprotkb:P10253  LYAG_HUMAN Lysosomal alpha-glucosidase OS=Homo 
+sapiens OX=9606 GN=GAA PE=1 SV=4
+Length=952
+
+ Score = 149 bits (377),  Expect = 9e-37, Method: Compositional matrix adjust.
+ Identities = 147/569 (26%), Positives = 228/569 (40%), Gaps = 75/569 (13%)
+
+Query  377  WSEVGQMIDYYVVAGDNADQVIAGYRALTGKAVLLPKWAYGFWQSRERYKRQDELLAVLA  436
+            W   G ++D Y+  G     V+  Y  + G   + P W  GF   R  Y        V+ 
+Sbjct  330  WRSTGGILDVYIFLGPEPKSVVQQYLDVVGYPFMPPYWGLGFHLCRWGYSSTAITRQVVE  389
+
+Query  437  EYRRRRLPIDNIVQDWSYWPEDAWGAHTFDKSRFPDPDGMVKMVHDLHAQIMISVWPKFY  496
+               R   P+D    D  Y   D+    TF+K  F D   MV+ +H    + M+ V P   
+Sbjct  390  NMTRAHFPLDVQWNDLDYM--DSRRDFTFNKDGFRDFPAMVQELHQGGRRYMMIVDPAIS  447
+
+Query  497  PS--TAHYKELDAAGYIYRRNVQVGE---RDWIGKGYKNAFYDPYAAQAQAIYWRQ--IE  549
+             S     Y+  D      RR V +     +  IGK +  +   P      A+ W +  + 
+Sbjct  448  SSGPAGSYRPYDEG---LRRGVFITNETGQPLIGKVWPGSTAFPDFTNPTALAWWEDMVA  504
+
+Query  550  ETLNRKGFDAWWLDADEPD--VHSNLDIAERKARTTP--------------TALGPSTEF  593
+            E  ++  FD  W+D +EP   +  + D         P              T    S +F
+Sbjct  505  EFHDQVPFDGMWIDMNEPSNFIRGSEDGCPNNELENPPYVPGVVGGTLQAATICASSHQF  564
+
+Query  594  FNS-YPLPHTHGV---YVGDRA---ADGKRVFILSRKGYAGTQRNAVAVWSGDIASRWDD  646
+             ++ Y L + +G+       RA   A G R F++SR  +AG  R A   W+GD+ S W+ 
+Sbjct  565  LSTHYNLHNLYGLTEAIASHRALVKARGTRPFVISRSTFAGHGRYA-GHWTGDVWSSWEQ  623
+
+Query  647  LREQISAGVNLSMSGLPNWTFDIGGFAVETRYEHQDPAHLPEWRELNTRWFQFGAFVPLF  706
+            L   +   +  ++ G+P    D+ GF   T              EL  RW Q GAF P  
+Sbjct  624  LASSVPEILQFNLLGVPLVGADVCGFLGNTS------------EELCVRWTQLGAFYPFM  671
+
+Query  707  RSHGQFPY--REIWNIAPEGTPYYASMAYYSRLRYTLLPYIYTLAGDTYHHDGVIMRGLP  764
+            R+H       +E ++ +    P   +M     LRY LLP++YTL    +     + R L 
+Sbjct  672  RNHNSLLSLPQEPYSFS---EPAQQAMRKALTLRYALLPHLYTLFHQAHVAGETVARPLF  728
+
+Query  765  MDFPDDPKVADINDQYLFGPAFLVAPVTRFGATSRQVYLPAGTSWIDFNS----------  814
+            ++FP D     ++ Q L+G A L+ PV + G      Y P GT W D  +          
+Sbjct  729  LEFPKDSSTWTVDHQLLWGEALLITPVLQAGKAEVTGYFPLGT-WYDLQTVPVEALGSLP  787
+
+Query  815  --------GKRYDGGQTIEAAAPLERMPLFVRAGAIVPTAHVQQYVDETPDAPLTLVV--  864
+                       +  GQ +   APL+ + + +RAG I+P         E+   P+ L V  
+Sbjct  788  PPPAAPREPAIHSEGQWVTLPAPLDTINVHLRAGYIIPLQGPGLTTTESRQQPMALAVAL  847
+
+Query  865  YTGTDGRFSLYEDDGKGYG-YEQGEFSRI  892
+              G + R  L+ DDG+     E+G ++++
+Sbjct  848  TKGGEARGELFWDDGESLEVLERGAYTQV  876
+
+
+> uniprotkb:P70699  LYAG_MOUSE Lysosomal alpha-glucosidase OS=Mus 
+musculus OX=10090 GN=Gaa PE=1 SV=2
+Length=953
+
+ Score = 149 bits (377),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 153/584 (26%), Positives = 225/584 (39%), Gaps = 84/584 (14%)
+
+Query  377  WSEVGQMIDYYVVAGDNADQVIAGYRALTGKAVLLPKWAYGFWQSRERYKRQDELLAVLA  436
+            W   G ++D YV  G     V+  Y  + G   + P W  GF   R  Y     +  V+ 
+Sbjct  330  WRSTGGILDVYVFLGPEPKSVVQQYLDVVGYPFMPPYWGLGFHLCRWGYSSTAIVRQVVE  389
+
+Query  437  EYRRRRLPIDNIVQDWSYWPEDAWGAHTFDKSRFPDPDGMVKMVHDLHAQIMISVWPKFY  496
+               R   P+D    D  Y   DA    TF++  F D   MV+ +H    + M+ V P   
+Sbjct  390  NMTRTHFPLDVQWNDLDYM--DARRDFTFNQDSFADFPDMVRELHQDGRRYMMIVDPAIS  447
+
+Query  497  PS--TAHYKELDAAGYIYRRNVQVGE---RDWIGKGYKNAFYDPYAAQAQAIYWRQ--IE  549
+             +     Y+  D      RR V +     +  IGK +      P     + + W Q  + 
+Sbjct  448  SAGPAGSYRPYDEG---LRRGVFITNETGQPLIGKVWPGTTAFPDFTNPETLDWWQDMVS  504
+
+Query  550  ETLNRKGFDAWWLDADEPDVH---SNLDIAERKARTTP-------------TALGPSTEF  593
+            E   +  FD  WLD +EP      S       +    P             T    S +F
+Sbjct  505  EFHAQVPFDGMWLDMNEPSNFVRGSQQGCPNNELENPPYVPGVVGGILQAATICASSHQF  564
+
+Query  594  FNS-YPLPHTHGV---YVGDRA---ADGKRVFILSRKGYAGTQRNAVAVWSGDIASRWDD  646
+             ++ Y L + +G+       RA     G R F++SR  ++G  R A   W+GD+ S W+ 
+Sbjct  565  LSTHYNLHNLYGLTEAIASSRALVKTRGTRPFVISRSTFSGHGRYA-GHWTGDVRSSWEH  623
+
+Query  647  LREQISAGVNLSMSGLPNWTFDIGGFAVETRYEHQDPAHLPEWRELNTRWFQFGAFVPLF  706
+            L   +   +  ++ G+P    DI GF  +T              EL  RW Q GAF P  
+Sbjct  624  LAYSVPDILQFNLLGVPLVGADICGFIGDTS------------EELCVRWTQLGAFYPFM  671
+
+Query  707  RSHGQFPYREIWNIAPEGTPYYAS------MAYYSRLRYTLLPYIYTLAGDTYHHDGVIM  760
+            R+H         N  P+  PY  S      M     LRY LLPY+YTL    +     + 
+Sbjct  672  RNHNDL------NSVPQ-EPYRFSETAQQAMRKAFALRYALLPYLYTLFHRAHVRGDTVA  724
+
+Query  761  RGLPMDFPDDPKVADINDQYLFGPAFLVAPVTRFGATSRQVYLPAGTSWIDFN-------  813
+            R L ++FP+DP    ++ Q L+GPA L+ PV   G T    Y P GT W +         
+Sbjct  725  RPLFLEFPEDPSTWSVDRQLLWGPALLITPVLEPGKTEVTGYFPKGT-WYNMQMVSVDSL  783
+
+Query  814  ------------SGKRYDGGQTIEAAAPLERMPLFVRAGAIVPTAHVQQYVDETPDAPLT  861
+                               GQ +   APL+ + + +R G I+P         E+   P+ 
+Sbjct  784  GTLPSPSSASSFRSAVQSKGQWLTLEAPLDTINVHLREGYIIPLQGPSLTTTESRKQPMA  843
+
+Query  862  LVVYTGTDGRF--SLYEDDGKGYG-YEQGEFSRIPLAWDQRTGV  902
+            L V     G     L+ DDG+     E+G ++ +  +    T V
+Sbjct  844  LAVALTASGEADGELFWDDGESLAVLERGAYTLVTFSAKNNTIV  887
+
+
+> uniprotkb:P38138  GLU2A_YEAST Glucosidase 2 subunit alpha OS=Saccharomyces 
+cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=ROT2 PE=1 SV=1
+Length=954
+
+ Score = 141 bits (356),  Expect = 4e-34, Method: Compositional matrix adjust.
+ Identities = 141/569 (25%), Positives = 257/569 (45%), Gaps = 77/569 (14%)
+
+Query  368  AAEAKDLSLWSEVGQMIDYYVVAGDNADQVIAGYRALTGKAVLLPKWAYGFWQSRERYKR  427
+             ++ K ++ W     +ID  +  G +   +I  +  LTG+  L P  + G+ Q R  Y  
+Sbjct  342  TSKNKTMTHWISENGVIDVVMSLGPDIPTIIDKFTDLTGRPFLPPISSIGYHQCRWNYND  401
+
+Query  428  QDELLAVLAEYRRRRLPIDNIVQDWSYWPEDAWGAHTFDKSRFPDPDGMVKMVHDLHAQI  487
+            + ++L V ++     +P D I  D  Y  +  +   T+ +  FP+P  ++  +  L   +
+Sbjct  402  EMDVLTVDSQMDAHMIPYDFIWLDLEYTNDKKY--FTWKQHSFPNPKRLLSKLKKLGRNL  459
+
+Query  488  MISVWPKFYPSTAHYKELDAAGYIYRRNVQVGE---RDWIGKGY--KNAFYDPYAAQAQA  542
+            ++ + P         K+ + +  +   NV V +    D++G  +   + + D  +   Q 
+Sbjct  460  VVLIDPHL------KKDYEISDRVINENVAVKDHNGNDYVGHCWPGNSIWIDTISKYGQK  513
+
+Query  543  IYWRQIEETLNRKGFDAWWLDADEPDVHSNLDIAERKARTTPTALGPSTEFFNSY----P  598
+            I+    E  ++        L AD  ++    D+ E      P    P     ++Y     
+Sbjct  514  IWKSFFERFMD--------LPADLTNLFIWNDMNEPSIFDGPETTAPKDLIHDNYIEERS  565
+
+Query  599  LPHTHGVYVGDRAADG---------KRVFILSRKGYAGTQRNAVAVWSGDIASRWDDLRE  649
+            + + +G+ V +   D          KR F+L+R  +AG+QR A A W+GD  + WD L+ 
+Sbjct  566  VHNIYGLSVHEATYDAIKSIYSPSDKRPFLLTRAFFAGSQRTA-ATWTGDNVANWDYLKI  624
+
+Query  650  QISAGVNLSMSGLPNWTFDIGGFAVETRYEHQDPAHLPEWRELNTRWFQFGAFVPLFRSH  709
+             I   ++ +++G+P    DI GFA       +DP       EL  RW+Q G + P FR+H
+Sbjct  625  SIPMVLSNNIAGMPFIGADIAGFA-------EDPT-----PELIARWYQAGLWYPFFRAH  672
+
+Query  710  GQF------PYREIWNIAPEGTPYYASMAYYSRLRYTLLPYIYTLAGDTYHHDGV----I  759
+                     PY  ++N      P  + +    +LRY LLP +YT+    +H   V    I
+Sbjct  673  AHIDTKRREPY--LFN-----EPLKSIVRDIIQLRYFLLPTLYTM----FHKSSVTGFPI  721
+
+Query  760  MRGLPMDFPDDPKVADINDQYLFGPA-FLVAPVTRFGATSRQVYLPAGTSWIDFNSGKRY  818
+            M  + ++ P+  ++  I++Q+ +  +  LV PVT  G +  ++  P G  + +F S   +
+Sbjct  722  MNPMFIEHPEFAELYHIDNQFYWSNSGLLVKPVTEPGQSETEMVFPPGIFY-EFASLHSF  780
+
+Query  819  --DGGQTIEA--AAPLERMPLFVRAGAIVPTA-HVQQYVDETPDAPLTLVVYTGTDGRF-  872
+              +G   IE   +APL+++PLF+  G I+      ++      + P  +V+   T+GR  
+Sbjct  781  INNGTDLIEKNISAPLDKIPLFIEGGHIITMKDKYRRSSMLMKNDPYVIVIAPDTEGRAV  840
+
+Query  873  -SLYEDDGKGYGYEQGEFSRIPLAWDQRT  900
+              LY DDG+ +GY++GE+      ++  T
+Sbjct  841  GDLYVDDGETFGYQRGEYVETQFIFENNT  869
+
+
+> uniprotkb:P12683  HMDH1_YEAST 3-hydroxy-3-methylglutaryl-coenzyme 
+A reductase 1 OS=Saccharomyces cerevisiae (strain ATCC 
+204508 / S288c) OX=559292 GN=HMG1 PE=1 SV=1
+Length=1054
+
+ Score = 36.6 bits (83),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 33/140 (24%), Positives = 58/140 (41%), Gaps = 13/140 (9%)
+
+Query  455  WPEDAWGAHTFDKSRFPDPDGMVKMV-HDLHAQIMISVWP-KFYPSTAHYKELDAAGYIY  512
+            W  DA+ +  FDK R   PD +      +   Q ++SV P  +Y     Y+ ++    + 
+Sbjct  428  WVNDAFNSLYFDKERVSLPDFITSNASENFKEQAIVSVTPLLYYKPIKSYQRIEDMVLLL  487
+
+Query  513  RRNVQVGERD-WIGKGYKNAF-----YDPYAAQAQAIYW-----RQIEETLNRKGFDAWW  561
+             RNV V  RD ++ K   +A       + Y   A  I+      + ++  + +K F A  
+Sbjct  488  LRNVSVAIRDRFVSKLVLSALVCSAVINVYLLNAARIHTSYTADQLVKTEVTKKSFTAPV  547
+
+Query  562  LDADEPDVHSNLDIAERKAR  581
+              A  P + +   I+  K +
+Sbjct  548  QKASTPVLTNKTVISGSKVK  567
+
+
+> uniprotkb:P13423  PAG_BACAN Protective antigen OS=Bacillus anthracis 
+OX=1392 GN=pagA PE=1 SV=2
+Length=764
+
+ Score = 36.2 bits (82),  Expect = 0.14, Method: Compositional matrix adjust.
+ Identities = 15/74 (20%), Positives = 37/74 (50%), Gaps = 7/74 (9%)
+
+Query  287  VWEGAFEARRGGEHTFSLYASEYTKLWIDGRLVLDRWRQNWNPWHHEFALHLQPGQRHTL  346
+            +W G  + ++  E+TF+  A  +  +W+D + V+       N   +   + L+ G+ + +
+Sbjct  93   IWSGFIKVKKSDEYTFATSADNHVTMWVDDQEVI-------NKASNSNKIRLEKGRLYQI  145
+
+Query  347  KLEWSLIDPSYIAL  360
+            K+++   +P+   L
+Sbjct  146  KIQYQRENPTEKGL  159
+
+
+> uniprotkb:Q80YR5  SAFB2_MOUSE Scaffold attachment factor B2 OS=Mus 
+musculus OX=10090 GN=Safb2 PE=1 SV=2
+Length=991
+
+ Score = 31.2 bits (69),  Expect = 4.0, Method: Compositional matrix adjust.
+ Identities = 21/58 (36%), Positives = 25/58 (43%), Gaps = 1/58 (2%)
+
+Query  418  FWQSRERYKRQDELLAVLAEYRRRRLPID-NIVQDWSYWPEDAWGAHTFDKSRFPDPD  474
+              + RE  +RQ E L    E R  R P D +  +D  YWPE    A       FP PD
+Sbjct  747  IMREREELRRQQEQLRAEQERRALRRPYDLDARRDDGYWPEGKRAALEDRYRDFPRPD  804
+
+
+> uniprotkb:Q9Y2I6  NINL_HUMAN Ninein-like protein OS=Homo sapiens 
+OX=9606 GN=NINL PE=1 SV=2
+Length=1382
+
+ Score = 31.2 bits (69),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 19/71 (27%), Positives = 32/71 (45%), Gaps = 12/71 (17%)
+
+Query  54    GSVPVRLQVVDSNLLRVSADPHGTFQRTSSLMRVPVQGDNSFRFERQGDAVWVRTARLSA  113
+             GS+P  LQ+         ADP G++Q     +  P +G+     ER+ D +  +   L  
+Sbjct  1020  GSLPSHLQL---------ADPQGSWQEQ---LAAPEEGETKIALEREKDDMETKLLHLED  1067
+
+Query  114   RVSMIDGHVSV  124
+              V  ++ HV +
+Sbjct  1068  VVRALEKHVDL  1078
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9835925087
+
+
+Query= WP_015452623.1 3-oxoacyl-[acyl-carrier-protein] reductase
+[Candidatus Liberibacter asiaticus]
+
+Length=247
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  uniprotkb:P51831 FABG_BACSU 3-oxoacyl-[acyl-carrier-protein] re...  202     4e-65
+  uniprotkb:Q91VT4 CBR4_MOUSE Carbonyl reductase family member 4 ...  140     5e-41
+  uniprotkb:Q92506 DHB8_HUMAN Estradiol 17-beta-dehydrogenase 8 O...  140     1e-40
+  uniprotkb:P39071 DHBA_BACSU 2,3-dihydro-2,3-dihydroxybenzoate d...  132     2e-37
+  uniprotkb:P50171 DHB8_MOUSE Estradiol 17-beta-dehydrogenase 8 O...  124     2e-34
+  uniprotkb:Q99LB2 DHRS4_MOUSE Dehydrogenase/reductase SDR family...  119     2e-32
+  uniprotkb:P39485 DHG4_BACME Glucose 1-dehydrogenase 4 OS=Bacill...  107     5e-28
+  uniprotkb:Q21481 >uniprotkb:tr Q21481_CAEEL DeHydrogenases, Sho...  107     1e-26
+  uniprotkb:Q02207 FOX2_YEAST Peroxisomal hydratase-dehydrogenase...  105     9e-26
+  uniprotkb:Q9CXR1 DHRS7_MOUSE Dehydrogenase/reductase SDR family...  99.4    2e-24
+  uniprotkb:P51660 DHB4_MOUSE Peroxisomal multifunctional enzyme ...  100     4e-24
+  uniprotkb:P51659 DHB4_HUMAN Peroxisomal multifunctional enzyme ...  99.4    1e-23
+  uniprotkb:P08074 CBR2_MOUSE Carbonyl reductase [NADPH] 2 OS=Mus...  95.1    2e-23
+  uniprotkb:Q9VXJ0 DHB4_DROME Peroxisomal multifunctional enzyme ...  97.1    7e-23
+  uniprotkb:Q9Y394 DHRS7_HUMAN Dehydrogenase/reductase SDR family...  94.4    2e-22
+  uniprotkb:Q91X52 DCXR_MOUSE L-xylulose reductase OS=Mus musculu...  90.1    1e-21
+  uniprotkb:O08756 HCD2_MOUSE 3-hydroxyacyl-CoA dehydrogenase typ...  90.5    1e-21
+  uniprotkb:Q99MZ7 PECR_MOUSE Peroxisomal trans-2-enoyl-CoA reduc...  90.1    3e-21
+  uniprotkb:Q7Z4W1 DCXR_HUMAN L-xylulose reductase OS=Homo sapien...  89.0    3e-21
+  uniprotkb:Q99714 HCD2_HUMAN 3-hydroxyacyl-CoA dehydrogenase typ...  89.0    5e-21
+  uniprotkb:Q9N5G3 >uniprotkb:tr Q9N5G3_CAEEL DeHydrogenases, Sho...  87.4    2e-20
+  uniprotkb:Q9WV68 DECR2_MOUSE Peroxisomal 2,4-dienoyl-CoA reduct...  86.7    5e-20
+  uniprotkb:Q9EQ06 DHB11_MOUSE Estradiol 17-beta-dehydrogenase 11...  86.7    5e-20
+  uniprotkb:Q8VCC1 PGDH_MOUSE 15-hydroxyprostaglandin dehydrogena...  85.5    1e-19
+  uniprotkb:Q9BPX1 DHB14_HUMAN 17-beta-hydroxysteroid dehydrogena...  84.3    3e-19
+  uniprotkb:P71079 FABL_BACSU Enoyl-[acyl-carrier-protein] reduct...  83.6    3e-19
+  uniprotkb:Q8NBQ5 DHB11_HUMAN Estradiol 17-beta-dehydrogenase 11...  83.2    1e-18
+  uniprotkb:Q06136 KDSR_HUMAN 3-ketodihydrosphingosine reductase ...  80.5    1e-17
+  uniprotkb:Q6IAN0 DRS7B_HUMAN Dehydrogenase/reductase SDR family...  78.6    7e-17
+  uniprotkb:Q80XN0 BDH_MOUSE D-beta-hydroxybutyrate dehydrogenase...  73.2    5e-15
+  uniprotkb:Q3SXM5 HSDL1_HUMAN Inactive hydroxysteroid dehydrogen...  72.0    1e-14
+  uniprotkb:Q05016 YM71_YEAST NADP-dependent 3-hydroxy acid dehyd...  70.5    3e-14
+  uniprotkb:Q8VCH7 RDH10_MOUSE Retinol dehydrogenase 10 OS=Mus mu...  70.9    4e-14
+  uniprotkb:P37058 DHB3_HUMAN Testosterone 17-beta-dehydrogenase ...  64.7    4e-12
+  uniprotkb:O70503 DHB12_MOUSE Very-long-chain 3-oxoacyl-CoA redu...  64.3    5e-12
+  uniprotkb:Q9CQ62 DECR_MOUSE 2,4-dienoyl-CoA reductase, mitochon...  63.2    2e-11
+  uniprotkb:O25658 >uniprotkb:tr O25658_HELPY 7-alpha-hydroxyster...  62.4    2e-11
+  uniprotkb:Q53GQ0 DHB12_HUMAN Very-long-chain 3-oxoacyl-CoA redu...  62.0    4e-11
+  uniprotkb:Q9R092 H17B6_MOUSE 17-beta-hydroxysteroid dehydrogena...  58.5    5e-10
+  uniprotkb:Q8VIJ7 >uniprotkb:tr Q8VIJ7_MOUSE Retinol dehydrogena...  57.4    1e-09
+  uniprotkb:P50172 DHI1_MOUSE Corticosteroid 11-beta-dehydrogenas...  57.4    1e-09
+  uniprotkb:Q8NBN7 RDH13_HUMAN Retinol dehydrogenase 13 OS=Homo s...  56.2    3e-09
+  uniprotkb:Q99L04 DHRS1_MOUSE Dehydrogenase/reductase SDR family...  56.2    4e-09
+  uniprotkb:P40579 YIV5_YEAST Uncharacterized oxidoreductase YIR0...  55.5    4e-09
+  uniprotkb:Q8TC12 RDH11_HUMAN Retinol dehydrogenase 11 OS=Homo s...  55.8    4e-09
+  uniprotkb:Q93ZA0 NYC1_ARATH Probable chlorophyll(ide) b reducta...  56.2    5e-09
+  uniprotkb:Q2TPA8 HSDL2_MOUSE Hydroxysteroid dehydrogenase-like ...  55.1    1e-08
+  uniprotkb:P38286 MKAR_YEAST Very-long-chain 3-oxoacyl-CoA reduc...  53.9    2e-08
+  uniprotkb:Q6YN16 HSDL2_HUMAN Hydroxysteroid dehydrogenase-like ...  53.5    3e-08
+  uniprotkb:Q8K354 CBR3_MOUSE Carbonyl reductase [NADPH] 3 OS=Mus...  53.1    4e-08
+  uniprotkb:Q9QYF1 RDH11_MOUSE Retinol dehydrogenase 11 OS=Mus mu...  52.8    5e-08
+  uniprotkb:Q58NB6 DHRS9_MOUSE Dehydrogenase/reductase SDR family...  52.0    8e-08
+  uniprotkb:P16152 CBR1_HUMAN Carbonyl reductase [NADPH] 1 OS=Hom...  48.9    8e-07
+  uniprotkb:Q8LEU3 NOL_ARATH Chlorophyll(ide) b reductase NOL, ch...  48.9    9e-07
+  uniprotkb:P10807 ADH_DROLE Alcohol dehydrogenase OS=Drosophila ...  47.8    2e-06
+  uniprotkb:P54616 FABI_BACSU Enoyl-[acyl-carrier-protein] reduct...  47.8    2e-06
+  uniprotkb:P37059 DHB2_HUMAN Estradiol 17-beta-dehydrogenase 2 O...  45.1    2e-05
+  uniprotkb:P48758 CBR1_MOUSE Carbonyl reductase [NADPH] 1 OS=Mus...  44.7    2e-05
+  uniprotkb:Q96NR8 RDH12_HUMAN Retinol dehydrogenase 12 OS=Homo s...  43.5    6e-05
+  uniprotkb:Q7MBY8 >uniprotkb:tr Q7MBY8_VIBVY Dehydrogenase OS=Vi...  42.7    7e-05
+  uniprotkb:P40471 AYR1_YEAST NADPH-dependent 1-acyldihydroxyacet...  43.1    8e-05
+  uniprotkb:Q9HBH5 RDH14_HUMAN Retinol dehydrogenase 14 OS=Homo s...  42.4    1e-04
+  uniprotkb:P51661 DHI2_MOUSE Corticosteroid 11-beta-dehydrogenas...  41.6    3e-04
+  uniprotkb:P47727 CBR1_RAT Carbonyl reductase [NADPH] 1 OS=Rattu...  38.5    0.002
+  uniprotkb:P35270 SPRE_HUMAN Sepiapterin reductase OS=Homo sapie...  35.4    0.021
+  uniprotkb:Q06417 TDA5_YEAST Uncharacterized oxidoreductase TDA5...  33.5    0.097
+  uniprotkb:Q9U1Y6 >uniprotkb:tr Q9U1Y6_CAEEL DeHydrogenases, Sho...  33.5    0.11 
+  uniprotkb:P53111 ARI1_YEAST NADPH-dependent aldehyde reductase ...  32.7    0.22 
+  uniprotkb:Q55318 FENR_SYNY3 Ferredoxin--NADP reductase OS=Synec...  31.2    0.58 
+  uniprotkb:O75674 TM1L1_HUMAN TOM1-like protein 1 OS=Homo sapien...  31.2    0.70 
+  uniprotkb:Q14566 MCM6_HUMAN DNA replication licensing factor MC...  30.8    0.96 
+  uniprotkb:P97311 MCM6_MOUSE DNA replication licensing factor MC...  30.8    1.0  
+  uniprotkb:Q9NZC7 WWOX_HUMAN WW domain-containing oxidoreductase...  30.0    1.6  
+  uniprotkb:P47199 QOR_MOUSE Quinone oxidoreductase OS=Mus muscul...  29.6    2.1  
+  uniprotkb:Q969M3 YIPF5_HUMAN Protein YIPF5 OS=Homo sapiens OX=9...  28.9    2.8  
+  uniprotkb:Q02725 VTC3_YEAST Vacuolar transporter chaperone 3 OS...  29.3    3.0  
+  uniprotkb:Q99MJ9 DDX50_MOUSE ATP-dependent RNA helicase DDX50 O...  28.9    3.7  
+  uniprotkb:Q498J7 MC6ZA_XENLA Zygotic DNA replication licensing ...  28.5    4.9  
+  uniprotkb:O81283 TC159_ARATH Translocase of chloroplast 159, ch...  28.5    5.7  
+  uniprotkb:P49327 FAS_HUMAN Fatty acid synthase OS=Homo sapiens ...  28.5    6.4  
+  uniprotkb:P53183 YGD9_YEAST Putative uncharacterized oxidoreduc...  28.1    6.6  
+  uniprotkb:Q9BQ39 DDX50_HUMAN ATP-dependent RNA helicase DDX50 O...  28.1    6.6  
+  uniprotkb:P54382 FOLD_BACSU Bifunctional protein FolD OS=Bacill...  27.7    7.5  
+
+
+> uniprotkb:P51831  FABG_BACSU 3-oxoacyl-[acyl-carrier-protein] 
+reductase FabG OS=Bacillus subtilis (strain 168) OX=224308 
+GN=fabG PE=3 SV=3
+Length=246
+
+ Score = 202 bits (515),  Expect = 4e-65, Method: Compositional matrix adjust.
+ Identities = 105/245 (43%), Positives = 157/245 (64%), Gaps = 2/245 (1%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQE-KLEKVAKNFDDVDR-FLLFPA  61
+            L  K A+VTGAS  IG +IA  L K GA+V ++ +  E K  +V      + R  +   A
+Sbjct  2    LNDKTAIVTGASRGIGRSIALDLAKSGANVVVNYSGNEAKANEVVDEIKSMGRKAIAVKA  61
+
+Query  62   NFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLLT  121
+            + S+   V+ + K        +DILVNNAGI RD+L MR + ++WDDV+++NL   F  T
+Sbjct  62   DVSNPEDVQNMIKETLSVFSTIDILVNNAGITRDNLIMRMKEDEWDDVININLKGVFNCT  121
+
+Query  122  RQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNC  181
+            + +   M++ R GR+IN++S+VG +GN GQ NY AAK+G+ G TK+ A+E   RN+TVN 
+Sbjct  122  KAVTRQMMKQRSGRIINVSSIVGVSGNPGQANYVAAKAGVIGLTKSSAKELASRNITVNA  181
+
+Query  182  VAPGFIGSDMTVNLTEDQKGKIISSIPMKRMGAVDDIAAAVLYLSSLEASYVTGQTIHVN  241
+            +APGFI +DMT  L +D + +++  IP+ R G   D+++ V +L+S  A Y+TGQT+H++
+Sbjct  182  IAPGFISTDMTDKLAKDVQDEMLKQIPLARFGEPSDVSSVVTFLASEGARYMTGQTLHID  241
+
+Query  242  GGMAM  246
+            GGM M
+Sbjct  242  GGMVM  246
+
+
+> uniprotkb:Q91VT4  CBR4_MOUSE Carbonyl reductase family member 
+4 OS=Mus musculus OX=10090 GN=Cbr4 PE=1 SV=2
+Length=236
+
+ Score = 140 bits (353),  Expect = 5e-41, Method: Compositional matrix adjust.
+ Identities = 84/240 (35%), Positives = 135/240 (56%), Gaps = 8/240 (3%)
+
+Query  7    KKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPANFSDR  66
+            K   V G S  IG A+A+++ ++G  + +   + E  +  A         L F  + +  
+Sbjct  3    KVCAVFGGSRGIGRAVAQLMAQKGYRLAIVSRNLEVAKVTAGELGG--NHLAFRCDVAKE  60
+
+Query  67   VSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLLTRQLVP  126
+              V+   + + + +G V+ LVN AGI RDSL +R + ED    L  NL  + L  +  + 
+Sbjct  61   QDVQSTFQEMEKHLGPVNFLVNAAGINRDSLLVRTKTEDMISQLHTNLLGSMLTCKAAMK  120
+
+Query  127  LMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNCVAPGF  186
+             MI+ + G ++N+ S++G  GN GQ  Y A K GL GF+++LA+E  R+ + VN VAPGF
+Sbjct  121  TMIQ-QGGSIVNVGSIIGLKGNVGQSAYSATKGGLVGFSRSLAKEVARKKIRVNVVAPGF  179
+
+Query  187  IGSDMTVNLTEDQKGKIISSIPMKRMGAVDDIAAAVLYLSSLEASYVTGQTIHVNGGMAM  246
+            I +DMT +L E+   K   +IP+ R G   ++A AV++L  LE+ Y+TG  + V+GG+ +
+Sbjct  180  IRTDMTRHLKEEHFKK---NIPLGRFGETLEVAHAVVFL--LESPYITGHVLIVDGGLQL  234
+
+
+> uniprotkb:Q92506  DHB8_HUMAN Estradiol 17-beta-dehydrogenase 
+8 OS=Homo sapiens OX=9606 GN=HSD17B8 PE=1 SV=2
+Length=261
+
+ Score = 140 bits (353),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 85/248 (34%), Positives = 133/248 (54%), Gaps = 10/248 (4%)
+
+Query  9    ALVTGASGSIGLAIAKILYKQGASVGL----HGTSQEKLEKV----AKNFDDVDRFLLFP  60
+            ALVTGA   IG A++  L  +GA+V         +QE +  +    +K          F 
+Sbjct  14   ALVTGAGSGIGRAVSVRLAGEGATVAACDLDRAAAQETVRLLGGPGSKEGPPRGNHAAFQ  73
+
+Query  61   ANFSDRVSVEYLSKRVNEEMG-GVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFL  119
+            A+ S+  +   L ++V         ++V+ AGI +D   +    +DWD V++VNL   FL
+Sbjct  74   ADVSEARAARCLLEQVQACFSRPPSVVVSCAGITQDEFLLHMSEDDWDKVIAVNLKGTFL  133
+
+Query  120  LTRQLVPLMIRNRF-GRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVT  178
+            +T+     ++ N   G +INI+S+VG  GN GQ NY A+K+G+ G T+  A+E GR  + 
+Sbjct  134  VTQAAAQALVSNGCRGSIINISSIVGKVGNVGQTNYAASKAGVIGLTQTAARELGRHGIR  193
+
+Query  179  VNCVAPGFIGSDMTVNLTEDQKGKIISSIPMKRMGAVDDIAAAVLYLSSLEASYVTGQTI  238
+             N V PGFI + MT  + +    KI   IPM  +G  +D+A  V +L+S ++ Y+TG ++
+Sbjct  194  CNSVLPGFIATPMTQKVPQKVVDKITEMIPMGHLGDPEDVADVVAFLASEDSGYITGTSV  253
+
+Query  239  HVNGGMAM  246
+             V GG+ M
+Sbjct  254  EVTGGLFM  261
+
+
+> uniprotkb:P39071  DHBA_BACSU 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase OS=Bacillus subtilis (strain 168) OX=224308 
+GN=dhbA PE=1 SV=3
+Length=261
+
+ Score = 132 bits (332),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 84/254 (33%), Positives = 131/254 (52%), Gaps = 11/254 (4%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFL-LFPAN  62
+            + GK A +TGA+  IG A+A+ L  QGA +     + EKLEKV  +     R    FPA+
+Sbjct  6    IEGKIAFITGAAQGIGEAVARTLASQGAHIAAVDYNPEKLEKVVSSLKAEGRHAEAFPAD  65
+
+Query  63   FSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLLTR  122
+              D  +++ ++ R+  EMG +DILVN AG++R  L      E+W+   SVN T  F  +R
+Sbjct  66   VRDSAAIDEITARIEREMGPIDILVNVAGVLRPGLIHSLSDEEWEATFSVNSTGVFNASR  125
+
+Query  123  QLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNCV  182
+             +   M+  R G ++ + S            Y ++K+    FTK L  E    N+  N V
+Sbjct  126  SVSKYMMDRRSGSIVTVGSNAAGVPRTSMAAYASSKAAAVMFTKCLGLELAEYNIRCNIV  185
+
+Query  183  APGFIGSDMTVNLTEDQKG--KII--------SSIPMKRMGAVDDIAAAVLYLSSLEASY  232
+            +PG   +DM  +L  D+ G  ++I        + IP+K++    DIA AVL+L S +A +
+Sbjct  186  SPGSTETDMQWSLWADENGAEQVIKGSLETFKTGIPLKKLAKPSDIADAVLFLVSGQAGH  245
+
+Query  233  VTGQTIHVNGGMAM  246
+            +T   + V+GG  +
+Sbjct  246  ITMHNLCVDGGATL  259
+
+
+> uniprotkb:P50171  DHB8_MOUSE Estradiol 17-beta-dehydrogenase 
+8 OS=Mus musculus OX=10090 GN=Hsd17b8 PE=1 SV=2
+Length=259
+
+ Score = 124 bits (310),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 90/258 (35%), Positives = 137/258 (53%), Gaps = 30/258 (12%)
+
+Query  9    ALVTGASGSIGLAIAKILYKQGAS---VGLHGTSQEKLEKVAKNFDDVDRFLLFP-----  60
+            ALVTGA   IG AI+  L  +GA+     L G + +          D  R L  P     
+Sbjct  12   ALVTGAGSGIGRAISVRLAAEGAAVAACDLDGAAAQ----------DTVRLLGSPGSEDG  61
+
+Query  61   ------ANFSDRVSVEYLSKRVNEEMGGV-----DILVNNAGIVRDSLFMRARYEDWDDV  109
+                  A F   VS    ++R+ EE+         ++V+ AGI RD   +    EDWD V
+Sbjct  62   APRGKHAAFQADVSQGPAARRLLEEVQACFSRPPSVVVSCAGITRDEFLLHMSEEDWDRV  121
+
+Query  110  LSVNLTSAFLLTRQLVPLMIRNR-FGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKAL  168
+            ++VNL   FL+T+     ++ +   G +INI+S++G  GN GQ NY ++K+G+ G T+  
+Sbjct  122  IAVNLKGTFLVTQAAAQALVSSGGRGSIINISSIIGKVGNIGQTNYASSKAGVIGLTQTA  181
+
+Query  169  AQETGRRNVTVNCVAPGFIGSDMTVNLTEDQKGKIISSIPMKRMGAVDDIAAAVLYLSSL  228
+            A+E GR  +  N V PGFI + MT  + E  K K+ + IP+  MG  +D+A  V +L+S 
+Sbjct  182  ARELGRHGIRCNSVLPGFIATPMTQKMPEKVKDKVTAMIPLGHMGDPEDVADVVAFLASE  241
+
+Query  229  EASYVTGQTIHVNGGMAM  246
+            ++ Y+TG ++ V+GG+ M
+Sbjct  242  DSGYITGASVEVSGGLFM  259
+
+
+> uniprotkb:Q99LB2  DHRS4_MOUSE Dehydrogenase/reductase SDR family 
+member 4 OS=Mus musculus OX=10090 GN=Dhrs4 PE=1 SV=3
+Length=279
+
+ Score = 119 bits (299),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 82/249 (33%), Positives = 129/249 (52%), Gaps = 14/249 (6%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFD----DVDRFLLF  59
+            L+ K ALVT ++  IG AIA+ L + GA V +    Q+ +++           V   +  
+Sbjct  31   LSNKVALVTASTDGIGFAIARRLAEDGAHVVVSSRKQQNVDRAVATLQGEGLSVTGIVCH  90
+
+Query  60   PANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLF---MRARYEDWDDVLSVNLTS  116
+                 DR   E L     +   G+DILV+NA +  +  F   M    E WD VLS+N+T+
+Sbjct  91   VGKAEDR---EKLITTALKRHQGIDILVSNAAV--NPFFGNLMDVTEEVWDKVLSINVTA  145
+
+Query  117  AFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRN  176
+              ++ + +VP M +   G V+ + SV GFT       Y  +K+ L G TK  A E   +N
+Sbjct  146  TAMMIKAVVPEMEKRGGGSVVIVGSVAGFTRFPSLGPYNVSKTALLGLTKNFAAELAPKN  205
+
+Query  177  VTVNCVAPGFIGSDMTVNLTEDQKGK--IISSIPMKRMGAVDDIAAAVLYLSSLEASYVT  234
+            + VNC+APG I +  +  L E++  +  I  ++ ++R+G  +D A  V +L S +ASY+ 
+Sbjct  206  IRVNCLAPGLIKTRFSSVLWEEKAREDFIKEAMQIRRLGKPEDCAGIVSFLCSEDASYIN  265
+
+Query  235  GQTIHVNGG  243
+            G+T+ V GG
+Sbjct  266  GETVVVGGG  274
+
+
+> uniprotkb:P39485  DHG4_BACME Glucose 1-dehydrogenase 4 OS=Bacillus 
+megaterium OX=1404 GN=gdhIV PE=1 SV=1
+Length=261
+
+ Score = 107 bits (267),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 72/247 (29%), Positives = 126/247 (51%), Gaps = 5/247 (2%)
+
+Query  3    DLTGKKALVTGASGSIGLAIAKILYKQGASV--GLHGTSQEKLEKVAKNFDDVDRFLLFP  60
+            DL  K  ++TG S  +G A+A    ++ A V    +   +E L+   +  +   + ++  
+Sbjct  4    DLKDKVVVITGGSTGLGRAMAVRFGQEEAKVVINYYNNEEEALDAKKEVEEAGGQAIIVQ  63
+
+Query  61   ANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLL  120
+             + +    V  L +   +E G +D+++NNAG+           ++W+ V+  NLT AFL 
+Sbjct  64   GDVTKEEDVVNLVQTAIKEFGTLDVMINNAGVENPVPSHELSLDNWNKVIDTNLTGAFLG  123
+
+Query  121  TRQLVPLMIRNRF-GRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTV  179
+            +R+ +   + N   G VIN++SV         V+Y A+K G+   T+ LA E   + + V
+Sbjct  124  SREAIKYFVENDIKGNVINMSSVHEMIPWPLFVHYAASKGGMKLMTETLALEYAPKGIRV  183
+
+Query  180  NCVAPGFIGSDMTVNLTED--QKGKIISSIPMKRMGAVDDIAAAVLYLSSLEASYVTGQT  237
+            N + PG + + +      D  Q+  + S IPM  +G  +++AA   +L+S +ASYVTG T
+Sbjct  184  NNIGPGAMNTPINAEKFADPVQRADVESMIPMGYIGKPEEVAAVAAFLASSQASYVTGIT  243
+
+Query  238  IHVNGGM  244
+            +  +GGM
+Sbjct  244  LFADGGM  250
+
+
+> uniprotkb:Q21481 >uniprotkb:tr Q21481_CAEEL DeHydrogenases, Short 
+chain OS=Caenorhabditis elegans OX=6239 GN=dhs-28 PE=1 
+SV=1
+Length=436
+
+ Score = 107 bits (266),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 71/195 (36%), Positives = 103/195 (53%), Gaps = 19/195 (10%)
+
+Query  2    FDLTGKKALVTGASGSIGLAIAKILYKQGASVGL-------HGTSQEK--LEKVAKNFDD  52
+            FD  GK A+VTGA G +G   A  L K+G  V +       HGTS      +KV +    
+Sbjct  5    FD--GKVAIVTGAGGGLGKTYALELAKRGCKVVVNDLGGDRHGTSSSSSMADKVVQEIKS  62
+
+Query  53   VDRFLLFPANFSDRVSVEYLSKRVN---EEMGGVDILVNNAGIVRDSLFMRARYEDWDDV  109
+                 +  AN+    SVE+  K V    +  G +DI++NNAGI+RD  F++    DWD +
+Sbjct  63   AGGQAV--ANYD---SVEFGDKIVKTAIDNFGRIDIVINNAGILRDVSFLKMTELDWDLI  117
+
+Query  110  LSVNLTSAFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALA  169
+              V++  A+ +T+   P M   ++GR++  +S  G  GN GQ NY AAKS L G + +LA
+Sbjct  118  FKVHVKGAYAVTKAAWPYMRDQKYGRIVVTSSNAGVHGNFGQANYAAAKSALIGLSNSLA  177
+
+Query  170  QETGRRNVTVNCVAP  184
+            QE  + N+  N + P
+Sbjct  178  QEGAKYNILANTLVP  192
+
+
+> uniprotkb:Q02207  FOX2_YEAST Peroxisomal hydratase-dehydrogenase-epimerase 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 
+/ S288c) OX=559292 GN=FOX2 PE=2 SV=1
+Length=900
+
+ Score = 105 bits (262),  Expect = 9e-26, Method: Compositional matrix adjust.
+ Identities = 62/167 (37%), Positives = 91/167 (54%), Gaps = 11/167 (7%)
+
+Query  78   EEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLLTRQLVPLMIRNRFGRVI  137
+            +E G VD+L+NNAGI+RD  F +    ++  V+ V+LT  + L+R   P M   +FGR+I
+Sbjct  89   KEFGRVDVLINNAGILRDVSFAKMTEREFASVVDVHLTGGYKLSRAAWPYMRSQKFGRII  148
+
+Query  138  NITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNCVAPGFIGSDMTVNLTE  197
+            N  S  G  GN GQ NY AAK GL G  + LA+E  + N+ VN +AP    S MT N   
+Sbjct  149  NTASPAGLFGNFGQANYSAAKMGLVGLAETLAKEGAKYNINVNSIAP-LARSRMTEN---  204
+
+Query  198  DQKGKIISSIPMKRMGAVDDIAAAVLYLSSLEASYVTGQTIHVNGGM  244
+                 ++    +K++G  + I   VLYL+  E++ V+     +  G 
+Sbjct  205  -----VLPPHILKQLGP-EKIVPLVLYLTH-ESTKVSNSIFELAAGF  244
+
+
+ Score = 89.7 bits (221),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 48/102 (47%), Positives = 68/102 (67%), Gaps = 0/102 (0%)
+
+Query  83   VDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLLTRQLVPLMIRNRFGRVINITSV  142
+            VDILVNNAGI+RD  F++ + E+W  VL V+L S F L++ + P+  + + G +IN TS 
+Sbjct  398  VDILVNNAGILRDKSFLKMKDEEWFAVLKVHLFSTFSLSKAVWPIFTKQKSGFIINTTST  457
+
+Query  143  VGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNCVAP  184
+             G  GN GQ NY AAK+ + GF+K +A E  +R + VN +AP
+Sbjct  458  SGIYGNFGQANYAAAKAAILGFSKTIALEGAKRGIIVNVIAP  499
+
+
+> uniprotkb:Q9CXR1  DHRS7_MOUSE Dehydrogenase/reductase SDR family 
+member 7 OS=Mus musculus OX=10090 GN=Dhrs7 PE=1 SV=2
+Length=338
+
+ Score = 99.4 bits (246),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 67/205 (33%), Positives = 106/205 (52%), Gaps = 9/205 (4%)
+
+Query  2    FDLTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAK------NFDDVDR  55
+            ++LT     VTGAS  IG  +A  L K G S+ L     ++LE+V +      N  + D 
+Sbjct  46   WELTDMVVWVTGASSGIGEELAFQLSKLGVSLVLSARRAQELERVKRRCLENGNLKEKD-  104
+
+Query  56   FLLFPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLT  115
+             L+ P + +D  S E  +K V +E G +DILVNN G  + SL +    + + +++++N  
+Sbjct  105  ILVLPLDLTDTSSHEAATKAVLQEFGKIDILVNNGGRSQRSLVLETNLDVFKELINLNYI  164
+
+Query  116  SAFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRR  175
+                LT+ ++P MI  + G+++ + S+ G    +    YCA+K  L GF  AL  E G+ 
+Sbjct  165  GTVSLTKCVLPHMIERKQGKIVTVNSIAGIASVSLSSGYCASKHALRGFFNALHSELGQY  224
+
+Query  176  NVTVNC-VAPGFIGSDMTVN-LTED  198
+                 C V PG + SD+  N  TE+
+Sbjct  225  PGITFCNVYPGPVQSDIVKNAFTEE  249
+
+
+> uniprotkb:P51660  DHB4_MOUSE Peroxisomal multifunctional enzyme 
+type 2 OS=Mus musculus OX=10090 GN=Hsd17b4 PE=1 SV=3
+Length=735
+
+ Score = 100 bits (249),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 73/206 (35%), Positives = 104/206 (50%), Gaps = 13/206 (6%)
+
+Query  2    FDLTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLL---  58
+            FD  G+  LVTGA G +G A A    ++GA V ++    +  + + K     D+ +    
+Sbjct  7    FD--GRVVLVTGAGGGLGRAYALAFAERGALVIVNDLGGD-FKGIGKGSSAADKVVAEIR  63
+
+Query  59   -----FPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVN  113
+                   AN+    + E L K   +  G +D++VNNAGI+RD  F R   EDWD +  V+
+Sbjct  64   RKGGKAVANYDSVEAGEKLVKTALDTFGRIDVVVNNAGILRDRSFSRISDEDWDIIHRVH  123
+
+Query  114  LTSAFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETG  173
+            L  +F +TR     M +  +GR++  +S  G  GN GQ NY AAK G+ G    LA E  
+Sbjct  124  LRGSFQVTRAAWDHMKKQNYGRILMTSSASGIYGNFGQANYSAAKLGILGLCNTLAIEGR  183
+
+Query  174  RRNVTVNCVAPGFIGSDMTVN-LTED  198
+            + N+  N +AP   GS MT   L ED
+Sbjct  184  KNNIHCNTIAPN-AGSRMTETVLPED  208
+
+
+> uniprotkb:P51659  DHB4_HUMAN Peroxisomal multifunctional enzyme 
+type 2 OS=Homo sapiens OX=9606 GN=HSD17B4 PE=1 SV=3
+Length=736
+
+ Score = 99.4 bits (246),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 71/199 (36%), Positives = 101/199 (51%), Gaps = 12/199 (6%)
+
+Query  2    FDLTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFL----  57
+            FD  G+  LVTGA   +G A A    ++GA V ++    +  + V K     D+ +    
+Sbjct  7    FD--GRVVLVTGAGAGLGRAYALAFAERGALVVVNDLGGD-FKGVGKGSLAADKVVEEIR  63
+
+Query  58   ----LFPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVN  113
+                   AN+      E + K   +  G +D++VNNAGI+RD  F R   EDWD +  V+
+Sbjct  64   RRGGKAVANYDSVEEGEKVVKTALDAFGRIDVVVNNAGILRDRSFARISDEDWDIIHRVH  123
+
+Query  114  LTSAFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETG  173
+            L  +F +TR     M + ++GR+I  +S  G  GN GQ NY AAK GL G   +LA E  
+Sbjct  124  LRGSFQVTRAAWEHMKKQKYGRIIMTSSASGIYGNFGQANYSAAKLGLLGLANSLAIEGR  183
+
+Query  174  RRNVTVNCVAPGFIGSDMT  192
+            + N+  N +AP   GS MT
+Sbjct  184  KSNIHCNTIAPN-AGSRMT  201
+
+
+> uniprotkb:P08074  CBR2_MOUSE Carbonyl reductase [NADPH] 2 OS=Mus 
+musculus OX=10090 GN=Cbr2 PE=1 SV=1
+Length=244
+
+ Score = 95.1 bits (235),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 71/245 (29%), Positives = 120/245 (49%), Gaps = 10/245 (4%)
+
+Query  2    FDLTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPA  61
+             + +G +ALVTGA   IG    K L+  GA V     +   L  +AK    ++   +   
+Sbjct  3    LNFSGLRALVTGAGKGIGRDTVKALHASGAKVVAVTRTNSDLVSLAKECPGIEPVCV---  59
+
+Query  62   NFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLLT  121
+            +  D  + E    +    +G VD+LVNNA +V    F+    E +D   SVNL S F ++
+Sbjct  60   DLGDWDATE----KALGGIGPVDLLVNNAALVIMQPFLEVTKEAFDRSFSVNLRSVFQVS  115
+
+Query  122  RQLVPLMI-RNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVN  180
+            + +   MI R   G ++N++S+V        + Y + K  +T  TKA+A E G   + VN
+Sbjct  116  QMVARDMINRGVPGSIVNVSSMVAHVTFPNLITYSSTKGAMTMLTKAMAMELGPHKIRVN  175
+
+Query  181  CVAPGFIGSDMTVNLTEDQK--GKIISSIPMKRMGAVDDIAAAVLYLSSLEASYVTGQTI  238
+             V P  + +DM   ++ D +   K+    P+++   V+D+  ++L+L S  ++  +G  I
+Sbjct  176  SVNPTVVLTDMGKKVSADPEFARKLKERHPLRKFAEVEDVVNSILFLLSDRSASTSGGGI  235
+
+Query  239  HVNGG  243
+             V+ G
+Sbjct  236  LVDAG  240
+
+
+> uniprotkb:Q9VXJ0  DHB4_DROME Peroxisomal multifunctional enzyme 
+type 2 OS=Drosophila melanogaster OX=7227 GN=Mfe2 PE=1 SV=1
+Length=598
+
+ Score = 97.1 bits (240),  Expect = 7e-23, Method: Compositional matrix adjust.
+ Identities = 65/188 (35%), Positives = 94/188 (50%), Gaps = 11/188 (6%)
+
+Query  6    GKKALVTGASGSIGLAIAKILYKQGASV------GLH---GTSQEKLEKVAKNFDDVDRF  56
+            G+ A+VTGA   +G   A +  ++GA V      G H   G SQ   + V          
+Sbjct  12   GRVAVVTGAGAGLGREYALLFAERGAKVVVNDLGGTHSGDGASQRAADIVVDEIRKAGGE  71
+
+Query  57   LLFPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTS  116
+             +  A+++  +    + +   +  G VDILVNNAGI+RD   ++   +DW+ V  V+L  
+Sbjct  72   AV--ADYNSVIDGAKVIETAIKAFGRVDILVNNAGILRDRSLVKTSEQDWNLVNDVHLKG  129
+
+Query  117  AFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRN  176
+            +F  T+   P M +  +GR+I  +S  G  GN GQVNY AAK GL G    +A E  R N
+Sbjct  130  SFKCTQAAFPYMKKQNYGRIIMTSSNSGIYGNFGQVNYTAAKMGLIGLANTVAIEGARNN  189
+
+Query  177  VTVNCVAP  184
+            V  N + P
+Sbjct  190  VLCNVIVP  197
+
+
+> uniprotkb:Q9Y394  DHRS7_HUMAN Dehydrogenase/reductase SDR family 
+member 7 OS=Homo sapiens OX=9606 GN=DHRS7 PE=1 SV=1
+Length=339
+
+ Score = 94.4 bits (233),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 62/200 (31%), Positives = 101/200 (51%), Gaps = 8/200 (4%)
+
+Query  2    FDLTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAK------NFDDVDR  55
+            ++LT     VTGAS  IG  +A  L K G S+ L      +LE+V +      N  + D 
+Sbjct  46   WELTDMVVWVTGASSGIGEELAYQLSKLGVSLVLSARRVHELERVKRRCLENGNLKEKD-  104
+
+Query  56   FLLFPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLT  115
+             L+ P + +D  S E  +K V +E G +DILVNN G+ + SL M    + +  ++ +N  
+Sbjct  105  ILVLPLDLTDTGSHEAATKAVLQEFGRIDILVNNGGMSQRSLCMDTSLDVYRKLIELNYL  164
+
+Query  116  SAFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGR-  174
+                LT+ ++P MI  + G+++ + S++G       + YCA+K  L GF   L  E    
+Sbjct  165  GTVSLTKCVLPHMIERKQGKIVTVNSILGIISVPLSIGYCASKHALRGFFNGLRTELATY  224
+
+Query  175  RNVTVNCVAPGFIGSDMTVN  194
+              + V+ + PG + S++  N
+Sbjct  225  PGIIVSNICPGPVQSNIVEN  244
+
+
+> uniprotkb:Q91X52  DCXR_MOUSE L-xylulose reductase OS=Mus musculus 
+OX=10090 GN=Dcxr PE=1 SV=2
+Length=244
+
+ Score = 90.1 bits (222),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 69/243 (28%), Positives = 114/243 (47%), Gaps = 10/243 (4%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPANF  63
+            L G++ALVTGA   IG +    L   GA V     ++E L+ + +    V+   +   + 
+Sbjct  5    LAGRRALVTGAGKGIGRSTVLALKAAGAQVVAVSRTREDLDDLVRECPGVEPVCV---DL  61
+
+Query  64   SDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLLTRQ  123
+            +D  + E     V    G VD+LVNNA +     F+    E  D   +VNL +   +++ 
+Sbjct  62   ADWEATEQALSNV----GPVDLLVNNAAVALLQPFLEVTKEACDTSFNVNLRAVIQVSQI  117
+
+Query  124  LVPLMI-RNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNCV  182
+            +   MI R   G ++N++S            YC+ K  L   TK +A E G   + VN V
+Sbjct  118  VAKGMIARGVPGAIVNVSSQASQRALTNHTVYCSTKGALDMLTKMMALELGPHKIRVNAV  177
+
+Query  183  APGFIGSDM-TVNLTEDQKGK-IISSIPMKRMGAVDDIAAAVLYLSSLEASYVTGQTIHV  240
+             P  + + M   N ++  K K ++  IP+ +   V+++   +L+L S  +   TG T+ V
+Sbjct  178  NPTVVMTPMGRTNWSDPHKAKAMLDRIPLGKFAEVENVVDTILFLLSNRSGMTTGSTLPV  237
+
+Query  241  NGG  243
+            +GG
+Sbjct  238  DGG  240
+
+
+> uniprotkb:O08756  HCD2_MOUSE 3-hydroxyacyl-CoA dehydrogenase 
+type-2 OS=Mus musculus OX=10090 GN=Hsd17b10 PE=1 SV=4
+Length=261
+
+ Score = 90.5 bits (223),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 72/251 (29%), Positives = 116/251 (46%), Gaps = 17/251 (7%)
+
+Query  9    ALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPANFSDRVS  68
+            A+VTG +    LA AK L  QGA+  L      + E  AK   +    +  PAN +    
+Sbjct  13   AVVTGGASGPWLATAKRLVGQGATAVLLDVPDSEGESQAKKLGE--SCIFAPANVTSEKE  70
+
+Query  69   VEYLSKRVNEEMGGVDILVNNAGI-VRDSLFMRAR-----YEDWDDVLSVNLTSAFLLTR  122
+            ++       E+ G +D+ VN AGI V    + + +      ED+  V++VNL   F + R
+Sbjct  71   IQAALTLAKEKFGRIDVAVNCAGIAVAIKTYHQKKNKIHTLEDFQRVINVNLIGTFNVIR  130
+
+Query  123  QLVPLMIRN------RFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRN  176
+             +   M +N      + G +IN  SV  F G  GQ  Y A+K G+ G T  +A++     
+Sbjct  131  LVAGEMGQNEPDQGGQRGVIINTASVAAFEGQVGQAAYSASKGGIDGMTLPIARDLAPTG  190
+
+Query  177  VTVNCVAPGFIGSDMTVNLTEDQKGKIISSIPMK-RMGAVDDIAAAVLYLSSLEASYVTG  235
+            + V  +APG   + +   L E  +  + S +P   R+G  D    A L  + +E  ++ G
+Sbjct  191  IRVVTIAPGLFATPLLTTLPEKVRNFLASQVPFPSRLG--DPAEYAHLVQTIIENPFLNG  248
+
+Query  236  QTIHVNGGMAM  246
+            + I ++G + M
+Sbjct  249  EVIRLDGAIRM  259
+
+
+> uniprotkb:Q99MZ7  PECR_MOUSE Peroxisomal trans-2-enoyl-CoA reductase 
+OS=Mus musculus OX=10090 GN=Pecr PE=1 SV=1
+Length=303
+
+ Score = 90.1 bits (222),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 76/250 (30%), Positives = 119/250 (48%), Gaps = 39/250 (16%)
+
+Query  21   AIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPANFSDRVSVEYLSKRVNEEM  80
+            A+++ L   G +V +   +  KL+++    D++   L  P + S  VS    + R  EE+
+Sbjct  33   AVSRELLHLGCNVVI---ASRKLDRLTAAVDELRASL--PPSSSAEVSAIQCNIRKEEEV  87
+
+Query  81   -----------GGVDILVNNAGIVRDSLFMRARYED-----WDDVLSVNLTSAFLLTRQL  124
+                       G ++ LVNN G      FM A  ED     W  V+  NLT  F + +++
+Sbjct  88   SNLVKSTLAKYGKINFLVNNGG----GQFM-APVEDITAKGWHAVIETNLTGTFYMCKEV  142
+
+Query  125  VPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNCVAP  184
+                +R   G ++NI  ++   G     +  AA+ G+   TK++A       V +NCVAP
+Sbjct  143  YNSWMREHGGSIVNIIVLLN-NGFPTAAHTGAAREGVYNLTKSMALAWASSGVRINCVAP  201
+
+Query  185  GFIGSDMTVNLTEDQKGKI--------ISSIPMKRMGAVDDIAAAVLYLSSLEASYVTGQ  236
+            G I S   V    D  G++          SIP KR+G  ++I+  V +L S  ASY+TGQ
+Sbjct  202  GTIYSQTAV----DNYGEMGQTLFEMAFDSIPAKRLGVPEEISPLVCFLLSPAASYITGQ  257
+
+Query  237  TIHVNGGMAM  246
+             I+V+GG A+
+Sbjct  258  LINVDGGQAL  267
+
+
+> uniprotkb:Q7Z4W1  DCXR_HUMAN L-xylulose reductase OS=Homo sapiens 
+OX=9606 GN=DCXR PE=1 SV=2
+Length=244
+
+ Score = 89.0 bits (219),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 69/244 (28%), Positives = 112/244 (46%), Gaps = 12/244 (5%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPANF  63
+            L G++ LVTGA   IG    + L+  GA V     +Q  L+ + +    ++   +   + 
+Sbjct  5    LAGRRVLVTGAGKGIGRGTVQALHATGARVVAVSRTQADLDSLVRECPGIEPVCV---DL  61
+
+Query  64   SDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLLTRQ  123
+             D  + E    R    +G VD+LVNNA +     F+    E +D    VNL  A +   Q
+Sbjct  62   GDWEATE----RALGSVGPVDLLVNNAAVALLQPFLEVTKEAFDRSFEVNL-RAVIQVSQ  116
+
+Query  124  LVP--LMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNC  181
+            +V   L+ R   G ++N++S            YC+ K  L   TK +A E G   + VN 
+Sbjct  117  IVARGLIARGVPGAIVNVSSQCSQRAVTNHSVYCSTKGALDMLTKVMALELGPHKIRVNA  176
+
+Query  182  VAPGFIGSDM-TVNLTEDQKGK-IISSIPMKRMGAVDDIAAAVLYLSSLEASYVTGQTIH  239
+            V P  + + M     ++  K K +++ IP+ +   V+ +  A+L+L S  +   TG T+ 
+Sbjct  177  VNPTVVMTSMGQATWSDPHKAKTMLNRIPLGKFAEVEHVVNAILFLLSDRSGMTTGSTLP  236
+
+Query  240  VNGG  243
+            V GG
+Sbjct  237  VEGG  240
+
+
+> uniprotkb:Q99714  HCD2_HUMAN 3-hydroxyacyl-CoA dehydrogenase 
+type-2 OS=Homo sapiens OX=9606 GN=HSD17B10 PE=1 SV=3
+Length=261
+
+ Score = 89.0 bits (219),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 74/251 (29%), Positives = 114/251 (45%), Gaps = 17/251 (7%)
+
+Query  9    ALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPANFSDRVS  68
+            A++TG +  +GLA A+ L  QGAS  L        E  AK   +    +  PA+ +    
+Sbjct  13   AVITGGASGLGLATAERLVGQGASAVLLDLPNSGGEAQAKKLGN--NCVFAPADVTSEKD  70
+
+Query  69   VEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRAR------YEDWDDVLSVNLTSAFLLTR  122
+            V+        + G VD+ VN AGI   S     +       ED+  VL VNL   F + R
+Sbjct  71   VQTALALAKGKFGRVDVAVNCAGIAVASKTYNLKKGQTHTLEDFQRVLDVNLMGTFNVIR  130
+
+Query  123  QLVPLMIRN------RFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRN  176
+             +   M +N      + G +IN  SV  F G  GQ  Y A+K G+ G T  +A++     
+Sbjct  131  LVAGEMGQNEPDQGGQRGVIINTASVAAFEGQVGQAAYSASKGGIVGMTLPIARDLAPIG  190
+
+Query  177  VTVNCVAPGFIGSDMTVNLTEDQKGKIISSIPMK-RMGAVDDIAAAVLYLSSLEASYVTG  235
+            + V  +APG  G+ +  +L E     + S +P   R+G  D    A L  + +E  ++ G
+Sbjct  191  IRVMTIAPGLFGTPLLTSLPEKVCNFLASQVPFPSRLG--DPAEYAHLVQAIIENPFLNG  248
+
+Query  236  QTIHVNGGMAM  246
+            + I ++G + M
+Sbjct  249  EVIRLDGAIRM  259
+
+
+> uniprotkb:Q9N5G3 >uniprotkb:tr Q9N5G3_CAEEL DeHydrogenases, Short 
+chain OS=Caenorhabditis elegans OX=6239 GN=dhs-14 PE=1 
+SV=1
+Length=279
+
+ Score = 87.4 bits (215),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 75/266 (28%), Positives = 134/266 (50%), Gaps = 20/266 (8%)
+
+Query  1    MFDLTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLE----KVAKNFDDVDRF  56
+            M   +GK ALVTG+S  IG A A +L ++GA V + G + ++LE    ++ K+    D  
+Sbjct  1    MTRFSGKVALVTGSSNGIGRATAVLLAQEGAKVTITGRNADRLEETRQEILKSGVPEDHV  60
+
+Query  57   LLFPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYED----WDDVLSV  112
+            L    + +     + L     ++ G +DILVNNAG   +    R   +     +D ++ +
+Sbjct  61   LSIATDLATEKGQDELVNSTIQKFGRLDILVNNAGAAFNDDQGRVGVDQDVSVYDRIMQI  120
+
+Query  113  NLTSAFLLTRQLVPLMIRNRFGRVINITSV-VGFTGNAGQVNYCAAKSGLTGFTKALAQE  171
+            N+ S   LT++    +++ + G V+N++S+  G       + Y  +K+ L  +T++ A +
+Sbjct  121  NMRSVVTLTQKAKEHLVKAK-GEVVNVSSIGAGPQAQPTFMYYAMSKAALDQYTRSAAID  179
+
+Query  172  TGRRNVTVNCVAPGFI----GSDMTVNLTEDQK-GKIISS----IPMKRMGAVDDIAAAV  222
+              +  V VN V+PG +    G  M +     +K G  + S    IP  +MG   DIA  +
+Sbjct  180  LIQYGVRVNSVSPGAVVTGFGEAMGMPADMHEKYGHFMESRKECIPCGKMGQPIDIANII  239
+
+Query  223  LYLSSLE-ASYVTGQTIHVNGGMAMI  247
+             +L+  + +SY+ GQ+I  +GG  ++
+Sbjct  240  AFLADRKLSSYIIGQSIVADGGSTLV  265
+
+
+> uniprotkb:Q9WV68  DECR2_MOUSE Peroxisomal 2,4-dienoyl-CoA reductase 
+OS=Mus musculus OX=10090 GN=Decr2 PE=1 SV=1
+Length=292
+
+ Score = 86.7 bits (213),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 75/249 (30%), Positives = 120/249 (48%), Gaps = 7/249 (3%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPANF  63
+            L  K A +TG    IG  IA+I  + G    + G S +K+   AK           P + 
+Sbjct  26   LQDKVAFITGGGSGIGFRIAEIFMRHGCHTVIVGRSLQKVTTAAKKLVAATGKRCLPLSM  85
+
+Query  64   SDRVSVEYLSK--RVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLLT  121
+              RV  E ++   +  +E G ++IL+N A            +  +  V+ ++    F ++
+Sbjct  86   DVRVPPEVMTAVDQALQEFGKINILINCAAGNFLCPASALSFNAFKTVVDIDTIGTFNVS  145
+
+Query  122  RQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNC  181
+              L     R+  G ++NIT+ +   G   Q++  AAK+ +   T+ LA E G +N+ VN 
+Sbjct  146  SVLYKKFFRDHGGVIVNITATLSMRGQVLQLHAGAAKAAVDAMTRHLAVEWGPQNIRVNS  205
+
+Query  182  VAPGFI-GSDMTVNL---TEDQKGKIISSIPMKRMGAVDDIAAAVLYLSSLEASYVTGQT  237
+            +APG I G++    L       K K  S+ P+ R+G   +IA +VLYL+S  ASYV+G  
+Sbjct  206  LAPGAISGTEGLRRLRGSNASSKLKHFSN-PIPRLGTKTEIAHSVLYLASPLASYVSGIV  264
+
+Query  238  IHVNGGMAM  246
+            + V+GG  M
+Sbjct  265  LVVDGGSWM  273
+
+
+> uniprotkb:Q9EQ06  DHB11_MOUSE Estradiol 17-beta-dehydrogenase 
+11 OS=Mus musculus OX=10090 GN=Hsd17b11 PE=1 SV=1
+Length=298
+
+ Score = 86.7 bits (213),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 56/195 (29%), Positives = 92/195 (47%), Gaps = 4/195 (2%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDV-DRFLLFPAN  62
+            + G+  L+TGA   IG   A    K    + L   ++  +E+ A     +  +   F  +
+Sbjct  34   VAGEIVLITGAGHGIGRLTAYEFAKLNTKLVLWDINKNGIEETAAKCRKLGAQAHPFVVD  93
+
+Query  63   FSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLLTR  122
+             S R  +   +K+V EE+G V ILVNNAG+V  +     +    +    VN+ + F  T+
+Sbjct  94   CSQREEIYSAAKKVKEEVGDVSILVNNAGVVYTADLFATQDPQIEKTFEVNVLAHFWTTK  153
+
+Query  123  QLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQE---TGRRNVTV  179
+              +P+M++N  G ++ + S  G T     + YC++K    GF +AL  E    GR  V  
+Sbjct  154  AFLPVMMKNNHGHIVTVASAAGHTVVPFLLAYCSSKFAAVGFHRALTDELAALGRTGVRT  213
+
+Query  180  NCVAPGFIGSDMTVN  194
+            +C+ P FI +    N
+Sbjct  214  SCLCPNFINTGFIKN  228
+
+
+> uniprotkb:Q8VCC1  PGDH_MOUSE 15-hydroxyprostaglandin dehydrogenase 
+[NAD(+)] OS=Mus musculus OX=10090 GN=Hpgd PE=1 SV=1
+Length=269
+
+ Score = 85.5 bits (210),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 61/204 (30%), Positives = 102/204 (50%), Gaps = 16/204 (8%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDD---VDRFLLFP  60
+            + GK ALVTGA+  IG A A+ L   GA V L   + E   K     D+     + L   
+Sbjct  3    VNGKVALVTGAAQGIGKAFAEALLLHGAKVALVDWNLEAGVKCKAALDEQFEPQKTLFVQ  62
+
+Query  61   ANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLL  120
+             + +D+  +    ++V +  G +DILVNNAG+  +        ++W+  L +NL S    
+Sbjct  63   CDVADQKQLRDTFRKVVDHFGRLDILVNNAGVNNE--------KNWEQTLQINLVSVISG  114
+
+Query  121  TRQLVPLMIRNRFGR---VINITSVVGFTGNAGQVNYCAAKSGLTGFTK--ALAQETGRR  175
+            T   +  M +   G    +IN++S+ G    A Q  YCA+K G+ GFT+  A+A    + 
+Sbjct  115  TYLGLDYMSKQNGGEGGIIINMSSLAGLMPVAQQPVYCASKHGIIGFTRSAAMAANLMKS  174
+
+Query  176  NVTVNCVAPGFIGSDMTVNLTEDQ  199
+             V +N + PGF+ + +  ++ +++
+Sbjct  175  GVRLNVICPGFVDTPILESIEKEE  198
+
+
+> uniprotkb:Q9BPX1  DHB14_HUMAN 17-beta-hydroxysteroid dehydrogenase 
+14 OS=Homo sapiens OX=9606 GN=HSD17B14 PE=1 SV=1
+Length=270
+
+ Score = 84.3 bits (207),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 62/187 (33%), Positives = 93/187 (50%), Gaps = 13/187 (7%)
+
+Query  69   VEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARY---EDWDDVLSVNLTSAFLLTRQLV  125
+            V+ L        G +D +VNNAG        R      + +  +L +NL   + LT+  +
+Sbjct  69   VKTLVSETIRRFGRLDCVVNNAG--HHPPPQRPEETSAQGFRQLLELNLLGTYTLTKLAL  126
+
+Query  126  PLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNCVAPG  185
+            P + R   G VINI+S+VG  G A  V Y A K  +T  TKALA +     V VNC++PG
+Sbjct  127  PYL-RKSQGNVINISSLVGAIGQAQAVPYVATKGAVTAMTKALALDESPYGVRVNCISPG  185
+
+Query  186  FIGSDMTVNLT---EDQKGKIISSI---PMKRMGAVDDIAAAVLYLSSLEASYVTGQTIH  239
+             I + +   L     D +  I   +   P+ RMG   ++ AA ++L+S EA++ TG  + 
+Sbjct  186  NIWTPLWEELAALMPDPRATIREGMLAQPLGRMGQPAEVGAAAVFLAS-EANFCTGIELL  244
+
+Query  240  VNGGMAM  246
+            V GG  +
+Sbjct  245  VTGGAEL  251
+
+
+> uniprotkb:P71079  FABL_BACSU Enoyl-[acyl-carrier-protein] reductase 
+[NADPH] FabL OS=Bacillus subtilis (strain 168) OX=224308 
+GN=fabL PE=1 SV=1
+Length=250
+
+ Score = 83.6 bits (205),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 64/247 (26%), Positives = 123/247 (50%), Gaps = 8/247 (3%)
+
+Query  7    KKALVTGASGSIGLAIAKILYKQGASVGL-HGTSQEKLEKVAKNFDDVD-RFLLFPANFS  64
+            K ALVTG+S  +G A A  L + G ++ + +  S++   + A+  + +  + L+  AN  
+Sbjct  5    KCALVTGSSRGVGKAAAIRLAENGYNIVINYARSKKAALETAEEIEKLGVKVLVVKANVG  64
+
+Query  65   DRVSVEYLSKRVNEEMGGVDILVNNA--GIVRDSLFMRARYEDWDDVLSVNLTSAFLLTR  122
+                ++ + ++++E  G +D+ VNNA  G++R  + +   + DW   +++N  +     +
+Sbjct  65   QPAKIKEMFQQIDETFGRLDVFVNNAASGVLRPVMELEETHWDW--TMNINAKALLFCAQ  122
+
+Query  123  QLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNCV  182
+            +   LM +N  G +++I+S+              +K+ L   T+ LA E   + + VN V
+Sbjct  123  EAAKLMEKNGGGHIVSISSLGSIRYLENYTTVGVSKAALEALTRYLAVELSPKQIIVNAV  182
+
+Query  183  APGFIGSDMTVNLT--EDQKGKIISSIPMKRMGAVDDIAAAVLYLSSLEASYVTGQTIHV  240
+            + G I +D   +    ED       + P  RM  + D+   V +L S +A  + GQTI V
+Sbjct  183  SGGAIDTDALKHFPNREDLLEDARQNTPAGRMVEIKDMVDTVEFLVSSKADMIRGQTIIV  242
+
+Query  241  NGGMAMI  247
+            +GG +++
+Sbjct  243  DGGRSLL  249
+
+
+> uniprotkb:Q8NBQ5  DHB11_HUMAN Estradiol 17-beta-dehydrogenase 
+11 OS=Homo sapiens OX=9606 GN=HSD17B11 PE=1 SV=3
+Length=300
+
+ Score = 83.2 bits (204),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 54/196 (28%), Positives = 88/196 (45%), Gaps = 4/196 (2%)
+
+Query  3    DLTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDV-DRFLLFPA  61
+             +TG+  L+TGA   IG   A    K  + + L   ++  LE+ A     +  +   F  
+Sbjct  33   SVTGEIVLITGAGHGIGRLTAYEFAKLKSKLVLWDINKHGLEETAAKCKGLGAKVHTFVV  92
+
+Query  62   NFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLLT  121
+            + S+R  +   +K+V  E+G V ILVNNAG+V  S     +    +    VN+ + F  T
+Sbjct  93   DCSNREDIYSSAKKVKAEIGDVSILVNNAGVVYTSDLFATQDPQIEKTFEVNVLAHFWTT  152
+
+Query  122  RQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVT---  178
+            +  +P M +N  G ++ + S  G       + YC++K    GF K L  E     +T   
+Sbjct  153  KAFLPAMTKNNHGHIVTVASAAGHVSVPFLLAYCSSKFAAVGFHKTLTDELAALQITGVK  212
+
+Query  179  VNCVAPGFIGSDMTVN  194
+              C+ P F+ +    N
+Sbjct  213  TTCLCPNFVNTGFIKN  228
+
+
+> uniprotkb:Q06136  KDSR_HUMAN 3-ketodihydrosphingosine reductase 
+OS=Homo sapiens OX=9606 GN=KDSR PE=1 SV=1
+Length=332
+
+ Score = 80.5 bits (197),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 57/187 (30%), Positives = 88/187 (47%), Gaps = 6/187 (3%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFD-----DVDRFLL  58
+            L G   +VTG S  IG  IA   YKQGA + L   +++KL +  K  +     D    L 
+Sbjct  30   LPGAHVVVTGGSSGIGKCIAIECYKQGAFITLVARNEDKLLQAKKEIEMHSINDKQVVLC  89
+
+Query  59   FPANFS-DRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSA  117
+               + S D   VE + K+  E++G VD+LVN AG+     F       ++ ++S+N   +
+Sbjct  90   ISVDVSQDYNQVENVIKQAQEKLGPVDMLVNCAGMAVSGKFEDLEVSTFERLMSINYLGS  149
+
+Query  118  FLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNV  177
+               +R ++  M   R GR++ ++S  G  G  G   Y A+K  + G  +AL  E    NV
+Sbjct  150  VYPSRAVITTMKERRVGRIVFVSSQAGQLGLFGFTAYSASKFAIRGLAEALQMEVKPYNV  209
+
+Query  178  TVNCVAP  184
+             +    P
+Sbjct  210  YITVAYP  216
+
+
+> uniprotkb:Q6IAN0  DRS7B_HUMAN Dehydrogenase/reductase SDR family 
+member 7B OS=Homo sapiens OX=9606 GN=DHRS7B PE=1 SV=2
+Length=325
+
+ Score = 78.6 bits (192),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 54/197 (27%), Positives = 93/197 (47%), Gaps = 8/197 (4%)
+
+Query  10   LVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFD-------DVDRFLLFPAN  62
+            ++TGA+  +G   AK+ Y  GA + L G +   LE++ +             +  L   +
+Sbjct  56   VITGATSGLGKECAKVFYAAGAKLVLCGRNGGALEELIRELTASHATKVQTHKPYLVTFD  115
+
+Query  63   FSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLLTR  122
+             +D  ++   +  + +  G VDILVNNAGI      M    +    V+  N      LT+
+Sbjct  116  LTDSGAIVAAAAEILQCFGYVDILVNNAGISYRGTIMDTTVDVDKRVMETNYFGPVALTK  175
+
+Query  123  QLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNCV  182
+             L+P MI+ R G ++ I+S+ G      +  Y A+K     F   L  E  +  + V  +
+Sbjct  176  ALLPSMIKRRQGHIVAISSIQGKMSIPFRSAYAASKHATQAFFDCLRAEMEQYEIEVTVI  235
+
+Query  183  APGFIGSDMTVN-LTED  198
+            +PG+I ++++VN +T D
+Sbjct  236  SPGYIHTNLSVNAITAD  252
+
+
+> uniprotkb:Q80XN0  BDH_MOUSE D-beta-hydroxybutyrate dehydrogenase, 
+mitochondrial OS=Mus musculus OX=10090 GN=Bdh1 PE=1 SV=2
+Length=343
+
+ Score = 73.2 bits (178),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 62/195 (32%), Positives = 94/195 (48%), Gaps = 14/195 (7%)
+
+Query  5    TGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDV--DRFLLFPAN  62
+            +GK  L+TG     G ++AK L+ +G  V      ++K +   K  D +  DR      N
+Sbjct  54   SGKAILITGCDSGFGFSLAKHLHSKGFLVFAGCLMKDKGDAGVKELDSLKSDRLRTIQLN  113
+
+Query  63   F--SDRV--SVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARY---EDWDDVLSVNLT  115
+               S+ V  +VE +   + +   G+  LVNNAGI   S F    +   E + +V  VNL 
+Sbjct  114  VCNSEEVEKAVETIRSGLKDPEKGMWGLVNNAGI---STFGEVEFTSMETYKEVAEVNLW  170
+
+Query  116  SAFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRR  175
+                 T+  +PL+ R + GRV+NI+S++G   N  +  YC  K G+  F+  L  E    
+Sbjct  171  GTVRTTKSFLPLLRRAK-GRVVNISSMLGRMANPARSPYCITKFGIEAFSDCLRYEMHPL  229
+
+Query  176  NVTVNCVAPG-FIGS  189
+             V V+ V PG FI +
+Sbjct  230  GVKVSVVEPGNFIAA  244
+
+
+> uniprotkb:Q3SXM5  HSDL1_HUMAN Inactive hydroxysteroid dehydrogenase-like 
+protein 1 OS=Homo sapiens OX=9606 GN=HSDL1 PE=1 
+SV=3
+Length=330
+
+ Score = 72.0 bits (175),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 54/191 (28%), Positives = 98/191 (51%), Gaps = 5/191 (3%)
+
+Query  6    GKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFL--LFPANF  63
+            G+ A+V+GA+  IG A A+ L  +G ++ L   ++EKL+ VAK+  D  +    +  A+F
+Sbjct  67   GRWAVVSGATDGIGKAYAEELASRGLNIILISRNEEKLQVVAKDIADTYKVETDIIVADF  126
+
+Query  64   SDRVSVEYLSKRVNEEMGGVDILVNNAGIV--RDSLFMRARYEDWDDVLSVNLTSAFLLT  121
+            S    + YL  R   +   V ILVNN G+       F +   +   D+++VN+ +A L+ 
+Sbjct  127  SSGREI-YLPIREALKDKDVGILVNNVGVFYPYPQYFTQLSEDKLWDIINVNIAAASLMV  185
+
+Query  122  RQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNC  181
+              ++P M+  + G ++ I+S            + A+K+ L  F++AL  E   + + V  
+Sbjct  186  HVVLPGMVERKKGAIVTISSGSCCKPTPQLAAFSASKAYLDHFSRALQYEYASKGIFVQS  245
+
+Query  182  VAPGFIGSDMT  192
+            + P ++ + MT
+Sbjct  246  LIPFYVATSMT  256
+
+
+> uniprotkb:Q05016  YM71_YEAST NADP-dependent 3-hydroxy acid dehydrogenase 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 
+/ S288c) OX=559292 GN=YMR226C PE=1 SV=1
+Length=267
+
+ Score = 70.5 bits (171),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 68/253 (27%), Positives = 112/253 (44%), Gaps = 29/253 (11%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVG-----LHGTSQEKLEKVAKNFDDVDRFLL  58
+            L  K  L+TGAS  IG A A  L    AS G     L     EKLE++ K  D       
+Sbjct  11   LAKKTVLITGASAGIGKATA--LEYLEASNGDMKLILAARRLEKLEELKKTIDQE-----  63
+
+Query  59   FP--------ANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFM-RARYEDWDDV  109
+            FP         + +    ++   + + +E   +DILVNNAG    S  + +   ED  DV
+Sbjct  64   FPNAKVHVAQLDITQAEKIKPFIENLPQEFKDIDILVNNAGKALGSDRVGQIATEDIQDV  123
+
+Query  110  LSVNLTSAFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALA  169
+               N+T+   +T+ ++P+      G ++N+ S+ G         YCA+K  +  FT +L 
+Sbjct  124  FDTNVTALINITQAVLPIFQAKNSGDIVNLGSIAGRDAYPTGSIYCASKFAVGAFTDSLR  183
+
+Query  170  QETGRRNVTVNCVAPGFIGSDMTV----NLTEDQKGKIISSIPMKRMGAVDDIAAAVLYL  225
+            +E     + V  +APG + ++ ++       E  K     + P+      DD+A  ++Y 
+Sbjct  184  KELINTKIRVILIAPGLVETEFSLVRYRGNEEQAKNVYKDTTPL----MADDVADLIVYA  239
+
+Query  226  SSLEASYVTGQTI  238
+            +S + + V   T+
+Sbjct  240  TSRKQNTVIADTL  252
+
+
+> uniprotkb:Q8VCH7  RDH10_MOUSE Retinol dehydrogenase 10 OS=Mus 
+musculus OX=10090 GN=Rdh10 PE=1 SV=2
+Length=341
+
+ Score = 70.9 bits (172),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 35/113 (31%), Positives = 61/113 (54%), Gaps = 0/113 (0%)
+
+Query  59   FPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAF  118
+            +  +   R +V   ++RV +E+G V +LVNNAG+V     +    E  +  + VN  + F
+Sbjct  115  YTCDVGKRENVYLTAERVRKEVGEVSVLVNNAGVVSGHHLLECPDELIERTMMVNCHAHF  174
+
+Query  119  LLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQE  171
+              T+  +P M+    G ++ + S +G    AG  +YCA+K G+ GF ++L+ E
+Sbjct  175  WTTKAFLPTMLEINHGHIVTVASSLGLFSTAGVEDYCASKFGVVGFHESLSHE  227
+
+
+> uniprotkb:P37058  DHB3_HUMAN Testosterone 17-beta-dehydrogenase 
+3 OS=Homo sapiens OX=9606 GN=HSD17B3 PE=1 SV=2
+Length=310
+
+ Score = 64.7 bits (156),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 52/194 (27%), Positives = 100/194 (52%), Gaps = 12/194 (6%)
+
+Query  6    GKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVD--RFLLFPANF  63
+            G+ A++TGA   IG A +  L K+G +V L   + EKLE +A   +        +  A+F
+Sbjct  48   GQWAVITGAGDGIGKAYSFELAKRGLNVVLISRTLEKLEAIATEIERTTGRSVKIIQADF  107
+
+Query  64   SDRVSVEYLSKRVNEEMGGVD--ILVNNAGIVRDSL---FMRARYEDWDDVLSVNLTSAF  118
+            +     + + + + E++ G++  ILVNN G++ + L   F+ A  ++   ++  N+TS  
+Sbjct  108  TK----DDIYEHIKEKLAGLEIGILVNNVGMLPNLLPSHFLNAP-DEIQSLIHCNITSVV  162
+
+Query  119  LLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVT  178
+             +T+ ++  M   + G ++NI+S +          Y A+K+ +  F+KAL +E   + V 
+Sbjct  163  KMTQLILKHMESRQKGLILNISSGIALFPWPLYSMYSASKAFVCAFSKALQEEYKAKEVI  222
+
+Query  179  VNCVAPGFIGSDMT  192
+            +  + P  + + MT
+Sbjct  223  IQVLTPYAVSTAMT  236
+
+
+> uniprotkb:O70503  DHB12_MOUSE Very-long-chain 3-oxoacyl-CoA reductase 
+OS=Mus musculus OX=10090 GN=Hsd17b12 PE=1 SV=1
+Length=312
+
+ Score = 64.3 bits (155),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 60/248 (24%), Positives = 112/248 (45%), Gaps = 34/248 (14%)
+
+Query  6    GKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPANFSD  65
+            G+ A+VTG +  IG A A+ L K+G  + L   SQ+KL +V+ N    ++F +     + 
+Sbjct  50   GEWAVVTGGTDGIGKAYAEELAKRGMKIVLISRSQDKLNQVSNNIK--EKFNVETRTIAV  107
+
+Query  66   RVSVEYLSKRVNEEMGGVDI--LVNNAGIVRDSLFMRARYEDWDD----VLSVNLTSAFL  119
+              S++ +  ++   + G++I  LVNN G+  +         D D+    ++++N+ S   
+Sbjct  108  DFSLDDIYDKIKTGLSGLEIGVLVNNVGMSYEYPEYFLEIPDLDNTIKKLININVLSVCK  167
+
+Query  120  LTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTV  179
+            +TR ++P M+    G ++NI+S  G         Y A K+ +  F++ L +E   + + V
+Sbjct  168  VTRLVLPGMVERSKGVILNISSASGMLPVPLLTIYSATKAFVDFFSQCLHEEYKSKGIFV  227
+
+Query  180  NCVAPGFIGSDM----------------------TVNLTEDQKGKIISSIPMKRMGAVDD  217
+              V P  + + +                      TV L     G +I S+    MG+++ 
+Sbjct  228  QSVMPYLVATKLAKIQKPTLDKPSAETFVKSAIKTVGLQTRTTGYVIHSL----MGSINS  283
+
+Query  218  IAAAVLYL  225
+            I    +Y 
+Sbjct  284  IMPRWMYF  291
+
+
+> uniprotkb:Q9CQ62  DECR_MOUSE 2,4-dienoyl-CoA reductase, mitochondrial 
+OS=Mus musculus OX=10090 GN=Decr1 PE=1 SV=1
+Length=335
+
+ Score = 63.2 bits (152),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 59/246 (24%), Positives = 109/246 (44%), Gaps = 6/246 (2%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDV--DRFLLFPA  61
+              GK A +TG    +G A+   L   GA   +   + + L+  A+       ++      
+Sbjct  57   FQGKVAFITGGGTGLGKAMTTFLSTLGAQCVIASRNIDVLKATAEEISSKTGNKVHAIRC  116
+
+Query  62   NFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLLT  121
+            +  D   V      + +  G  D+++NNA     S   R     W  +  + L     +T
+Sbjct  117  DVRDPDMVHNTVLELIKVAGHPDVVINNAAGNFISPSERLTPNGWKTITDIVLNGTAYVT  176
+
+Query  122  RQLVPLMIRNRFGRV-INITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVN  180
+             ++   +I+ + G   + IT++   +G+   +   +AKSG+    K+LA E GR  +  N
+Sbjct  177  LEIGKQLIKAQKGAAFLAITTIYAESGSGFVMPSSSAKSGVEAMNKSLAAEWGRYGMRFN  236
+
+Query  181  CVAPGFI---GSDMTVNLTEDQKGKIISSIPMKRMGAVDDIAAAVLYLSSLEASYVTGQT  237
+             + PG I   G+   ++ T   + ++I  IP  R+G ++++A    +L S  AS++ G  
+Sbjct  237  IIQPGPIKTKGAFSRLDPTGRFEKEMIDRIPCGRLGTMEELANLATFLCSDYASWINGAV  296
+
+Query  238  IHVNGG  243
+            I  +GG
+Sbjct  297  IRFDGG  302
+
+
+> uniprotkb:O25658 >uniprotkb:tr O25658_HELPY 7-alpha-hydroxysteroid 
+dehydrogenase (HdhA) OS=Helicobacter pylori (strain ATCC 
+700392 / 26695) OX=85962 GN=HP_1014 PE=4 SV=1
+Length=262
+
+ Score = 62.4 bits (150),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 59/254 (23%), Positives = 118/254 (46%), Gaps = 16/254 (6%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPA--  61
+            +  K  +++GA+  IG AI     + G ++    T  + +E+  K  +DV++     A  
+Sbjct  7    MKNKTLVISGATRGIGKAIFVRFAQSGVNIAF--TYNKNVEEANKIIEDVEQKYSIKAKA  64
+
+Query  62   ---NFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSL------FMRARYEDWDDVLSV  112
+               N  +      L K+++ +   VD  ++NA I   S+      FMR + +  +++ + 
+Sbjct  65   YSLNVLEPEQYTELFKQIDADFDRVDFFISNAIIYGRSVVGGFAPFMRLKPKGLNNIYTA  124
+
+Query  113  NLTSAFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQET  172
+             + +  +  ++    M +   G +++++S            +  +K+ +    K  A + 
+Sbjct  125  TVLAFVVGAQEAAKRMQKIGGGAIVSLSSTGNLVYMPNYAGHGNSKNAVETMVKYAAVDL  184
+
+Query  173  GRRNVTVNCVAPGFIGSDMTVNLTE--DQKGKIISSIPMKRMGAVDDIAAAVLYL-SSLE  229
+            G  N+ VN V+ G I +D      +  + K K+    P+KRMG  +D+A A  +L    +
+Sbjct  185  GEFNIRVNAVSGGPIDTDALKAFPDYVEIKEKVEEQSPLKRMGNPNDLAGAAYFLCDETQ  244
+
+Query  230  ASYVTGQTIHVNGG  243
+            + ++TGQTI V+GG
+Sbjct  245  SGWLTGQTIVVDGG  258
+
+
+> uniprotkb:Q53GQ0  DHB12_HUMAN Very-long-chain 3-oxoacyl-CoA reductase 
+OS=Homo sapiens OX=9606 GN=HSD17B12 PE=1 SV=2
+Length=312
+
+ Score = 62.0 bits (149),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 50/192 (26%), Positives = 96/192 (50%), Gaps = 8/192 (4%)
+
+Query  6    GKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPANFSD  65
+            G+ A+VTG++  IG + A+ L K G  V L   S++KL++V+      ++F +     + 
+Sbjct  50   GEWAVVTGSTDGIGKSYAEELAKHGMKVVLISRSKDKLDQVSSEIK--EKFKVETRTIAV  107
+
+Query  66   RVSVEYLSKRVNEEMGGVD--ILVNNAGIVRDSLFMRARYEDWDDV----LSVNLTSAFL  119
+              + E +  ++   + G++  ILVNN G+  +         D D+V    +++N+ S   
+Sbjct  108  DFASEDIYDKIKTGLAGLEIGILVNNVGMSYEYPEYFLDVPDLDNVIKKMININILSVCK  167
+
+Query  120  LTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTV  179
+            +T+ ++P M+    G ++NI+S  G         Y A K+ +  F++ L +E   + V V
+Sbjct  168  MTQLVLPGMVERSKGAILNISSGSGMLPVPLLTIYSATKTFVDFFSQCLHEEYRSKGVFV  227
+
+Query  180  NCVAPGFIGSDM  191
+              V P F+ + +
+Sbjct  228  QSVLPYFVATKL  239
+
+
+> uniprotkb:Q9R092  H17B6_MOUSE 17-beta-hydroxysteroid dehydrogenase 
+type 6 OS=Mus musculus OX=10090 GN=Hsd17b6 PE=1 SV=1
+Length=317
+
+ Score = 58.5 bits (140),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 57/209 (27%), Positives = 99/209 (47%), Gaps = 8/209 (4%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPANF  63
+            L  K   +TG     G  +A+ L ++G  V L     EK  +  +N    DR      + 
+Sbjct  27   LQDKYVFITGCDSGFGNLLARQLDRRGMRV-LAACLTEKGAEELRN-KTSDRLETVILDV  84
+
+Query  64   SDRVSVEYLSKRVNEEMG--GVDILVNNAGIVRDSLFMRA-RYEDWDDVLSVNLTSAFLL  120
+            +   S+   ++ V E +G  G+  LVNNAG+++   ++   R ED+  +  VNL     +
+Sbjct  85   TKTESIVAATQWVKERVGDRGLWGLVNNAGVLQPFAYIEWYRPEDYMPIFQVNLIGLTQV  144
+
+Query  121  TRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVN  180
+            T  ++ L+ + R GR++N++S +G     G   Y  +K G+  F+  L  E     V V+
+Sbjct  145  TISMLFLVKKAR-GRIVNVSSALGRVALFGGF-YSCSKYGVEAFSDVLRHEVQDFGVKVS  202
+
+Query  181  CVAPGFIGSDMT-VNLTEDQKGKIISSIP  208
+             + PG   ++MT   LT ++  K+  + P
+Sbjct  203  IIEPGSFKTEMTDAELTIERTKKVWEAAP  231
+
+
+> uniprotkb:Q8VIJ7 >uniprotkb:tr Q8VIJ7_MOUSE Retinol dehydrogenase 
+type 1 OS=Mus musculus OX=10090 GN=Rdh1 PE=2 SV=1
+Length=317
+
+ Score = 57.4 bits (137),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 57/184 (31%), Positives = 90/184 (49%), Gaps = 11/184 (6%)
+
+Query  7    KKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPANFSDR  66
+            K   +TG     G  +A+ L ++G  V L     EK  +  +N    DR      + +  
+Sbjct  30   KYVFITGCDSGFGNLLARQLDRRGMRV-LAACLTEKGAEELRN-KTSDRLETVILDVTKT  87
+
+Query  67   VSVEYLSKRVNEEMG--GVDILVNNAGIVRDS---LFMRARYEDWDDVLSVNLTSAFLLT  121
+             S+   ++ V E +G  G+  LVNNAGI   S    +M+   +D+  VL VNL     +T
+Sbjct  88   ESIVAATQWVKERVGNRGLWGLVNNAGISTPSGPNEWMKK--QDFARVLDVNLLGMIEVT  145
+
+Query  122  RQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNC  181
+              ++PL+ + R GRV+N++SV+G     G   YC +K G+  F+ +L +E     V V  
+Sbjct  146  LSMLPLVRKAR-GRVVNVSSVMGRMSFFGG-GYCISKYGVEAFSDSLRRELSYFGVKVAI  203
+
+Query  182  VAPG  185
+            + PG
+Sbjct  204  IEPG  207
+
+
+> uniprotkb:P50172  DHI1_MOUSE Corticosteroid 11-beta-dehydrogenase 
+isozyme 1 OS=Mus musculus OX=10090 GN=Hsd11b1 PE=1 SV=3
+Length=292
+
+ Score = 57.4 bits (137),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 59/198 (30%), Positives = 86/198 (43%), Gaps = 19/198 (10%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPA--  61
+            L GKK +VTGAS  IG  +A  L K GA V L   S+E L+KV      V R L   A  
+Sbjct  32   LQGKKVIVTGASKGIGREMAYHLSKMGAHVVLTARSEEGLQKV------VSRCLELGAAS  85
+
+Query  62   ------NFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSL-FMRARYEDWDDVLSVNL  114
+                     D    E    +  + MGG+D+L+ N  I + SL            V+ VN 
+Sbjct  86   AHYIAGTMEDMTFAEQFIVKAGKLMGGLDMLILN-HITQTSLSLFHDDIHSVRRVMEVNF  144
+
+Query  115  TSAFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQE--T  172
+             S  +++   +P M++   G +  I+S+ G         Y A+K  L GF   +  E   
+Sbjct  145  LSYVVMSTAALP-MLKQSNGSIAVISSLAGKMTQPMIAPYSASKFALDGFFSTIRTELYI  203
+
+Query  173  GRRNVTVNCVAPGFIGSD  190
+             + NV++     G I ++
+Sbjct  204  TKVNVSITLCVLGLIDTE  221
+
+
+> uniprotkb:Q8NBN7  RDH13_HUMAN Retinol dehydrogenase 13 OS=Homo 
+sapiens OX=9606 GN=RDH13 PE=1 SV=2
+Length=331
+
+ Score = 56.2 bits (134),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 59/209 (28%), Positives = 95/209 (45%), Gaps = 28/209 (13%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAK-------NFDDVDRF  56
+            + GK  +VTGA+  IG   A  L ++G ++ L     EK E  AK       N     R 
+Sbjct  36   IPGKTVIVTGANTGIGKQTALELARRGGNIILACRDMEKCEAAAKDIRGETLNHHVNARH  95
+
+Query  57   LLFPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYED-WDDVLSVNLT  115
+            L    + +   S+   + ++ EE   VDIL+NNAG++R   +     ED ++    VN  
+Sbjct  96   L----DLASLKSIREFAAKIIEEEERVDILINNAGVMRCPHWT---TEDGFEMQFGVNHL  148
+
+Query  116  SAFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAG-------------QVNYCAAKSGLT  162
+              FLLT  L+  +  +   R+IN++S+    G+               +  YC +K  + 
+Sbjct  149  GHFLLTNLLLDKLKASAPSRIINLSSLAHVAGHIDFDDLNWQTRKYNTKAAYCQSKLAIV  208
+
+Query  163  GFTKALAQETGRRNVTVNCVAPGFIGSDM  191
+             FTK L++      VTVN + PG   +++
+Sbjct  209  LFTKELSRRLQGSGVTVNALHPGVARTEL  237
+
+
+> uniprotkb:Q99L04  DHRS1_MOUSE Dehydrogenase/reductase SDR family 
+member 1 OS=Mus musculus OX=10090 GN=Dhrs1 PE=1 SV=1
+Length=313
+
+ Score = 56.2 bits (134),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 54/197 (27%), Positives = 89/197 (45%), Gaps = 10/197 (5%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDV-DRFLLFPAN  62
+            + G+  +VTGAS  IG  IA  L K GA+V + G   + L   A+    +  R +    +
+Sbjct  5    MKGQVCVVTGASRGIGRGIALQLCKAGATVYITGRHLDTLRATAQEAQSLGGRCVPVVCD  64
+
+Query  63   FSDRVSVEYLSKRVN-EEMGGVDILVNN--AGI-----VRDSLFMRARYEDWDDVLSVNL  114
+             S    V+ L ++V+ E+ G +D+LVNN  AG+       +  F       WDD+ +V L
+Sbjct  65   SSQESEVKSLFEQVDREQKGRLDVLVNNAYAGVQAILNTTNKSFWEVPASIWDDINNVGL  124
+
+Query  115  TSAFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGR  174
+               +L +     LM+    G ++ ++S  G   +   V Y   K+         A E  R
+Sbjct  125  RGHYLCSVYGARLMVPAGKGLIVIVSSPGGLQ-HMFNVPYGVGKAACDRLAADCAHELRR  183
+
+Query  175  RNVTVNCVAPGFIGSDM  191
+              V+   + PG + ++M
+Sbjct  184  HGVSYVSLWPGLVQTEM  200
+
+
+> uniprotkb:P40579  YIV5_YEAST Uncharacterized oxidoreductase YIR035C 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=YIR035C PE=1 SV=1
+Length=254
+
+ Score = 55.5 bits (132),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 52/196 (27%), Positives = 88/196 (45%), Gaps = 8/196 (4%)
+
+Query  6    GKKALVTGASGSIGLAIAKILYKQGASVGLHGT--SQEKLEKVAKNFDDVDRFLLFPANF  63
+            GK  LVTG S  IG +I  +L+       ++G   S+  L+K+ + + D  RF     + 
+Sbjct  2    GKVILVTGVSRGIGKSIVDVLFSLDKDTVVYGVARSEAPLKKLKEKYGD--RFFYVVGDI  59
+
+Query  64   SDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRA-RYEDWDDVLSVNLTSAFLLTR  122
+            ++   ++ L     +  G +D LV NAG++     +       W  +  +N  S   L  
+Sbjct  60   TEDSVLKQLVNAAVKGHGKIDSLVANAGVLEPVQNVNEIDVNAWKKLYDINFFSIVSLVG  119
+
+Query  123  QLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNCV  182
+              +P + +   G V+ ++S       +    Y ++K+ L  F   LA E   R V    V
+Sbjct  120  IALPELKKTN-GNVVFVSSDACNMYFSSWGAYGSSKAALNHFAMTLANE--ERQVKAIAV  176
+
+Query  183  APGFIGSDMTVNLTED  198
+            APG + +DM VN+ E+
+Sbjct  177  APGIVDTDMQVNIREN  192
+
+
+> uniprotkb:Q8TC12  RDH11_HUMAN Retinol dehydrogenase 11 OS=Homo 
+sapiens OX=9606 GN=RDH11 PE=1 SV=2
+Length=318
+
+ Score = 55.8 bits (133),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 61/205 (30%), Positives = 94/205 (46%), Gaps = 19/205 (9%)
+
+Query  3    DLTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDV---DRFLLF  59
+             L GK  +VTGA+  IG   AK L ++GA V L     EK E VAK         + L+ 
+Sbjct  38   QLPGKVVVVTGANTGIGKETAKELAQRGARVYLACRDVEKGELVAKEIQTTTGNQQVLVR  97
+
+Query  60   PANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFL  119
+              + SD  S+   +K    E   + +L+NNAG++       A  + ++  + VN    FL
+Sbjct  98   KLDLSDTKSIRAFAKGFLAEEKHLHVLINNAGVMMCPYSKTA--DGFEMHIGVNHLGHFL  155
+
+Query  120  LTRQLVPLMIRNRFGRVINITSVVGFTG-------------NAGQVNYCAAKSGLTGFTK  166
+            LT  L+  +  +   R++N++S+    G             NAG + YC +K     FT+
+Sbjct  156  LTHLLLEKLKESAPSRIVNVSSLAHHLGRIHFHNLQGEKFYNAG-LAYCHSKLANILFTQ  214
+
+Query  167  ALAQETGRRNVTVNCVAPGFIGSDM  191
+             LA+      VT   V PG + S++
+Sbjct  215  ELARRLKGSGVTTYSVHPGTVQSEL  239
+
+
+> uniprotkb:Q93ZA0  NYC1_ARATH Probable chlorophyll(ide) b reductase 
+NYC1, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=NYC1 
+PE=1 SV=1
+Length=496
+
+ Score = 56.2 bits (134),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 59/251 (24%), Positives = 109/251 (43%), Gaps = 31/251 (12%)
+
+Query  7    KKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPANFSDR  66
+            +  ++TG++  +G A+A+     G  V +   S E ++   K  +   + ++  A+ S R
+Sbjct  162  RNVVITGSTRGLGKALAREFLLSGDRVIVTSRSSESVDMTVKELEQNLKEIMSNASESAR  221
+
+Query  67   VS------------------VEYLSKRVNEEMGGVDILVNNAGIVRD-SLFMRARYEDWD  107
+                                VE LS    +E+G ++I +NNAG  +     +    ED  
+Sbjct  222  KKLSDAKVVGIACDVCKPEDVEKLSNFAVKELGSINIWINNAGTNKGFRPLLEFTEEDIT  281
+
+Query  108  DVLSVNLTSAFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVN--YCAAKSGLTGFT  165
+             ++S NL  + L TR  + +M R   G  I      G  G++  +   Y + K GL  F 
+Sbjct  282  QIVSTNLIGSILCTRGAMDVMSRQHSGGHIFNMDGAGSGGSSTPLTAVYGSTKCGLRQFH  341
+
+Query  166  KALAQETGRRNVTVNCVAPGFIGSDMTV---NLTEDQKGKIISSIP-------MKRMGAV  215
+             ++ +E+ + NV ++  +PG + +++ +   ++   Q   II  +P       + RM  V
+Sbjct  342  GSIVKESQKTNVGLHTASPGMVLTELLLSGSSIKNKQMFNIICELPETVARTLVPRMRVV  401
+
+Query  216  DDIAAAVLYLS  226
+                 AV YL+
+Sbjct  402  KGSGKAVNYLT  412
+
+
+> uniprotkb:Q2TPA8  HSDL2_MOUSE Hydroxysteroid dehydrogenase-like 
+protein 2 OS=Mus musculus OX=10090 GN=Hsdl2 PE=1 SV=1
+Length=490
+
+ Score = 55.1 bits (131),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 45/191 (24%), Positives = 88/191 (46%), Gaps = 11/191 (6%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNF----DDVD----R  55
+            L G    +TGAS  IG AIA    K GA++ +   + +K  K+        ++++     
+Sbjct  8    LAGCTVFITGASRGIGKAIALKAAKDGANIVIAAKTTQKHPKLLGTIYTAAEEIEAAGGT  67
+
+Query  56   FLLFPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLT  115
+             L    +  D   +    ++  E+ GG+DILVNNA  +  +  +    +  D +++VN  
+Sbjct  68   ALPCVVDVRDEQQINSAVEKAVEKFGGIDILVNNASAISLTNTLDTPTKRVDLMMNVNTR  127
+
+Query  116  SAFLLTRQLVPLMIRNRFGRVINITSVVGFTG--NAGQVNYCAAKSGLTGFTKALAQETG  173
+              +L ++  +P + +++ G ++N++  +            Y  AK G++     +A+E  
+Sbjct  128  GTYLTSKACIPFLKKSKVGHILNLSPPLNLNPLWFKQHCAYTIAKYGMSMCVLGMAEEF-  186
+
+Query  174  RRNVTVNCVAP  184
+            R  + VN + P
+Sbjct  187  RGEIAVNALWP  197
+
+
+> uniprotkb:P38286  MKAR_YEAST Very-long-chain 3-oxoacyl-CoA reductase 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=IFA38 PE=1 SV=1
+Length=347
+
+ Score = 53.9 bits (128),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 46/201 (23%), Positives = 89/201 (44%), Gaps = 13/201 (6%)
+
+Query  5    TGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFL--LFPAN  62
+            TGK   +TGAS  IG   A+ + K+G ++ L   +Q KLE + K  +D    +  +   +
+Sbjct  61   TGKYCAITGASDGIGKEFARQMAKRGFNLVLISRTQSKLEALQKELEDQHHVVVKILAID  120
+
+Query  63   FSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRD--SLFMRARYEDWDDVLSVNLTSAFLL  120
+             ++     Y S +       + +LVNN G        F+    ++  +++++N T+  L+
+Sbjct  121  IAEDKESNYESIKELCAQLPITVLVNNVGQSHSIPVPFLETEEKELRNIITINNTATLLI  180
+
+Query  121  TRQLVPLMIRN---------RFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQE  171
+            T+ + P ++             G ++ + S  G         Y  +KS L G++ +LA E
+Sbjct  181  TQIIAPKIVETVKAENKKSGTRGLILTMGSFGGLIPTPLLATYSGSKSFLQGWSNSLAGE  240
+
+Query  172  TGRRNVTVNCVAPGFIGSDMT  192
+              +  + V  +    + S M+
+Sbjct  241  LSKDAIDVELIISYLVTSSMS  261
+
+
+> uniprotkb:Q6YN16  HSDL2_HUMAN Hydroxysteroid dehydrogenase-like 
+protein 2 OS=Homo sapiens OX=9606 GN=HSDL2 PE=1 SV=1
+Length=418
+
+ Score = 53.5 bits (127),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 44/191 (23%), Positives = 88/191 (46%), Gaps = 11/191 (6%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKV-------AKNFDDV-DR  55
+            L G    +TGAS  IG AIA    K GA++ +   + +   K+       A+  + V  +
+Sbjct  8    LAGCTVFITGASRGIGKAIALKAAKDGANIVIAAKTAQPHPKLLGTIYTAAEEIEAVGGK  67
+
+Query  56   FLLFPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLT  115
+             L    +  D   +    ++  ++ GG+DILVNNA  +  +  +    +  D +++VN  
+Sbjct  68   ALPCIVDVRDEQQISAAVEKAIKKFGGIDILVNNASAISLTNTLDTPTKRLDLMMNVNTR  127
+
+Query  116  SAFLLTRQLVPLMIRNRFGRVINITSVVGFTG--NAGQVNYCAAKSGLTGFTKALAQETG  173
+              +L ++  +P + +++   ++NI+  +            Y  AK G++ +   +A+E  
+Sbjct  128  GTYLASKACIPYLKKSKVAHILNISPPLNLNPVWFKQHCAYTIAKYGMSMYVLGMAEEF-  186
+
+Query  174  RRNVTVNCVAP  184
+            +  + VN + P
+Sbjct  187  KGEIAVNALWP  197
+
+
+> uniprotkb:Q8K354  CBR3_MOUSE Carbonyl reductase [NADPH] 3 OS=Mus 
+musculus OX=10090 GN=Cbr3 PE=1 SV=1
+Length=277
+
+ Score = 53.1 bits (126),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 46/151 (30%), Positives = 69/151 (46%), Gaps = 28/151 (19%)
+
+Query  9    ALVTGASGSIGLAIAK----------ILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLL  58
+            ALVTGA+  IG AI +          +L  +  + G     Q + E ++  F  +D    
+Sbjct  8    ALVTGANKGIGFAITRDLCRKFSGDVVLTARDEARGRAAVQQLQAEGLSPRFHQLD----  63
+
+Query  59   FPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAF  118
+                  D  S+  L   + +E GG+++LVNNAGI     F       +D    V L + F
+Sbjct  64   ----IDDPQSIRALRDFLRKEYGGLNVLVNNAGIA----FRMDDPTPFDIQAEVTLKTNF  115
+
+Query  119  LLTR----QLVPLMIRNRFGRVINITSVVGF  145
+              TR    +L+P+M     GRV+NI+S+ G 
+Sbjct  116  FATRNVCTELLPIM--KPHGRVVNISSLQGL  144
+
+
+> uniprotkb:Q9QYF1  RDH11_MOUSE Retinol dehydrogenase 11 OS=Mus 
+musculus OX=10090 GN=Rdh11 PE=1 SV=2
+Length=316
+
+ Score = 52.8 bits (125),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 58/205 (28%), Positives = 95/205 (46%), Gaps = 17/205 (8%)
+
+Query  3    DLTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDV---DRFLLF  59
+             L GK A+VTGA+  IG   AK L ++GA V L     +K E  A+    V    +  + 
+Sbjct  35   QLPGKVAIVTGANTGIGKETAKDLAQRGARVYLACRDVDKGELAAREIQAVTGNSQVFVR  94
+
+Query  60   PANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFL  119
+              + +D  S+   +K    E   + +L+NNAG++       A  + ++  + VN    FL
+Sbjct  95   KLDLADTKSIRAFAKDFLAEEKHLHLLINNAGVMMCPYSKTA--DGFEMHIGVNHLGHFL  152
+
+Query  120  LTRQLVPLMIRNRFGRVINITSV------VGFTGNAGQ------VNYCAAKSGLTGFTKA  167
+            LT  L+  +  +   R++N++S+      + F    G+      + YC +K     FTK 
+Sbjct  153  LTHLLLEKLKESAPSRIVNLSSLGHHLGRIHFHNLQGEKFYSAGLAYCHSKLANILFTKE  212
+
+Query  168  LAQETGRRNVTVNCVAPGFIGSDMT  192
+            LA+      VT   V PG + S++T
+Sbjct  213  LAKRLKGSGVTTYSVHPGTVHSELT  237
+
+
+> uniprotkb:Q58NB6  DHRS9_MOUSE Dehydrogenase/reductase SDR family 
+member 9 OS=Mus musculus OX=10090 GN=Dhrs9 PE=2 SV=2
+Length=319
+
+ Score = 52.0 bits (123),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 95/214 (44%), Gaps = 33/214 (15%)
+
+Query  3    DLTGKKALVTGASGSIGLAIAKILYKQG-----------ASVGLHGTSQEKLEKVAKNFD  51
+            D+  K   +TG     G   A+   K+G            S  L   + E+L  V  +  
+Sbjct  26   DIADKYVFITGCDTGFGNLAARTFDKKGFRVIAACLTESGSAALKAKTSERLHTVLLDVT  85
+
+Query  52   DVDRFLLFPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIV-----RDSLFMRARYEDW  106
+            D       P N   + + +++   V E+  G+  L+NNAG++      D L +    +D+
+Sbjct  86   D-------PENV--KKTAQWVKSHVGEK--GLWGLINNAGVLGVLAPTDWLTV----DDY  130
+
+Query  107  DDVLSVNLTSAFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTK  166
+             + + VNL     +T  ++PL+ + R GRVIN++S+ G     G   Y  +K  + GF  
+Sbjct  131  REPIEVNLFGLINVTLNMLPLVKKAR-GRVINVSSIGG-RLAFGGGGYTPSKYAVEGFND  188
+
+Query  167  ALAQETGRRNVTVNCVAPGFIGSDMTVNLTEDQK  200
+            +L ++     V V+C+ PG   +++   +   +K
+Sbjct  189  SLRRDMKAFGVHVSCIEPGLFKTELADPIKTTEK  222
+
+
+> uniprotkb:P16152  CBR1_HUMAN Carbonyl reductase [NADPH] 1 OS=Homo 
+sapiens OX=9606 GN=CBR1 PE=1 SV=3
+Length=277
+
+ Score = 48.9 bits (115),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 44/149 (30%), Positives = 69/149 (46%), Gaps = 28/149 (19%)
+
+Query  9    ALVTGASGSIGLAIAK----------ILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLL  58
+            ALVTG +  IGLAI +          +L  +  + G     Q + E ++  F  +D    
+Sbjct  8    ALVTGGNKGIGLAIVRDLCRLFSGDVVLTARDVTRGQAAVQQLQAEGLSPRFHQLD----  63
+
+Query  59   FPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAF  118
+                  D  S+  L   + +E GG+D+LVNNAGI     F  A    +     V + + F
+Sbjct  64   ----IDDLQSIRALRDFLRKEYGGLDVLVNNAGIA----FKVADPTPFHIQAEVTMKTNF  115
+
+Query  119  LLTR----QLVPLMIRNRFGRVINITSVV  143
+              TR    +L+PL+     GRV+N++S++
+Sbjct  116  FGTRDVCTELLPLIKPQ--GRVVNVSSIM  142
+
+
+> uniprotkb:Q8LEU3  NOL_ARATH Chlorophyll(ide) b reductase NOL, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=NOL PE=1 SV=1
+Length=348
+
+ Score = 48.9 bits (115),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 50/206 (24%), Positives = 94/206 (46%), Gaps = 17/206 (8%)
+
+Query  10   LVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDV--DRFLLFPANFSDRV  67
+            L+TG++  IG A+A+   K G +V +   S E++E   ++  +   +       + ++  
+Sbjct  83   LITGSTKGIGYALAREFLKAGDNVVICSRSAERVETAVQSLKEEFGEHVWGTKCDVTEGK  142
+
+Query  68   SVEYLSKRVNEEMGGVDILVNNAGIVRDSL--FMRARYEDWDDVLSVNLTSAFLLTRQLV  125
+             V  L     + +  +DI +NNAG    S      A  ED  +V+  N     L  R+ +
+Sbjct  143  DVRELVAYSQKNLKYIDIWINNAGSNAYSFKPLAEASDEDLIEVVKTNTLGLMLCCREAM  202
+
+Query  126  PLMI-RNRFGRVINITSVVGFTGNAGQVN-----YCAAKSGLTGFTKALAQETGR---RN  176
+             +M+ ++R G + NI       G+ G+       Y A K  +   TK+L  E      +N
+Sbjct  203  NMMLTQSRGGHIFNIDGA----GSDGRPTPRFAAYGATKRSVVHLTKSLQAELQMQDVKN  258
+
+Query  177  VTVNCVAPGFIGSDMTVNLTEDQKGK  202
+            V V+ ++PG + +D+ ++    ++ K
+Sbjct  259  VVVHNLSPGMVTTDLLMSGATTKQAK  284
+
+
+> uniprotkb:P10807  ADH_DROLE Alcohol dehydrogenase OS=Drosophila 
+lebanonensis OX=7225 GN=Adh PE=1 SV=1
+Length=254
+
+ Score = 47.8 bits (112),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 52/205 (25%), Positives = 84/205 (41%), Gaps = 46/205 (22%)
+
+Query  3    DLTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRF-----L  57
+            DLT K  +   A G IGL                 TS+E +++  KNF  +DR      L
+Sbjct  2    DLTNKNVIFVAALGGIGL----------------DTSRELVKRNLKNFVILDRVENPTAL  45
+
+Query  58   LFPANFSDRVSVEY--------------LSKRVNEEMGGVDILVNNAGIVRDSLFMRARY  103
+                  + +V++ +              L K++ +++  VDIL+N AGI+ D    R   
+Sbjct  46   AELKAINPKVNITFHTYDVTVPVAESKKLLKKIFDQLKTVDILINGAGILDDHQIERT--  103
+
+Query  104  EDWDDVLSVNLTSAFLLTRQLVPLMIRNRFGR---VINITSVVGFTGNAGQVNYCAAKSG  160
+                  +++N T     T  ++    + + G    + NI SV GF        Y A+K+ 
+Sbjct  104  ------IAINFTGLVNTTTAILDFWDKRKGGPGGIIANICSVTGFNAIHQVPVYSASKAA  157
+
+Query  161  LTGFTKALAQETGRRNVTVNCVAPG  185
+            +  FT +LA+      VT   + PG
+Sbjct  158  VVSFTNSLAKLAPITGVTAYSINPG  182
+
+
+> uniprotkb:P54616  FABI_BACSU Enoyl-[acyl-carrier-protein] reductase 
+[NADH] FabI OS=Bacillus subtilis (strain 168) OX=224308 
+GN=fabI PE=1 SV=2
+Length=258
+
+ Score = 47.8 bits (112),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 59/257 (23%), Positives = 114/257 (44%), Gaps = 22/257 (9%)
+
+Query  2    FDLTGKKALVTGASG--SIGLAIAKILYKQGASVGLHGTSQEKLEK----VAKNFDDVDR  55
+            F L G+  +V G +   SI   IA+ L++ GA + +   + E+LEK    +A   D  D 
+Sbjct  3    FSLEGRNIVVMGVANKRSIAWGIARSLHEAGARL-IFTYAGERLEKSVHELAGTLDRNDS  61
+
+Query  56   FLLFPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIV-RDSLFMRARYEDWDDVLSVNL  114
+             +L P + ++   +E     + E++G +  + +      ++ L       + D  L  + 
+Sbjct  62   IIL-PCDVTNDAEIETCFASIKEQVGVIHGIAHCIAFANKEELVGEYLNTNRDGFLLAHN  120
+
+Query  115  TSAFLLT---RQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCA---AKSGLTGFTKAL  168
+             S++ LT   +   P+M     G ++ +T +    G     NY     AK+ L    K L
+Sbjct  121  ISSYSLTAVVKAARPMMTEG--GSIVTLTYL---GGELVMPNYNVMGVAKASLDASVKYL  175
+
+Query  169  AQETGRRNVTVNCVAPGFIGSDMTVNLTEDQK--GKIISSIPMKRMGAVDDIAAAVLYLS  226
+            A + G+ N+ VN ++ G I +     +++       I    P++R    +++     +L 
+Sbjct  176  AADLGKENIRVNSISAGPIRTLSAKGISDFNSILKDIEERAPLRRTTTPEEVGDTAAFLF  235
+
+Query  227  SLEASYVTGQTIHVNGG  243
+            S  +  +TG+ +HV+ G
+Sbjct  236  SDMSRGITGENLHVDSG  252
+
+
+> uniprotkb:P37059  DHB2_HUMAN Estradiol 17-beta-dehydrogenase 
+2 OS=Homo sapiens OX=9606 GN=HSD17B2 PE=1 SV=1
+Length=387
+
+ Score = 45.1 bits (105),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 43/191 (23%), Positives = 88/191 (46%), Gaps = 22/191 (12%)
+
+Query  7    KKALVTGASGSIGLAIAKILYKQGASV-----GLHGTSQEKLEKVAKNFDDVDRFLLFPA  61
+            K  LVTG    +G A+ K L + G +V       +G   E+L +         R  +   
+Sbjct  83   KAVLVTGGDCGLGHALCKYLDELGFTVFAGVLNENGPGAEELRRTCS-----PRLSVLQM  137
+
+Query  62   NFSDRVSVEYLSKRVNEEMG--GVDILVNNAGIVR-----DSLFMRARYEDWDDVLSVNL  114
+            + +  V ++    +V   +   G+  ++NNAG++      + L M     D+   ++VN 
+Sbjct  138  DITKPVQIKDAYSKVAAMLQDRGLWAVINNAGVLGFPTDGELLLM----TDYKQCMAVNF  193
+
+Query  115  TSAFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGR  174
+                 +T+  +PL+ +++ GR++N++S+ G        +Y ++K+ +T F+  +  E  +
+Sbjct  194  FGTVEVTKTFLPLLRKSK-GRLVNVSSMGGGAPMERLASYGSSKAAVTMFSSVMRLELSK  252
+
+Query  175  RNVTVNCVAPG  185
+              + V  + PG
+Sbjct  253  WGIKVASIQPG  263
+
+
+> uniprotkb:P48758  CBR1_MOUSE Carbonyl reductase [NADPH] 1 OS=Mus 
+musculus OX=10090 GN=Cbr1 PE=1 SV=3
+Length=277
+
+ Score = 44.7 bits (104),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 46/154 (30%), Positives = 71/154 (46%), Gaps = 34/154 (22%)
+
+Query  9    ALVTGASGSIGLAIAKILYKQ-GASVGLHGTSQEK---------LEKVAKNFDDVDRFLL  58
+            ALVTGA+  IG AI + L ++    V L    +E+          E ++  F  +D    
+Sbjct  8    ALVTGANKGIGFAITRDLCRKFSGDVVLAARDEERGQTAVQKLQAEGLSPRFHQLD----  63
+
+Query  59   FPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGI---VRDSLFMRARYEDWDDVLSVNLT  115
+                  +  S+  L   + +E GG+D+LVNNAGI   V D      + E       V + 
+Sbjct  64   ----IDNPQSIRALRDFLLKEYGGLDVLVNNAGIAFKVNDDTPFHIQAE-------VTMK  112
+
+Query  116  SAFLLTR----QLVPLMIRNRFGRVINITSVVGF  145
+            + F  TR    +L+PL+     GRV+N++S+V  
+Sbjct  113  TNFFGTRDVCKELLPLIKPQ--GRVVNVSSMVSL  144
+
+
+> uniprotkb:Q96NR8  RDH12_HUMAN Retinol dehydrogenase 12 OS=Homo 
+sapiens OX=9606 GN=RDH12 PE=1 SV=3
+Length=316
+
+ Score = 43.5 bits (101),  Expect = 6e-05, Method: Compositional matrix adjust.
+ Identities = 57/205 (28%), Positives = 89/205 (43%), Gaps = 19/205 (9%)
+
+Query  3    DLTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVD----RFLL  58
+             L GK  ++TGA+  IG   A+ L  +GA V +      K E  A     VD    + L+
+Sbjct  36   QLPGKVVVITGANTGIGKETARELASRGARVYIACRDVLKGESAASEIR-VDTKNSQVLV  94
+
+Query  59   FPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAF  118
+               + SD  S+   ++    E   + IL+NNAG++       A  + ++  L VN    F
+Sbjct  95   RKLDLSDTKSIRAFAEGFLAEEKQLHILINNAGVMMCPYSKTA--DGFETHLGVNHLGHF  152
+
+Query  119  LLTRQLVPLMIRNRFGRVINITSVVGFTGN------------AGQVNYCAAKSGLTGFTK  166
+            LLT  L+  +  +   RV+N++SV    G             +    YC +K     FT+
+Sbjct  153  LLTYLLLERLKVSAPARVVNVSSVAHHIGKIPFHDLQSEKRYSRGFAYCHSKLANVLFTR  212
+
+Query  167  ALAQETGRRNVTVNCVAPGFIGSDM  191
+             LA+      VT   V PG + S++
+Sbjct  213  ELAKRLQGTGVTTYAVHPGVVRSEL  237
+
+
+> uniprotkb:Q7MBY8 >uniprotkb:tr Q7MBY8_VIBVY Dehydrogenase OS=Vibrio 
+vulnificus (strain YJ016) OX=196600 GN=VVA1599 PE=1 SV=1
+Length=223
+
+ Score = 42.7 bits (99),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 28/93 (30%), Positives = 48/93 (52%), Gaps = 8/93 (9%)
+
+Query  155  CAAKSGLTGFTKALAQETGRRNVTVNCVAPGFIGSDMTVNLTEDQKGKII----SSIPMK  210
+             A  + +   TK LA+E     + VN ++PG   ++    +  D +  +     S +P+ 
+Sbjct  131  AAINAAIEATTKVLAKELA--PIRVNAISPGLTKTEAYKGMNADDRDAMYQRTQSHLPVG  188
+
+Query  211  RMGAVDDIAAAVLYLSSLEASYVTGQTIHVNGG  243
+            ++G   DIA A  YL +++ SY+TG  I V+GG
+Sbjct  189  KVGEASDIAMA--YLFAIQNSYMTGTVIDVDGG  219
+
+
+> uniprotkb:P40471  AYR1_YEAST NADPH-dependent 1-acyldihydroxyacetone 
+phosphate reductase OS=Saccharomyces cerevisiae (strain 
+ATCC 204508 / S288c) OX=559292 GN=AYR1 PE=1 SV=1
+Length=297
+
+ Score = 43.1 bits (100),  Expect = 8e-05, Method: Compositional matrix adjust.
+ Identities = 48/187 (26%), Positives = 79/187 (42%), Gaps = 4/187 (2%)
+
+Query  7    KKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPANFSDR  66
+            K A+VTGASG IG  + K L + G  V       E + ++A  F + D    +  + S  
+Sbjct  10   KIAVVTGASGGIGYEVTKELARNGYLVYACARRLEPMAQLAIQFGN-DSIKPYKLDISKP  68
+
+Query  67   VSVEYLSK--RVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLLTRQL  124
+              +   S   R N   G +D+L NNAG       + A     +    VN+     + R+L
+Sbjct  69   EEIVTFSGFLRANLPDGKLDLLYNNAGQSCTFPALDATDAAVEQCFKVNVFGHINMCREL  128
+
+Query  125  VPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNCVAP  184
+               +I+ + G ++   S+ G         Y A+K+ +  + + L  E    NV V     
+Sbjct  129  SEFLIKAK-GTIVFTGSLAGVVSFPFGSIYSASKAAIHQYARGLHLEMKPFNVRVINAIT  187
+
+Query  185  GFIGSDM  191
+            G + +D+
+Sbjct  188  GGVATDI  194
+
+
+> uniprotkb:Q9HBH5  RDH14_HUMAN Retinol dehydrogenase 14 OS=Homo 
+sapiens OX=9606 GN=RDH14 PE=1 SV=1
+Length=336
+
+ Score = 42.4 bits (98),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 54/216 (25%), Positives = 99/216 (46%), Gaps = 30/216 (14%)
+
+Query  4    LTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNF-------------  50
+            + GK  L+TGA+  +G A A  L + GA V +    + + E+ A                
+Sbjct  41   MHGKTVLITGANSGLGRATAAELLRLGARVIMGCRDRARAEEAAGQLRRELRQAAECGPE  100
+
+Query  51   ---DDVDRFLLFPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWD  107
+                 V   ++   + +   SV    + + +E   +D+L+NNAGI +   +M+   + ++
+Sbjct  101  PGVSGVGELIVRELDLASLRSVRAFCQEMLQEEPRLDVLINNAGIFQ-CPYMKTE-DGFE  158
+
+Query  108  DVLSVNLTSAFLLTRQLVPLMIRNRFGRVINITSVVGFTG-------NAGQV---NYCAA  157
+                VN    FLLT  L+ L+  +   R++ ++S +   G       N+ Q    ++C +
+Sbjct  159  MQFGVNHLGHFLLTNLLLGLLKSSAPSRIVVVSSKLYKYGDINFDDLNSEQSYNKSFCYS  218
+
+Query  158  KSGLTG--FTKALAQETGRRNVTVNCVAPGFIGSDM  191
+            +S L    FT+ LA+     NVTVN + PG + +++
+Sbjct  219  RSKLANILFTRELARRLEGTNVTVNVLHPGIVRTNL  254
+
+
+> uniprotkb:P51661  DHI2_MOUSE Corticosteroid 11-beta-dehydrogenase 
+isozyme 2 OS=Mus musculus OX=10090 GN=Hsd11b2 PE=1 SV=2
+Length=386
+
+ Score = 41.6 bits (96),  Expect = 3e-04, Method: Compositional matrix adjust.
+ Identities = 38/135 (28%), Positives = 62/135 (46%), Gaps = 10/135 (7%)
+
+Query  86   LVNNAG---IVRD-SLFMRARYEDWDDVLSVNLTSAFLLTRQLVPLMIRNRFGRVINITS  141
+            LVNNAG   +V D  L   A +      + VN   A  LT+ L+PL+  +R GR++ + S
+Sbjct  164  LVNNAGLNIVVADVELSPVATFRK---CMEVNFFGALELTKGLLPLLRHSR-GRIVTVGS  219
+
+Query  142  VVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNCVAPGFIGSDMT--VNLTEDQ  199
+              G         Y  +K+ +         E     + V+ + PG   +D    VNL E +
+Sbjct  220  PAGDMPYPCLAAYGTSKAAIALLMDTFGCELLPWGIKVSIIKPGCFKTDAVTNVNLWEKR  279
+
+Query  200  KGKIISSIPMKRMGA  214
+            K  ++++IP + + A
+Sbjct  280  KQLLLANIPRELLQA  294
+
+
+> uniprotkb:P47727  CBR1_RAT Carbonyl reductase [NADPH] 1 OS=Rattus 
+norvegicus OX=10116 GN=Cbr1 PE=1 SV=2
+Length=277
+
+ Score = 38.5 bits (88),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 29/94 (31%), Positives = 44/94 (47%), Gaps = 18/94 (19%)
+
+Query  9   ALVTGASGSIGLAIAK----------ILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLL  58
+           ALVTGA+  IG AI +          +L  +  S G     Q + E ++  F  +D    
+Sbjct  8   ALVTGANKGIGFAIVRDLCRKFLGDVVLTARDESRGHEAVKQLQTEGLSPRFHQLD----  63
+
+Query  59  FPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGI  92
+                 +  S+  L   + +E GG+++LVNNAGI
+Sbjct  64  ----IDNPQSIRALRDFLLQEYGGLNVLVNNAGI  93
+
+
+> uniprotkb:P35270  SPRE_HUMAN Sepiapterin reductase OS=Homo sapiens 
+OX=9606 GN=SPR PE=1 SV=1
+Length=261
+
+ Score = 35.4 bits (80),  Expect = 0.021, Method: Compositional matrix adjust.
+ Identities = 37/119 (31%), Positives = 52/119 (44%), Gaps = 21/119 (18%)
+
+Query  85   ILVNNAGIVRDSLFMRARYEDWDDVLSVN------LTSAFLLTRQLV------PLMIRNR  132
+            +L+NNAG + D   +   + D  D   VN      LTS   LT  ++      P + R  
+Sbjct  96   LLINNAGSLGD---VSKGFVDLSDSTQVNNYWALNLTSMLCLTSSVLKAFPDSPGLNRT-  151
+
+Query  133  FGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNCVAPGFIGSDM  191
+               V+NI+S+       G   YCA K+      + LA E    NV V   APG + +DM
+Sbjct  152  ---VVNISSLCALQPFKGWALYCAGKAARDMLFQVLALE--EPNVRVLNYAPGPLDTDM  205
+
+
+> uniprotkb:Q06417  TDA5_YEAST Uncharacterized oxidoreductase TDA5 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=TDA5 PE=1 SV=1
+Length=326
+
+ Score = 33.5 bits (75),  Expect = 0.097, Method: Compositional matrix adjust.
+ Identities = 31/114 (27%), Positives = 55/114 (48%), Gaps = 6/114 (5%)
+
+Query  83   VDILVNNAGIVRDSL--FMRARYEDWDDVLSVNLTSAFLLTRQLVPLMIRNRFGRVINIT  140
+            + ++VNNAG VR +   F     ++ D +  +N  +     ++L P     R   ++NI 
+Sbjct  142  IRLIVNNAG-VRANFTGFNGMERDNLDKIFKINTFAPLQFIQELAPSRHSTRQCYIVNIA  200
+
+Query  141  SVVGFTGNAGQVNYCAAKSGLTGFTKALA---QETGRRNVTVNCVAPGFIGSDM  191
+            S++G    A    Y A+K+ L  F ++ +   Q  G RN+    V PG + ++M
+Sbjct  201  SILGILTPAKVAAYAASKAALIAFHQSYSFELQNEGVRNIRTLLVTPGQLNTEM  254
+
+
+> uniprotkb:Q9U1Y6 >uniprotkb:tr Q9U1Y6_CAEEL DeHydrogenases, Short 
+chain OS=Caenorhabditis elegans OX=6239 GN=dhs-24 PE=1 
+SV=3
+Length=384
+
+ Score = 33.5 bits (75),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 19/47 (40%), Positives = 29/47 (62%), Gaps = 0/47 (0%)
+
+Query  3   DLTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKN  49
+           DL GK  +VTGA+  IG A A+ L K+ A V +   ++EK  +V ++
+Sbjct  45  DLAGKTYIVTGATSGIGQATAEELAKRNARVIMACRNREKCVQVRRD  91
+
+
+> uniprotkb:P53111  ARI1_YEAST NADPH-dependent aldehyde reductase 
+ARI1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=ARI1 PE=1 SV=1
+Length=347
+
+ Score = 32.7 bits (73),  Expect = 0.22, Method: Compositional matrix adjust.
+ Identities = 66/280 (24%), Positives = 111/280 (40%), Gaps = 49/280 (18%)
+
+Query  5    TGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRF-------L  57
+            T     V+GA+G I L I   L K G +V   G SQEK + + K F++  +        +
+Sbjct  3    TDTTVFVSGATGFIALHIMNDLLKAGYTVIGSGRSQEKNDGLLKKFNNNPKLSMEIVEDI  62
+
+Query  58   LFPANFSD-------------RVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYE  104
+              P  F +               +  +  +  N E   +   VN    + +++   A   
+Sbjct  63   AAPNAFDEVFKKHGKEIKIVLHTASPFHFETTNFEKDLLTPAVNGTKSILEAIKKYAA--  120
+
+Query  105  DWDDVLSVNLTSAFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGF  164
+              D V  V +TS+   T  LV     N+   VI   S    T ++ Q N  AA  G   F
+Sbjct  121  --DTVEKVIVTSS---TAALVTPTDMNKGDLVITEESWNKDTWDSCQANAVAAYCGSKKF  175
+
+Query  165  TKALAQETGRRN-----VTVNCVAPGFI-GSDMTVNLTE---DQKGKIISSIPMKRMGA-  214
+             +  A E  + N      T++ + PGF+ G  M  +  +   +    I+S +   ++G  
+Sbjct  176  AEKTAWEFLKENKSSVKFTLSTINPGFVFGPQMFADSLKHGINTSSGIVSELIHSKVGGE  235
+
+Query  215  ----------VDDIAAAVLYLSSLEASYVTGQTIHVNGGM  244
+                      V D++ A  +L ++E    TGQ + ++ G+
+Sbjct  236  FYNYCGPFIDVRDVSKA--HLVAIEKPECTGQRLVLSEGL  273
+
+
+> uniprotkb:Q55318  FENR_SYNY3 Ferredoxin--NADP reductase OS=Synechocystis 
+sp. (strain PCC 6803 / Kazusa) OX=1111708 GN=petH 
+PE=1 SV=2
+Length=413
+
+ Score = 31.2 bits (69),  Expect = 0.58, Method: Compositional matrix adjust.
+ Identities = 19/77 (25%), Positives = 36/77 (47%), Gaps = 3/77 (4%)
+
+Query  165  TKALAQETGRRNVTVNCVAPGFIGSDMTVNLTEDQK---GKIISSIPMKRMGAVDDIAAA  221
+            ++A+A      N T+          D+ VN+   +    GK++ + P+ R GA+  +   
+Sbjct  99   SEAVANPAPESNKTMTTTPKEKKADDIPVNIYRPKTPYIGKVLENYPLVREGAIGTVQHL  158
+
+Query  222  VLYLSSLEASYVTGQTI  238
+               LS+ +  Y+ GQ+I
+Sbjct  159  TFDLSAGDLRYLEGQSI  175
+
+
+> uniprotkb:O75674  TM1L1_HUMAN TOM1-like protein 1 OS=Homo sapiens 
+OX=9606 GN=TOM1L1 PE=1 SV=2
+Length=476
+
+ Score = 31.2 bits (69),  Expect = 0.70, Method: Compositional matrix adjust.
+ Identities = 42/165 (25%), Positives = 61/165 (37%), Gaps = 25/165 (15%)
+
+Query  66   RVSVEYLSKRVNEEMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLLTRQLV  125
+            R+S  Y  K +   +  +D+ V N G    SL ++  +      +  NL    L  R  +
+Sbjct  59   RISKNYNHKEIQLTLSLIDMCVQNCGPSFQSLIVKKEF------VKENLVK-LLNPRYNL  111
+
+Query  126  PLMIRNRFGRVINITSVVGFTG-----NAGQVNYCAAKSGLTGFTKALAQETGRRNV---  177
+            PL I+NR    I   S  GF G        +V     K G+         ET R+     
+Sbjct  112  PLDIQNRILNFIKTWS-QGFPGGVDVSEVKEVYLDLVKKGVQFPPSEAEAETARQETAQI  170
+
+Query  178  -----TVNCVAPGF----IGSDMTVNLTEDQKGKIISSIPMKRMG  213
+                 T    AP         + TV L  +Q GK+ S + M +M 
+Sbjct  171  SSNPPTSVPTAPALSSVIAPKNSTVTLVPEQIGKLHSELDMVKMN  215
+
+
+> uniprotkb:Q14566  MCM6_HUMAN DNA replication licensing factor 
+MCM6 OS=Homo sapiens OX=9606 GN=MCM6 PE=1 SV=1
+Length=821
+
+ Score = 30.8 bits (68),  Expect = 0.96, Method: Compositional matrix adjust.
+ Identities = 14/38 (37%), Positives = 23/38 (61%), Gaps = 1/38 (3%)
+
+Query  33   VGLHGTSQEKLEKVAKNFDDVDRFLLFPANFSDRVSVE  70
+            V LH   +E +++V  + DD+ R+LLF   F  ++S E
+Sbjct  553  VDLHSRIEESIDRVY-SLDDIRRYLLFARQFKPKISKE  589
+
+
+> uniprotkb:P97311  MCM6_MOUSE DNA replication licensing factor 
+MCM6 OS=Mus musculus OX=10090 GN=Mcm6 PE=1 SV=1
+Length=821
+
+ Score = 30.8 bits (68),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 14/38 (37%), Positives = 23/38 (61%), Gaps = 1/38 (3%)
+
+Query  33   VGLHGTSQEKLEKVAKNFDDVDRFLLFPANFSDRVSVE  70
+            V LH   +E +++V  + DD+ R+LLF   F  ++S E
+Sbjct  553  VDLHSRIEESIDRVY-SLDDIRRYLLFARQFKPKISKE  589
+
+
+> uniprotkb:Q9NZC7  WWOX_HUMAN WW domain-containing oxidoreductase 
+OS=Homo sapiens OX=9606 GN=WWOX PE=1 SV=1
+Length=414
+
+ Score = 30.0 bits (66),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 35/150 (23%), Positives = 62/150 (41%), Gaps = 21/150 (14%)
+
+Query  3    DLTGKKALVTGASGSIGLAIAKILYKQGASVGLH----GTSQEKLEKVAKNFDDVDRFLL  58
+            D TGK  +VTGA+  IG   AK     GA V L       + E + ++ + +    +   
+Sbjct  121  DFTGKVVVVTGANSGIGFETAKSFALHGAHVILACRNMARASEAVSRILEEWHKA-KVEA  179
+
+Query  59   FPANFSDRVSVEYLSKRVNEEMGGVDILVNNAG-------IVRDSLFMRARYEDWDDVLS  111
+               + +   SV++ ++    +   + +LV NA        + +D L         +    
+Sbjct  180  MTLDLALLRSVQHFAEAFKAKNVPLHVLVCNAATFALPWSLTKDGL---------ETTFQ  230
+
+Query  112  VNLTSAFLLTRQLVPLMIRNRFGRVINITS  141
+            VN    F L + L  ++ R+   RVI ++S
+Sbjct  231  VNHLGHFYLVQLLQDVLCRSAPARVIVVSS  260
+
+
+> uniprotkb:P47199  QOR_MOUSE Quinone oxidoreductase OS=Mus musculus 
+OX=10090 GN=Cryz PE=1 SV=1
+Length=331
+
+ Score = 29.6 bits (65),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 25/83 (30%), Positives = 41/83 (49%), Gaps = 6/83 (7%)
+
+Query  6    GKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFDDVDRFLLFPANFSD  65
+            G+  LV GASG +GLA  +I    G  V     S+E  + V +N    + F    AN+ D
+Sbjct  149  GESVLVHGASGGVGLATCQIARAHGLKVLGTAGSEEGKKLVLQNGAH-EVFNHKEANYID  207
+
+Query  66   RVSVEYLSKRVNEEMGGVDILVN  88
+            ++ +      V ++  GVD+++ 
+Sbjct  208  KIKMS-----VGDKDKGVDVIIE  225
+
+
+> uniprotkb:Q969M3  YIPF5_HUMAN Protein YIPF5 OS=Homo sapiens OX=9606 
+GN=YIPF5 PE=1 SV=1
+Length=257
+
+ Score = 28.9 bits (63),  Expect = 2.8, Method: Compositional matrix adjust.
+ Identities = 17/65 (26%), Positives = 32/65 (49%), Gaps = 1/65 (2%)
+
+Query  117  AFLLTRQLVPLMIRNRFGRVINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRN  176
+            A +L   L+P+++ + F  + ++  +VG    AG + +C+  +    F  ALA E  +  
+Sbjct  181  ASVLGYCLLPMILLSSFAVIFSLQGMVGIILTAGIIGWCSFSASKI-FISALAMEGQQLL  239
+
+Query  177  VTVNC  181
+            V   C
+Sbjct  240  VAYPC  244
+
+
+> uniprotkb:Q02725  VTC3_YEAST Vacuolar transporter chaperone 3 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) OX=559292 
+GN=VTC3 PE=1 SV=1
+Length=835
+
+ Score = 29.3 bits (64),  Expect = 3.0, Method: Composition-based stats.
+ Identities = 9/22 (41%), Positives = 19/22 (86%), Gaps = 0/22 (0%)
+
+Query  37   GTSQEKLEKVAKNFDDVDRFLL  58
+            GT +E+LEK++++FD++  F++
+Sbjct  389  GTQKEELEKLSRDFDNIQNFIV  410
+
+
+> uniprotkb:Q99MJ9  DDX50_MOUSE ATP-dependent RNA helicase DDX50 
+OS=Mus musculus OX=10090 GN=Ddx50 PE=2 SV=1
+Length=734
+
+ Score = 28.9 bits (63),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 19/61 (31%), Positives = 31/61 (51%), Gaps = 4/61 (7%)
+
+Query  37   GTSQEKLEKVAKNFDDVDRFLLFPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDS  96
+              ++E   +VAK+F D+ R L     +       Y S+ +N+   G+DILV   G ++D 
+Sbjct  215  APTRELANQVAKDFKDITRKLSVACFYG---GTSYQSQ-INQIRNGIDILVGTPGRIKDH  270
+
+Query  97   L  97
+            L
+Sbjct  271  L  271
+
+
+> uniprotkb:Q498J7  MC6ZA_XENLA Zygotic DNA replication licensing 
+factor mcm6-A OS=Xenopus laevis OX=8355 GN=zmcm6-a PE=1 SV=1
+Length=823
+
+ Score = 28.5 bits (62),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 14/38 (37%), Positives = 22/38 (58%), Gaps = 1/38 (3%)
+
+Query  33   VGLHGTSQEKLEKVAKNFDDVDRFLLFPANFSDRVSVE  70
+            V LH   +E +++V    D+V R+LLF   F  ++S E
+Sbjct  554  VDLHSRIEESIDRVY-TVDEVRRYLLFARQFKPKISKE  590
+
+
+> uniprotkb:O81283  TC159_ARATH Translocase of chloroplast 159, 
+chloroplastic OS=Arabidopsis thaliana OX=3702 GN=TOC159 PE=1 
+SV=1
+Length=1503
+
+ Score = 28.5 bits (62),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 28/88 (32%), Positives = 41/88 (47%), Gaps = 12/88 (14%)
+
+Query  159  SGLTGFTKALAQETGRRNVTVNCVAPGFIGSDMTVNLTEDQKGKI--ISSIPMK------  210
+            S L     A A    R N+  N      +  +  +NL+E++K K+  + S+ +K      
+Sbjct  745  SSLRPLKPAAAPRANRSNIFSNSNV--TMADETEINLSEEEKQKLEKLQSLRVKFLRLLQ  802
+
+Query  211  RMG--AVDDIAAAVLYLSSLEASYVTGQ  236
+            R+G  A D IAA VLY  +L A    GQ
+Sbjct  803  RLGHSAEDSIAAQVLYRLALLAGRQAGQ  830
+
+
+> uniprotkb:P49327  FAS_HUMAN Fatty acid synthase OS=Homo sapiens 
+OX=9606 GN=FASN PE=1 SV=3
+Length=2511
+
+ Score = 28.5 bits (62),  Expect = 6.4, Method: Compositional matrix adjust.
+ Identities = 37/143 (26%), Positives = 57/143 (40%), Gaps = 12/143 (8%)
+
+Query  79    EMGGVDILVNNAGIVRDSLFMRARYEDWDDVLSVNLTSAFLL---TRQLVPLMIRNRFGR  135
+             ++G V  + N A ++RD L      E + DV     +    L   TR+  P         
+Sbjct  1961  QLGPVGGVFNLAVVLRDGLLENQTPEFFQDVCKPKYSGTLNLDRVTREACP-----ELDY  2015
+
+Query  136   VINITSVVGFTGNAGQVNYCAAKSGLTGFTKALAQETGRRNVTVNCVAPGFIGSDMTVNL  195
+              +  +SV    GNAGQ NY  A S +    +    E G   + V   A G +G  +    
+Sbjct  2016  FVVFSSVSCGRGNAGQSNYGFANSAMERICEKRRHE-GLPGLAVQWGAIGDVGILVETMS  2074
+
+Query  196   TEDQKGKIISSIPMKRMGAVDDI  218
+             T D    I+S    +RM +  ++
+Sbjct  2075  TND---TIVSGTLPQRMASCLEV  2094
+
+
+> uniprotkb:P53183  YGD9_YEAST Putative uncharacterized oxidoreductase 
+YGL039W OS=Saccharomyces cerevisiae (strain ATCC 204508 
+/ S288c) OX=559292 GN=YGL039W PE=1 SV=1
+Length=348
+
+ Score = 28.1 bits (61),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 17/41 (41%), Positives = 22/41 (54%), Gaps = 0/41 (0%)
+
+Query  10  LVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNF  50
+            V+GA+G I L +   L K G  V   G SQEK + + K F
+Sbjct  9   FVSGATGFIALHVVDDLLKTGYKVIGSGRSQEKNDGLLKKF  49
+
+
+> uniprotkb:Q9BQ39  DDX50_HUMAN ATP-dependent RNA helicase DDX50 
+OS=Homo sapiens OX=9606 GN=DDX50 PE=1 SV=1
+Length=737
+
+ Score = 28.1 bits (61),  Expect = 6.6, Method: Compositional matrix adjust.
+ Identities = 19/61 (31%), Positives = 30/61 (49%), Gaps = 4/61 (7%)
+
+Query  37   GTSQEKLEKVAKNFDDVDRFLLFPANFSDRVSVEYLSKRVNEEMGGVDILVNNAGIVRDS  96
+              ++E   +VAK+F D+ R L     +       Y S+ +N    G+DILV   G ++D 
+Sbjct  218  APTRELANQVAKDFKDITRKLSVACFYG---GTSYQSQ-INHIRNGIDILVGTPGRIKDH  273
+
+Query  97   L  97
+            L
+Sbjct  274  L  274
+
+
+> uniprotkb:P54382  FOLD_BACSU Bifunctional protein FolD OS=Bacillus 
+subtilis (strain 168) OX=224308 GN=folD PE=3 SV=1
+Length=283
+
+ Score = 27.7 bits (60),  Expect = 7.5, Method: Compositional matrix adjust.
+ Identities = 14/50 (28%), Positives = 26/50 (52%), Gaps = 0/50 (0%)
+
+Query  2    FDLTGKKALVTGASGSIGLAIAKILYKQGASVGLHGTSQEKLEKVAKNFD  51
+             DL+GK+ +V G S  +G  + ++L  + A+V    +  E + +  K  D
+Sbjct  154  IDLSGKEVVVVGRSNIVGKPVGQLLLNENATVTYCHSRTENITEHTKKAD  203
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1765041633
+
+
+Query= WP_015824902.1 fructose-bisphosphate aldolase class I [Candidatus
+Liberibacter asiaticus]
+
+Length=339
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  uniprotkb:P05064 ALDOA_MOUSE Fructose-bisphosphate aldolase A O...  301     9e-101
+  uniprotkb:P04075 ALDOA_HUMAN Fructose-bisphosphate aldolase A O...  301     1e-100
+  uniprotkb:P05065 ALDOA_RAT Fructose-bisphosphate aldolase A OS=...  300     2e-100
+  uniprotkb:P00883 ALDOA_RABIT Fructose-bisphosphate aldolase A O...  300     3e-100
+  uniprotkb:P05063 ALDOC_MOUSE Fructose-bisphosphate aldolase C O...  299     6e-100
+  uniprotkb:P05062 ALDOB_HUMAN Fructose-bisphosphate aldolase B O...  270     1e-88 
+  uniprotkb:Q91Y97 ALDOB_MOUSE Fructose-bisphosphate aldolase B O...  270     2e-88 
+  uniprotkb:P00884 ALDOB_RAT Fructose-bisphosphate aldolase B OS=...  264     2e-86 
+  uniprotkb:Q9SDS7 VATC_ARATH V-type proton ATPase subunit C OS=A...  30.8    1.2   
+  uniprotkb:P41252 SYIC_HUMAN Isoleucine--tRNA ligase, cytoplasmi...  28.9    6.8   
+
+
+> uniprotkb:P05064  ALDOA_MOUSE Fructose-bisphosphate aldolase 
+A OS=Mus musculus OX=10090 GN=Aldoa PE=1 SV=2
+Length=364
+
+ Score = 301 bits (771),  Expect = 9e-101, Method: Compositional matrix adjust.
+ Identities = 159/336 (47%), Positives = 211/336 (63%), Gaps = 9/336 (3%)
+
+Query  3    QDLENSVAMMLQAGKGILAADESNATIQKRFKAIHLESTENSRRDYREMLFRAKDAMQ-Y  61
+            ++L +    ++  GKGILAADES  +I KR ++I  E+TE +RR YR++L  A D +   
+Sbjct  14   KELSDIAHRIVAPGKGILAADESTGSIAKRLQSIGTENTEENRRFYRQLLLTADDRVNPC  73
+
+Query  62   ISSILLYEETLYQNAQDGTSFVDLISSSGVLVGIKVDRGLKPYPLYPGEHITVGLDDLDV  121
+            I  ++L+ ETLYQ A DG  F  +I S G +VGIKVD+G+ P     GE  T GLD L  
+Sbjct  74   IGGVILFHETLYQKADDGRPFPQVIKSKGGVVGIKVDKGVVPLAGTNGETTTQGLDGLSE  133
+
+Query  122  RLKQYKDAGARVAKWRVVLSVSDVLPSMTVVKANMHILARYAVLCQNAGLVPIVEPEVLM  181
+            R  QYK  GA  AKWR VL + +  PS   +  N ++LARYA +CQ  G+VPIVEPE+L 
+Sbjct  134  RCAQYKKDGADFAKWRCVLKIGEHTPSALAIMENANVLARYASICQQNGIVPIVEPEILP  193
+
+Query  182  EGDHTIERCAEVTEFVLRTLFNELYTMRVCFEGLVLKSNMILPGKSAPQ-VSDEEIASNT  240
+            +GDH ++RC  VTE VL  ++  L    V  EG +LK NM+ PG +  Q  S+EEIA  T
+Sbjct  194  DGDHDLKRCQYVTEKVLAAVYKALSDHHVYLEGTLLKPNMVTPGHACTQKFSNEEIAMAT  253
+
+Query  241  IKIFKRVVPCAVQGIAFLSGGQSEQDATARLSAMNSMGDC----PWRLSFSYGRALQESV  296
+            +   +R VP AV G+ FLSGGQSE++A+  L+A+N    C    PW L+FSYGRALQ S 
+Sbjct  254  VTALRRTVPPAVTGVTFLSGGQSEEEASINLNAINK---CPLLKPWALTFSYGRALQASA  310
+
+Query  297  LRAWNGKQDNVVVAQRVLSHRAHMNSLATKGCWKKS  332
+            L+AW GK++N+  AQ     RA  NSLA +G +  S
+Sbjct  311  LKAWGGKKENLKAAQEEYIKRALANSLACQGKYTPS  346
+
+
+> uniprotkb:P04075  ALDOA_HUMAN Fructose-bisphosphate aldolase 
+A OS=Homo sapiens OX=9606 GN=ALDOA PE=1 SV=2
+Length=364
+
+ Score = 301 bits (770),  Expect = 1e-100, Method: Compositional matrix adjust.
+ Identities = 159/336 (47%), Positives = 210/336 (63%), Gaps = 9/336 (3%)
+
+Query  3    QDLENSVAMMLQAGKGILAADESNATIQKRFKAIHLESTENSRRDYREMLFRAKDAMQ-Y  61
+            ++L +    ++  GKGILAADES  +I KR ++I  E+TE +RR YR++L  A D +   
+Sbjct  14   KELSDIAHRIVAPGKGILAADESTGSIAKRLQSIGTENTEENRRFYRQLLLTADDRVNPC  73
+
+Query  62   ISSILLYEETLYQNAQDGTSFVDLISSSGVLVGIKVDRGLKPYPLYPGEHITVGLDDLDV  121
+            I  ++L+ ETLYQ A DG  F  +I S G +VGIKVD+G+ P     GE  T GLD L  
+Sbjct  74   IGGVILFHETLYQKADDGRPFPQVIKSKGGVVGIKVDKGVVPLAGTNGETTTQGLDGLSE  133
+
+Query  122  RLKQYKDAGARVAKWRVVLSVSDVLPSMTVVKANMHILARYAVLCQNAGLVPIVEPEVLM  181
+            R  QYK  GA  AKWR VL + +  PS   +  N ++LARYA +CQ  G+VPIVEPE+L 
+Sbjct  134  RCAQYKKDGADFAKWRCVLKIGEHTPSALAIMENANVLARYASICQQNGIVPIVEPEILP  193
+
+Query  182  EGDHTIERCAEVTEFVLRTLFNELYTMRVCFEGLVLKSNMILPGKSAPQ-VSDEEIASNT  240
+            +GDH ++RC  VTE VL  ++  L    +  EG +LK NM+ PG +  Q  S EEIA  T
+Sbjct  194  DGDHDLKRCQYVTEKVLAAVYKALSDHHIYLEGTLLKPNMVTPGHACTQKFSHEEIAMAT  253
+
+Query  241  IKIFKRVVPCAVQGIAFLSGGQSEQDATARLSAMNSMGDC----PWRLSFSYGRALQESV  296
+            +   +R VP AV GI FLSGGQSE++A+  L+A+N    C    PW L+FSYGRALQ S 
+Sbjct  254  VTALRRTVPPAVTGITFLSGGQSEEEASINLNAINK---CPLLKPWALTFSYGRALQASA  310
+
+Query  297  LRAWNGKQDNVVVAQRVLSHRAHMNSLATKGCWKKS  332
+            L+AW GK++N+  AQ     RA  NSLA +G +  S
+Sbjct  311  LKAWGGKKENLKAAQEEYVKRALANSLACQGKYTPS  346
+
+
+> uniprotkb:P05065  ALDOA_RAT Fructose-bisphosphate aldolase A 
+OS=Rattus norvegicus OX=10116 GN=Aldoa PE=1 SV=2
+Length=364
+
+ Score = 300 bits (769),  Expect = 2e-100, Method: Compositional matrix adjust.
+ Identities = 159/336 (47%), Positives = 211/336 (63%), Gaps = 9/336 (3%)
+
+Query  3    QDLENSVAMMLQAGKGILAADESNATIQKRFKAIHLESTENSRRDYREMLFRAKDAMQ-Y  61
+            ++L +    ++  GKGILAADES  +I KR ++I  E+TE +RR YR++L  A D +   
+Sbjct  14   KELADIAHRIVAPGKGILAADESTGSIAKRLQSIGTENTEENRRFYRQLLLTADDRVNPC  73
+
+Query  62   ISSILLYEETLYQNAQDGTSFVDLISSSGVLVGIKVDRGLKPYPLYPGEHITVGLDDLDV  121
+            I  ++L+ ETLYQ A DG  F  +I S G +VGIKVD+G+ P     GE  T GLD L  
+Sbjct  74   IGGVILFHETLYQKADDGRPFPQVIKSKGGVVGIKVDKGVVPLAGTNGETTTQGLDGLSE  133
+
+Query  122  RLKQYKDAGARVAKWRVVLSVSDVLPSMTVVKANMHILARYAVLCQNAGLVPIVEPEVLM  181
+            R  QYK  GA  AKWR VL + +  PS   +  N ++LARYA +CQ  G+VPIVEPE+L 
+Sbjct  134  RCAQYKKDGADFAKWRCVLKIGEHTPSSLAIMENANVLARYASICQQNGIVPIVEPEILP  193
+
+Query  182  EGDHTIERCAEVTEFVLRTLFNELYTMRVCFEGLVLKSNMILPGKSAPQ-VSDEEIASNT  240
+            +GDH ++RC  VTE VL  ++  L    V  EG +LK NM+ PG +  Q  S+EEIA  T
+Sbjct  194  DGDHDLKRCQYVTEKVLAAVYKALSDHHVYLEGTLLKPNMVTPGHACTQKFSNEEIAMAT  253
+
+Query  241  IKIFKRVVPCAVQGIAFLSGGQSEQDATARLSAMNSMGDC----PWRLSFSYGRALQESV  296
+            +   +R VP AV G+ FLSGGQSE++A+  L+A+N    C    PW L+FSYGRALQ S 
+Sbjct  254  VTALRRTVPPAVPGVTFLSGGQSEEEASINLNAINK---CPLLKPWALTFSYGRALQASA  310
+
+Query  297  LRAWNGKQDNVVVAQRVLSHRAHMNSLATKGCWKKS  332
+            L+AW GK++N+  AQ     RA  NSLA +G +  S
+Sbjct  311  LKAWGGKKENLKAAQEEYIKRALANSLACQGKYTPS  346
+
+
+> uniprotkb:P00883  ALDOA_RABIT Fructose-bisphosphate aldolase 
+A OS=Oryctolagus cuniculus OX=9986 GN=ALDOA PE=1 SV=2
+Length=364
+
+ Score = 300 bits (767),  Expect = 3e-100, Method: Compositional matrix adjust.
+ Identities = 158/336 (47%), Positives = 210/336 (63%), Gaps = 9/336 (3%)
+
+Query  3    QDLENSVAMMLQAGKGILAADESNATIQKRFKAIHLESTENSRRDYREMLFRAKDAMQ-Y  61
+            ++L +    ++  GKGILAADES  +I KR ++I  E+TE +RR YR++L  A D +   
+Sbjct  14   KELSDIAHRIVAPGKGILAADESTGSIAKRLQSIGTENTEENRRFYRQLLLTADDRVNPC  73
+
+Query  62   ISSILLYEETLYQNAQDGTSFVDLISSSGVLVGIKVDRGLKPYPLYPGEHITVGLDDLDV  121
+            I  ++L+ ETLYQ A DG  F  +I S G +VGIKVD+G+ P     GE  T GLD L  
+Sbjct  74   IGGVILFHETLYQKADDGRPFPQVIKSKGGVVGIKVDKGVVPLAGTNGETTTQGLDGLSE  133
+
+Query  122  RLKQYKDAGARVAKWRVVLSVSDVLPSMTVVKANMHILARYAVLCQNAGLVPIVEPEVLM  181
+            R  QYK  GA  AKWR VL + +  PS   +  N ++LARYA +CQ  G+VPIVEPE+L 
+Sbjct  134  RCAQYKKDGADFAKWRCVLKIGEHTPSALAIMENANVLARYASICQQNGIVPIVEPEILP  193
+
+Query  182  EGDHTIERCAEVTEFVLRTLFNELYTMRVCFEGLVLKSNMILPGKSAPQ-VSDEEIASNT  240
+            +GDH ++RC  VTE VL  ++  L    +  EG +LK NM+ PG +  Q  S EEIA  T
+Sbjct  194  DGDHDLKRCQYVTEKVLAAVYKALSDHHIYLEGTLLKPNMVTPGHACTQKYSHEEIAMAT  253
+
+Query  241  IKIFKRVVPCAVQGIAFLSGGQSEQDATARLSAMNSMGDC----PWRLSFSYGRALQESV  296
+            +   +R VP AV G+ FLSGGQSE++A+  L+A+N    C    PW L+FSYGRALQ S 
+Sbjct  254  VTALRRTVPPAVTGVTFLSGGQSEEEASINLNAINK---CPLLKPWALTFSYGRALQASA  310
+
+Query  297  LRAWNGKQDNVVVAQRVLSHRAHMNSLATKGCWKKS  332
+            L+AW GK++N+  AQ     RA  NSLA +G +  S
+Sbjct  311  LKAWGGKKENLKAAQEEYVKRALANSLACQGKYTPS  346
+
+
+> uniprotkb:P05063  ALDOC_MOUSE Fructose-bisphosphate aldolase 
+C OS=Mus musculus OX=10090 GN=Aldoc PE=1 SV=4
+Length=363
+
+ Score = 299 bits (765),  Expect = 6e-100, Method: Compositional matrix adjust.
+ Identities = 158/336 (47%), Positives = 209/336 (62%), Gaps = 9/336 (3%)
+
+Query  3    QDLENSVAMMLQAGKGILAADESNATIQKRFKAIHLESTENSRRDYREMLFRAKDAMQY-  61
+            ++L +    ++  GKGILAADES  ++ KR   I +E+TE +RR YR++LF A D ++  
+Sbjct  14   KELSDIALRIVTPGKGILAADESVGSMAKRLSQIGVENTEENRRLYRQVLFSADDRVKKC  73
+
+Query  62   ISSILLYEETLYQNAQDGTSFVDLISSSGVLVGIKVDRGLKPYPLYPGEHITVGLDDLDV  121
+            I  ++ + ETLYQ   +G  FV  I   G+LVGIKVD+G+ P     GE  T GLD L  
+Sbjct  74   IGGVIFFHETLYQKDDNGVPFVRTIQDKGILVGIKVDKGVVPLAGTDGETTTQGLDGLLE  133
+
+Query  122  RLKQYKDAGARVAKWRVVLSVSDVLPSMTVVKANMHILARYAVLCQNAGLVPIVEPEVLM  181
+            R  QYK  GA  AKWR VL +SD  PS   +  N ++LARYA +CQ  G+VPIVEPE+L 
+Sbjct  134  RCAQYKKDGADFAKWRCVLKISDRTPSALAILENANVLARYASICQQNGIVPIVEPEILP  193
+
+Query  182  EGDHTIERCAEVTEFVLRTLFNELYTMRVCFEGLVLKSNMILPGKSAP-QVSDEEIASNT  240
+            +GDH ++RC  VTE VL  ++  L    V  EG +LK NM+ PG + P + S EEIA  T
+Sbjct  194  DGDHDLKRCQYVTEKVLAAVYKALSDHHVYLEGTLLKPNMVTPGHACPIKYSPEEIAMAT  253
+
+Query  241  IKIFKRVVPCAVQGIAFLSGGQSEQDATARLSAMNSMGDC----PWRLSFSYGRALQESV  296
+            +   +R VP AV G+ FLSGGQSE++A+  L+A+N    C    PW L+FSYGRALQ S 
+Sbjct  254  VTALRRTVPPAVPGVTFLSGGQSEEEASLNLNAINR---CPLPRPWALTFSYGRALQASA  310
+
+Query  297  LRAWNGKQDNVVVAQRVLSHRAHMNSLATKGCWKKS  332
+            L AW G++DN   A      RA MN LA +G ++ S
+Sbjct  311  LNAWRGQRDNAGAATEEFIKRAEMNGLAAQGRYEGS  346
+
+
+> uniprotkb:P05062  ALDOB_HUMAN Fructose-bisphosphate aldolase 
+B OS=Homo sapiens OX=9606 GN=ALDOB PE=1 SV=2
+Length=364
+
+ Score = 270 bits (690),  Expect = 1e-88, Method: Compositional matrix adjust.
+ Identities = 145/318 (46%), Positives = 187/318 (59%), Gaps = 9/318 (3%)
+
+Query  16   GKGILAADESNATIQKRFKAIHLESTENSRRDYREMLFRAKDAM-QYISSILLYEETLYQ  74
+            GKGILAADES  T+  R + I +E+TE +RR +RE+LF    ++ Q I  ++L+ ETLYQ
+Sbjct  27   GKGILAADESVGTMGNRLQRIKVENTEENRRQFREILFSVDSSINQSIGGVILFHETLYQ  86
+
+Query  75   NAQDGTSFVDLISSSGVLVGIKVDRGLKPYPLYPGEHITVGLDDLDVRLKQYKDAGARVA  134
+                G  F +++   G++VGIK+D+G  P      E    GLD L  R  QYK  G    
+Sbjct  87   KDSQGKLFRNILKEKGIVVGIKLDQGGAPLAGTNKETTIQGLDGLSERCAQYKKDGVDFG  146
+
+Query  135  KWRVVLSVSDVLPSMTVVKANMHILARYAVLCQNAGLVPIVEPEVLMEGDHTIERCAEVT  194
+            KWR VL ++D  PS   ++ N + LARYA +CQ  GLVPIVEPEV+ +GDH +E C  VT
+Sbjct  147  KWRAVLRIADQCPSSLAIQENANALARYASICQQNGLVPIVEPEVIPDGDHDLEHCQYVT  206
+
+Query  195  EFVLRTLFNELYTMRVCFEGLVLKSNMILPGKS-APQVSDEEIASNTIKIFKRVVPCAVQ  253
+            E VL  ++  L    V  EG +LK NM+  G +   + + E++A  T+    R VP AV 
+Sbjct  207  EKVLAAVYKALNDHHVYLEGTLLKPNMVTAGHACTKKYTPEQVAMATVTALHRTVPAAVP  266
+
+Query  254  GIAFLSGGQSEQDATARLSAMNSMGDC----PWRLSFSYGRALQESVLRAWNGKQDNVVV  309
+            GI FLSGG SE+DAT  L+A+N    C    PW+LSFSYGRALQ S L AW GK  N   
+Sbjct  267  GICFLSGGMSEEDATLNLNAINL---CPLPKPWKLSFSYGRALQASALAAWGGKAANKEA  323
+
+Query  310  AQRVLSHRAHMNSLATKG  327
+             Q     RA  N  A KG
+Sbjct  324  TQEAFMKRAMANCQAAKG  341
+
+
+> uniprotkb:Q91Y97  ALDOB_MOUSE Fructose-bisphosphate aldolase 
+B OS=Mus musculus OX=10090 GN=Aldob PE=1 SV=3
+Length=364
+
+ Score = 270 bits (689),  Expect = 2e-88, Method: Compositional matrix adjust.
+ Identities = 144/318 (45%), Positives = 188/318 (59%), Gaps = 9/318 (3%)
+
+Query  16   GKGILAADESNATIQKRFKAIHLESTENSRRDYREMLFRAKDAM-QYISSILLYEETLYQ  74
+            GKGILAADES  T+  R + I +E+TE +RR +RE+LF   +++ Q I  ++L+ ETLYQ
+Sbjct  27   GKGILAADESVGTMGNRLQRIKVENTEENRRQFRELLFSVDNSISQSIGGVILFHETLYQ  86
+
+Query  75   NAQDGTSFVDLISSSGVLVGIKVDRGLKPYPLYPGEHITVGLDDLDVRLKQYKDAGARVA  134
+                G  F +++   G++VGIK+D+G  P      E    GLD L  R  QYK  G    
+Sbjct  87   KDSQGNLFRNVLKEKGIVVGIKLDQGGAPLAGTNKETTIQGLDGLSERCAQYKKDGVDFG  146
+
+Query  135  KWRVVLSVSDVLPSMTVVKANMHILARYAVLCQNAGLVPIVEPEVLMEGDHTIERCAEVT  194
+            KWR VL ++D  PS   ++ N + LARYA +CQ  GLVPIVEPEVL +GDH +E C  V+
+Sbjct  147  KWRAVLRIADQCPSSLAIQENANALARYASICQQNGLVPIVEPEVLPDGDHDLEHCQYVS  206
+
+Query  195  EFVLRTLFNELYTMRVCFEGLVLKSNMILPGKS-APQVSDEEIASNTIKIFKRVVPCAVQ  253
+            E VL  ++  L    V  EG +LK NM+  G +   + + E++A  T+    R VP AV 
+Sbjct  207  EKVLAAVYKALNDHHVYLEGTLLKPNMVTAGHACTKKYTPEQVAMATVTALHRTVPAAVP  266
+
+Query  254  GIAFLSGGQSEQDATARLSAMNSMGDC----PWRLSFSYGRALQESVLRAWNGKQDNVVV  309
+            GI FLSGG SE+DAT  L+A+N    C    PW+LSFSYGRALQ S L AW GK  N   
+Sbjct  267  GICFLSGGMSEEDATLNLNAINR---CPLPRPWKLSFSYGRALQASALAAWGGKAANKKA  323
+
+Query  310  AQRVLSHRAHMNSLATKG  327
+             Q     RA  N  A +G
+Sbjct  324  TQEAFMKRAMANCQAAQG  341
+
+
+> uniprotkb:P00884  ALDOB_RAT Fructose-bisphosphate aldolase B 
+OS=Rattus norvegicus OX=10116 GN=Aldob PE=1 SV=2
+Length=364
+
+ Score = 264 bits (675),  Expect = 2e-86, Method: Compositional matrix adjust.
+ Identities = 143/318 (45%), Positives = 186/318 (58%), Gaps = 9/318 (3%)
+
+Query  16   GKGILAADESNATIQKRFKAIHLESTENSRRDYREMLFRAKDAM-QYISSILLYEETLYQ  74
+            GKGILAADES  T+  R + I +E+TE +RR +RE+LF   +++ Q I  ++L+ ETLYQ
+Sbjct  27   GKGILAADESVGTMGNRLQRIKVENTEENRRQFRELLFSVDNSISQSIGGVILFHETLYQ  86
+
+Query  75   NAQDGTSFVDLISSSGVLVGIKVDRGLKPYPLYPGEHITVGLDDLDVRLKQYKDAGARVA  134
+                G  F +++   G++VGIK+D+G  P      E    GLD L  R  QYK  G    
+Sbjct  87   KDSQGKLFRNILKEKGIVVGIKLDQGGAPLAGTNKETTIQGLDGLSERCAQYKKDGVDFG  146
+
+Query  135  KWRVVLSVSDVLPSMTVVKANMHILARYAVLCQNAGLVPIVEPEVLMEGDHTIERCAEVT  194
+            KWR VL +SD  PS   ++ N + LARYA +CQ  GLVPIVEPEVL +GDH +E C  V+
+Sbjct  147  KWRAVLRISDQCPSSLAIQENANALARYASICQQNGLVPIVEPEVLPDGDHDLEHCQYVS  206
+
+Query  195  EFVLRTLFNELYTMRVCFEGLVLKSNMILPGKS-APQVSDEEIASNTIKIFKRVVPCAVQ  253
+            E VL  ++  L    V  EG +LK NM+  G +   + + E++A  T+    R VP AV 
+Sbjct  207  EKVLAAVYKALNDHHVYLEGTLLKPNMLTAGHACTKKYTPEQVAMATVTALHRTVPAAVP  266
+
+Query  254  GIAFLSGGQSEQDATARLSAMNSMGDC----PWRLSFSYGRALQESVLRAWNGKQDNVVV  309
+             I FLSGG SE+DAT  L   N++  C    PW+LSFSYGRALQ S L AW GK  N   
+Sbjct  267  SICFLSGGMSEEDATLNL---NAIYRCPLPRPWKLSFSYGRALQASALAAWGGKAANKKA  323
+
+Query  310  AQRVLSHRAHMNSLATKG  327
+             Q     RA  N  A +G
+Sbjct  324  TQEAFMKRAVANCQAAQG  341
+
+
+> uniprotkb:Q9SDS7  VATC_ARATH V-type proton ATPase subunit C OS=Arabidopsis 
+thaliana OX=3702 GN=VHA-C PE=1 SV=1
+Length=375
+
+ Score = 30.8 bits (68),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 19/74 (26%), Positives = 35/74 (47%), Gaps = 10/74 (14%)
+
+Query  174  IVEPEVLMEGDHTIERCAEVTEFVLRTLFNELYTMRVCFEGLVLKSNMILPGKSAPQVSD  233
+            +V+PE ++E +H +   A V ++  +           C+E L   ++ ++P  S     D
+Sbjct  169  LVKPEDIVESEHLVTLLAVVPKYSQKDWL-------ACYETL---TDYVVPRSSKKLFED  218
+
+Query  234  EEIASNTIKIFKRV  247
+             E A  T+ +F RV
+Sbjct  219  NEYALYTVTLFTRV  232
+
+
+> uniprotkb:P41252  SYIC_HUMAN Isoleucine--tRNA ligase, cytoplasmic 
+OS=Homo sapiens OX=9606 GN=IARS PE=1 SV=2
+Length=1262
+
+ Score = 28.9 bits (63),  Expect = 6.8, Method: Compositional matrix adjust.
+ Identities = 17/67 (25%), Positives = 33/67 (49%), Gaps = 1/67 (1%)
+
+Query  49    REMLFRAKDAMQYISSILLYEETLYQNAQ-DGTSFVDLISSSGVLVGIKVDRGLKPYPLY  107
+             RE++ R +   +  + +   E T+Y  A+ +GT    +I S    +   +   LKPYP+ 
+Sbjct  988   REVINRIQKLRKKCNLVPTDEITVYYKAKSEGTYLNSVIESHTEFIFTTIKAPLKPYPVS  1047
+
+Query  108   PGEHITV  114
+             P + + +
+Sbjct  1048  PSDKVLI  1054
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2784516081
+
+
+Query= WP_015824922.1 iron-sulfur cluster carrier protein ApbC [Candidatus
+Liberibacter asiaticus]
+
+Length=341
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+  uniprotkb:P50863 APBC_BACSU Iron-sulfur cluster carrier protein...  197     1e-60
+  uniprotkb:P53384 NUBP1_HUMAN Cytosolic Fe-S cluster assembly fa...  161     7e-47
+  uniprotkb:P52920 NBP35_YEAST Cytosolic Fe-S cluster assembly fa...  132     7e-36
+  uniprotkb:O25098 MIND_HELPY Septum site-determining protein Min...  57.8    2e-09
+  uniprotkb:Q9MBA2 MIND1_ARATH Putative septum site-determining p...  55.8    1e-08
+  uniprotkb:O25678 YLXH_HELPY Flagellum site-determining protein ...  52.0    2e-07
+  uniprotkb:Q01464 MIND_BACSU Septum site-determining protein Min...  45.1    3e-05
+  uniprotkb:B8GW31 PARA_CAUVN Chromosome partitioning protein Par...  42.7    2e-04
+  uniprotkb:P0AEZ3 MIND_ECOLI Septum site-determining protein Min...  42.4    2e-04
+  uniprotkb:P07165 VIRC1_AGRFC Protein virC1 OS=Agrobacterium fab...  39.3    0.002
+  uniprotkb:P37107 SR54C_ARATH Signal recognition particle 54 kDa...  39.3    0.003
+  uniprotkb:O25646 >uniprotkb:tr O25646_HELPY PARA protein OS=Hel...  33.9    0.11 
+  uniprotkb:Q08236 AVO1_YEAST Target of rapamycin complex 2 subun...  32.3    0.60 
+  uniprotkb:Q14703 MBTP1_HUMAN Membrane-bound transcription facto...  31.6    1.1  
+  uniprotkb:Q8BMQ2 TF3C4_MOUSE General transcription factor 3C po...  29.6    3.7  
+  uniprotkb:Q9UKN8 TF3C4_HUMAN General transcription factor 3C po...  29.6    3.8  
+  uniprotkb:Q7L576 CYFP1_HUMAN Cytoplasmic FMR1-interacting prote...  29.3    5.3  
+  uniprotkb:Q7TMB8 CYFP1_MOUSE Cytoplasmic FMR1-interacting prote...  29.3    5.6  
+  uniprotkb:Q03195 RLI1_YEAST Translation initiation factor RLI1 ...  28.5    7.2  
+  uniprotkb:P37105 SRP54_BACSU Signal recognition particle protei...  28.5    8.3  
+
+
+> uniprotkb:P50863  APBC_BACSU Iron-sulfur cluster carrier protein 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=salA PE=2 
+SV=1
+Length=352
+
+ Score = 197 bits (502),  Expect = 1e-60, Method: Compositional matrix adjust.
+ Identities = 105/266 (39%), Positives = 161/266 (61%), Gaps = 13/266 (5%)
+
+Query  78   TLTENKNPPQQRNNL----NVKKFVAVASGKGGVGKSTTVVNIACALKNKGKNVAILDAD  133
+            T+ + + P  ++  L    N   F+AVASGKGGVGKST  VN+A +L   GK V ++DAD
+Sbjct  85   TVAKFRAPSAEKKTLLNMDNPPVFLAVASGKGGVGKSTVSVNLAISLARLGKKVGLIDAD  144
+
+Query  134  VYGPSIPKLLKISGKVEISDKKFLKPKENYGIKIMSMASLVDENVAMIWRGPMVQSAIMH  193
+            +YG S+P ++ I+ +  I  +K L P E +G+K+MSM   V+EN  ++WRGPM+   + +
+Sbjct  145  IYGFSVPDMMGITVRPTIEGEKLL-PVERFGVKVMSMGFFVEENAPVVWRGPMLGKMLNN  203
+
+Query  194  MLHNVVWGQLDFLLIDMPPGTGDAHLTIAQKIPLSGVVIVSTPQDLALIDVKRAISMYQK  253
+              H V WG++D++++D+PPGTGD  L +   +P    +IVSTP   A     RA SM  K
+Sbjct  204  FFHEVEWGEVDYIVLDLPPGTGDVALDVHTMLPSCKEIIVSTPHPTAAFVAARAGSMAIK  263
+
+Query  254  MNIPIIGMIENMSYFLASDTGKKYDLFGNGGARFEAEKIGIPFLESVPF---DMDVRVLS  310
+             +  ++G+IENM+Y+ ++ TG++  +FG GG    AE++ +P L  +P    D D     
+Sbjct  264  TDHEVVGVIENMAYYESAKTGEREYVFGKGGGDKLAEELNVPLLGRIPLKQPDWD----K  319
+
+Query  311  DLGIPIVVHNMNSATSEIYQEISDRI  336
+            D   P  V++ N    EIYQ+I+ +I
+Sbjct  320  DQFAP-SVYDENHPIGEIYQDIAKKI  344
+
+
+> uniprotkb:P53384  NUBP1_HUMAN Cytosolic Fe-S cluster assembly 
+factor NUBP1 OS=Homo sapiens OX=9606 GN=NUBP1 PE=1 SV=2
+Length=320
+
+ Score = 161 bits (407),  Expect = 7e-47, Method: Compositional matrix adjust.
+ Identities = 92/257 (36%), Positives = 148/257 (58%), Gaps = 12/257 (5%)
+
+Query  93   NVKKFVAVASGKGGVGKSTTVVNIACAL-KNKGKNVAILDADVYGPSIPKLLKISGKVEI  151
+             VK  + V SGKGGVGKST   ++A  L +++   +A+LD D+ GPSIPK++ + G+   
+Sbjct  52   TVKHKILVLSGKGGVGKSTFSAHLAHGLAEDENTQIALLDIDICGPSIPKIMGLEGEQVH  111
+
+Query  152  SDKKFLKP---KENYGIKIMSMASLVDE-NVAMIWRGPMVQSAIMHMLHNVVWGQLDFLL  207
+                   P   ++N G+  MS+  L+   + A+IWRGP     I   L +V WG++D+L+
+Sbjct  112  QSGSGWSPVYVEDNLGV--MSVGFLLSSPDDAVIWRGPKKNGMIKQFLRDVDWGEVDYLI  169
+
+Query  208  IDMPPGTGDAHLTIAQKIP---LSGVVIVSTPQDLALIDVKRAISMYQKMNIPIIGMIEN  264
+            +D PPGT D HL++ + +    + G VI++TPQ+++L DV++ I+  +K+ +PIIG++EN
+Sbjct  170  VDTPPGTSDEHLSVVRYLATAHIDGAVIITTPQEVSLQDVRKEINFCRKVKLPIIGVVEN  229
+
+Query  265  MSYFLASDTGKKYDLF--GNGGARFEAEKIGIPFLESVPFDMDVRVLSDLGIPIVVHNMN  322
+            MS F+     K+  +F    GGA    + + +P L  VP D  +    D G    +   +
+Sbjct  230  MSGFICPKCKKESQIFPPTTGGAELMCQDLEVPLLGRVPLDPLIGKNCDKGQSFFIDAPD  289
+
+Query  323  SATSEIYQEISDRIQQF  339
+            S  +  Y+ I  RIQ+F
+Sbjct  290  SPATLAYRSIIQRIQEF  306
+
+
+> uniprotkb:P52920  NBP35_YEAST Cytosolic Fe-S cluster assembly 
+factor NBP35 OS=Saccharomyces cerevisiae (strain ATCC 204508 
+/ S288c) OX=559292 GN=NBP35 PE=1 SV=1
+Length=328
+
+ Score = 132 bits (332),  Expect = 7e-36, Method: Compositional matrix adjust.
+ Identities = 87/252 (35%), Positives = 141/252 (56%), Gaps = 11/252 (4%)
+
+Query  73   KNAVVTLTENKNP--PQQRNNLN-VKKFVAVASGKGGVGKSTTVVNIACALK-NKGKNVA  128
+            K    +L +  +P  P   +NL+ ++  + V SGKGGVGKST    ++ AL  ++   V 
+Sbjct  47   KEICESLPKGPDPDIPLITDNLSGIEHKILVLSGKGGVGKSTFAAMLSWALSADEDLQVG  106
+
+Query  129  ILDADVYGPSIPKLLK-ISGKVEISDKKFLKPKENYGIKIMSMASLVDEN-VAMIWRGPM  186
+             +D D+ GPS+P +L  I   V  S+  +        +  MS+  ++ E+  A+IWRG  
+Sbjct  107  AMDLDICGPSLPHMLGCIKETVHESNSGWTPVYVTDNLATMSIQYMLPEDDSAIIWRGSK  166
+
+Query  187  VQSAIMHMLHNVVWGQLDFLLIDMPPGTGDAHLTIAQKIPLSGV---VIVSTPQDLALID  243
+                I   L +V W +LD+L+ID PPGT D H++I + +  SG+   ++V+TPQ++AL+D
+Sbjct  167  KNLLIKKFLKDVDWDKLDYLVIDTPPGTSDEHISINKYMRESGIDGALVVTTPQEVALLD  226
+
+Query  244  VKRAISMYQKMNIPIIGMIENMSYFLASDTGKKYDLF--GNGGARFEAEKIGIPFLESVP  301
+            V++ I   +K  I I+G++ENMS F+  +   +  +F    GG     +++GI FL SVP
+Sbjct  227  VRKEIDFCKKAGINILGLVENMSGFVCPNCKGESQIFKATTGGGEALCKELGIKFLGSVP  286
+
+Query  302  FDMDVRVLSDLG  313
+             D  +    D+G
+Sbjct  287  LDPRIGKSCDMG  298
+
+
+> uniprotkb:O25098  MIND_HELPY Septum site-determining protein 
+MinD OS=Helicobacter pylori (strain ATCC 700392 / 26695) OX=85962 
+GN=minD PE=3 SV=1
+Length=268
+
+ Score = 57.8 bits (138),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 67/256 (26%), Positives = 117/256 (46%), Gaps = 34/256 (13%)
+
+Query  98   VAVASGKGGVGKSTTVVNIACALKNKGKNVAILDADVYGPSIPKLLKISGK-----VEIS  152
+            V + SGKGGVGKSTT  N+A  L   GK V  +D D+   ++  +L +  +     V++ 
+Sbjct  5    VTITSGKGGVGKSTTTANLAIGLAESGKKVVAVDFDIGLRNLDMILGLENRIVYDVVDVM  64
+
+Query  153  DK------KFLKPKENYGIKIMSMASLVDENVAMIWRGPMVQSAIMHMLHNVVWGQLDFL  206
+            +K        +  K+   +  ++ +   D+N+        +    + +L N +    D++
+Sbjct  65   EKNCNLSQALITDKKTKNLSFLAASQSKDKNI--------LDKEKVAILINALRADFDYI  116
+
+Query  207  LIDMPPG--TGDAHLTIAQKIPLSGVVIVSTPQDLALIDVKRAISMYQ-KMNIPIIGMIE  263
+            LID P G  +G  H  +   + L    +V TP+  +L D  R + +   K N    GM E
+Sbjct  117  LIDSPAGIESGFEHAILHADMAL----VVVTPEVSSLRDSDRVVGIIDAKSNRAKKGM-E  171
+
+Query  264  NMSYFLASDTGKKYDLFGNGG--ARFEAEKI-GIPFLESVPFDMDVRVLSDLGIPIVVHN  320
+               + + +    K +L  NG   +  E  KI  +P +  +P D  +   ++ G P++  +
+Sbjct  172  VHKHLIINRL--KPELVANGEMISIEEVLKILCLPLIGIIPEDHHIISATNKGEPVIRTD  229
+
+Query  321  MNSATSEIYQEISDRI  336
+              SA +  YQ I+ RI
+Sbjct  230  CESAKA--YQRITRRI  243
+
+
+> uniprotkb:Q9MBA2  MIND1_ARATH Putative septum site-determining 
+protein minD homolog, chloroplastic OS=Arabidopsis thaliana 
+OX=3702 GN=MIND1 PE=1 SV=1
+Length=326
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 62/252 (25%), Positives = 115/252 (46%), Gaps = 21/252 (8%)
+
+Query  96   KFVAVASGKGGVGKSTTVVNIACALKNKGKNVAILDADVYGPSIPKLLKISGKVEIS---  152
+            + V + SGKGGVGK+TT  N+  +L   G +V  +DAD+   ++  LL +  +V  +   
+Sbjct  59   RIVVITSGKGGVGKTTTTANVGLSLARYGFSVVAIDADLGLRNLDLLLGLENRVNYTCVE  118
+
+Query  153  --------DKKFLKPKENYGIKIMSMASLVDENVAMIWRGPMVQSAIMHMLHNVVWGQLD  204
+                    D+  ++ K     +++ + S     + M + G  ++  ++  L     G  D
+Sbjct  119  VINGDCRLDQALVRDKRWSNFELLCI-SKPRSKLPMGFGGKALE-WLVDALKTRPEGSPD  176
+
+Query  205  FLLIDMPPGTGDAHLTIAQKIPLSGVVIVSTPQDLALIDVKRAISMYQKMNIPIIGMIEN  264
+            F++ID P G     +T     P +  V+V+TP   AL D  R   + +   I  I MI N
+Sbjct  177  FIIIDCPAGIDAGFITAIT--PANEAVLVTTPDITALRDADRVTGLLECDGIRDIKMIVN  234
+
+Query  265  MSYFLASDTGKKYDLFGNGGARFEAEKIGIPFLESVPFDMDVRVLSDLGIPIVVHNMNSA  324
+                + +D  K  D+      +   E +G+  L  +P D +V   ++ G P+V++   + 
+Sbjct  235  R---VRTDMIKGEDMMSVLDVQ---EMLGLSLLGVIPEDSEVIRSTNRGFPLVLNKPPTL  288
+
+Query  325  TSEIYQEISDRI  336
+                +++ + R+
+Sbjct  289  AGLAFEQAAWRL  300
+
+
+> uniprotkb:O25678  YLXH_HELPY Flagellum site-determining protein 
+YlxH OS=Helicobacter pylori (strain ATCC 700392 / 26695) 
+OX=85962 GN=ylxH PE=3 SV=1
+Length=294
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 61/202 (30%), Positives = 86/202 (43%), Gaps = 38/202 (19%)
+
+Query  83   KNPPQQRNNLNVKKFVAVASGKGGVGKSTTVVNIACALKNKGKNVAILDAD--------V  134
+            KNP    +N    KF+A+ SGKGGVGKS    N+A +L  KG  V + DAD        +
+Sbjct  15   KNPKSFFDNKGNTKFIAITSGKGGVGKSNISANLAYSLYKKGYKVGVFDADIGLANLDVI  74
+
+Query  135  YG----PSIPKLLKISGKV-----EISDKKFLKPKENYG--IKIMSMASLVDENVAMIWR  183
+            +G     +I   LK   K+     EI     L P ++    +K +S A  +D+ V     
+Sbjct  75   FGVKTHKNILHALKGEAKLQEIICEIEPGLCLIPGDSGEEILKYISGAEALDQFVD----  130
+
+Query  184  GPMVQSAIMHMLHNVVWGQLDFLLIDMPPGTGDAHLTIAQKIPLSGVVIVSTPQDLALID  243
+                           V   LD++++D   G G    T A       VVIV+TP   A+ D
+Sbjct  131  ------------EEGVLSSLDYIVVDTGAGIGAT--TQAFLNASDCVVIVTTPDPSAITD  176
+
+Query  244  VKRAISMYQKMNIPIIGMIENM  265
+                I +  K N   + +I NM
+Sbjct  177  AYACIKINSK-NKDELFLIANM  197
+
+
+> uniprotkb:Q01464  MIND_BACSU Septum site-determining protein 
+MinD OS=Bacillus subtilis (strain 168) OX=224308 GN=minD PE=1 
+SV=1
+Length=268
+
+ Score = 45.1 bits (105),  Expect = 3e-05, Method: Compositional matrix adjust.
+ Identities = 42/171 (25%), Positives = 83/171 (49%), Gaps = 28/171 (16%)
+
+Query  98   VAVASGKGGVGKSTTVVNIACALKNKGKNVAILDADVYGPSIPKLLKISGKV--EISDKK  155
+            + + SGKGGVGK+TT  N+  AL   GK V ++D D+   ++  ++ +  ++  ++ D  
+Sbjct  5    IVITSGKGGVGKTTTSANLGTALAILGKRVCLVDTDIGLRNLDVVMGLENRIIYDLVDVV  64
+
+Query  156  FLKPKENYGIKIMSMASLVDENV-AMIWRGPMVQSA---------IMHMLHNVVWGQLDF  205
+              + K       M  A + D+    +++  P  Q++         I +M+  +   + D+
+Sbjct  65   EGRCK-------MHQALVKDKRFDDLLYLMPAAQTSDKTAVAPEQIKNMVQELKQ-EFDY  116
+
+Query  206  LLIDMPPGTGDAHLTIAQKIPLSG---VVIVSTPQDLALIDVKRAISMYQK  253
+            ++ID P G    +     K  +SG    ++V+TP+  A+ D  R I + ++
+Sbjct  117  VIIDCPAGIEQGY-----KNAVSGADKAIVVTTPEISAVRDADRIIGLLEQ  162
+
+
+> uniprotkb:B8GW31  PARA_CAUVN Chromosome partitioning protein 
+ParA OS=Caulobacter vibrioides (strain NA1000 / CB15N) OX=565050 
+GN=parA PE=1 SV=1
+Length=267
+
+ Score = 42.7 bits (99),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 20/44 (45%), Positives = 30/44 (68%), Gaps = 0/44 (0%)
+
+Query  93   NVKKFVAVASGKGGVGKSTTVVNIACALKNKGKNVAILDADVYG  136
+            N  + +A+A+ KGGVGK+TT +N+  AL   G+ V ++DAD  G
+Sbjct  4    NPLRVLAIANQKGGVGKTTTAINLGTALAACGERVLLIDADPQG  47
+
+
+> uniprotkb:P0AEZ3  MIND_ECOLI Septum site-determining protein 
+MinD OS=Escherichia coli (strain K12) OX=83333 GN=minD PE=1 
+SV=2
+Length=270
+
+ Score = 42.4 bits (98),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 28/129 (22%), Positives = 57/129 (44%), Gaps = 18/129 (14%)
+
+Query  96   KFVAVASGKGGVGKSTTVVNIACALKNKGKNVAILDADVYGPSIPKLLKISGKV------  149
+            + + V SGKGGVGK+T+   IA  L  KGK   ++D D+   ++  ++    +V      
+Sbjct  3    RIIVVTSGKGGVGKTTSSAAIATGLAQKGKKTVVIDFDIGLRNLDLIMGCERRVVYDFVN  62
+
+Query  150  -----EISDKKFLKPKENYGIKIMSMASLVDENVAMIWRGPMVQSAIMHMLHNVVWGQLD  204
+                    ++  +K K    + I+  +   D++        + +  +  +L ++     +
+Sbjct  63   VIQGDATLNQALIKDKRTENLYILPASQTRDKDA-------LTREGVAKVLDDLKAMDFE  115
+
+Query  205  FLLIDMPPG  213
+            F++ D P G
+Sbjct  116  FIVCDSPAG  124
+
+
+> uniprotkb:P07165  VIRC1_AGRFC Protein virC1 OS=Agrobacterium 
+fabrum (strain C58 / ATCC 33970) OX=176299 GN=virC1 PE=1 SV=1
+Length=231
+
+ Score = 39.3 bits (90),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 16/42 (38%), Positives = 24/42 (57%), Gaps = 0/42 (0%)
+
+Query  96   KFVAVASGKGGVGKSTTVVNIACALKNKGKNVAILDADVYGP  137
+            K +   S KGG GK+T ++ +  A  + GK +A+ DAD   P
+Sbjct  2    KLLTFCSFKGGAGKTTALMGLCAAFASDGKRLALFDADENRP  43
+
+
+> uniprotkb:P37107  SR54C_ARATH Signal recognition particle 54 
+kDa protein, chloroplastic OS=Arabidopsis thaliana OX=3702 GN=FFC 
+PE=1 SV=1
+Length=564
+
+ Score = 39.3 bits (90),  Expect = 0.003, Method: Compositional matrix adjust.
+ Identities = 16/37 (43%), Positives = 24/37 (65%), Gaps = 0/37 (0%)
+
+Query  102  SGKGGVGKSTTVVNIACALKNKGKNVAILDADVYGPS  138
+            +G  GVGK+T    +AC LK +GK+  ++  DVY P+
+Sbjct  182  AGLQGVGKTTVCAKLACYLKKQGKSCMLIAGDVYRPA  218
+
+
+> uniprotkb:O25646 >uniprotkb:tr O25646_HELPY PARA protein OS=Helicobacter 
+pylori (strain ATCC 700392 / 26695) OX=85962 GN=HP_1000 
+PE=4 SV=1
+Length=218
+
+ Score = 33.9 bits (76),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 15/36 (42%), Positives = 22/36 (61%), Gaps = 0/36 (0%)
+
+Query  98   VAVASGKGGVGKSTTVVNIACALKNKGKNVAILDAD  133
+            + +A+ KGG GKST  +N+   L    K++A LD D
+Sbjct  3    ITIANEKGGSGKSTLCLNLCVQLLLDKKDIAALDTD  38
+
+
+> uniprotkb:Q08236  AVO1_YEAST Target of rapamycin complex 2 subunit 
+AVO1 OS=Saccharomyces cerevisiae (strain ATCC 204508 / 
+S288c) OX=559292 GN=AVO1 PE=1 SV=1
+Length=1176
+
+ Score = 32.3 bits (72),  Expect = 0.60, Method: Compositional matrix adjust.
+ Identities = 17/52 (33%), Positives = 29/52 (56%), Gaps = 4/52 (8%)
+
+Query  62   AQQIIQNIPTVKNAVVTLTENKNPPQQRNNLNVKKFV----AVASGKGGVGK  109
+            A ++  + PT +   + LT+NKN  Q+ ++LN  K +    + ASG G V +
+Sbjct  316  ASRLKSHFPTSQKGKIFLTDNKNDGQKSDSLNANKGIHGDGSSASGNGSVSR  367
+
+
+> uniprotkb:Q14703  MBTP1_HUMAN Membrane-bound transcription factor 
+site-1 protease OS=Homo sapiens OX=9606 GN=MBTPS1 PE=1 
+SV=1
+Length=1052
+
+ Score = 31.6 bits (70),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 35/132 (27%), Positives = 57/132 (43%), Gaps = 24/132 (18%)
+
+Query  163  YGIKIMSMASLVDENVAMIWRGPMVQSAIMHMLHNV--VW----------GQLDFLLIDM  210
+            Y   +M      DEN    W  P    A +  L+ +  VW          G+      DM
+Sbjct  727  YNTSVMRKVKFYDENTRQWWM-PDTGGANIPALNELLSVWNMGFSDGLYEGEFTLANHDM  785
+
+Query  211  PPGTGDAHLTIAQKIPLSGVVIVSTPQDLALIDVKRAISMYQKMNIPIIGMIENMSYFLA  270
+               +G    +IA K P  GVVI  T +D  L  +K+  ++ +  N+PI+G+     Y + 
+Sbjct  786  YYASG---CSIA-KFPEDGVVITQTFKDQGLEVLKQETAVVE--NVPILGL-----YQIP  834
+
+Query  271  SDTGKKYDLFGN  282
+            ++ G +  L+G+
+Sbjct  835  AEGGGRIVLYGD  846
+
+
+> uniprotkb:Q8BMQ2  TF3C4_MOUSE General transcription factor 3C 
+polypeptide 4 OS=Mus musculus OX=10090 GN=Gtf3c4 PE=1 SV=2
+Length=817
+
+ Score = 29.6 bits (65),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 14/49 (29%), Positives = 25/49 (51%), Gaps = 0/49 (0%)
+
+Query  107  VGKSTTVVNIACALKNKGKNVAILDADVYGPSIPKLLKISGKVEISDKK  155
+              +S  V+ + C + N G+++ I    V  P    LLK+  K E+++ K
+Sbjct  78   TARSVAVLELICDVHNPGQDLVIHRTSVPAPLNSCLLKVGSKTEVAECK  126
+
+
+> uniprotkb:Q9UKN8  TF3C4_HUMAN General transcription factor 3C 
+polypeptide 4 OS=Homo sapiens OX=9606 GN=GTF3C4 PE=1 SV=2
+Length=822
+
+ Score = 29.6 bits (65),  Expect = 3.8, Method: Compositional matrix adjust.
+ Identities = 14/49 (29%), Positives = 25/49 (51%), Gaps = 0/49 (0%)
+
+Query  107  VGKSTTVVNIACALKNKGKNVAILDADVYGPSIPKLLKISGKVEISDKK  155
+              +S  V+ + C + N G+++ I    V  P    LLK+  K E+++ K
+Sbjct  82   TARSIAVLELICDVHNPGQDLVIHRTSVPAPLNSCLLKVGSKTEVAECK  130
+
+
+> uniprotkb:Q7L576  CYFP1_HUMAN Cytoplasmic FMR1-interacting protein 
+1 OS=Homo sapiens OX=9606 GN=CYFIP1 PE=1 SV=1
+Length=1253
+
+ Score = 29.3 bits (64),  Expect = 5.3, Method: Composition-based stats.
+ Identities = 26/107 (24%), Positives = 49/107 (46%), Gaps = 22/107 (21%)
+
+Query  181   IWRGPMVQSAIMHMLHNV----VWGQLDFLLIDMPPGTGDAHLTIAQ----KIPLSG---  229
+             IWRGP+  + +MH+   V    +W  + F+   +P GT +   T+ Q     +  +G   
+Sbjct  1108  IWRGPLPSNGVMHVDECVEFHRLWSAMQFVYC-IPVGTHE--FTVEQCFGDGLHWAGCMI  1164
+
+Query  230   VVIVSTPQDLALIDVKRAISMYQK--------MNIPIIGMIENMSYF  268
+             +V++   +  A++D    +   QK         N+P+  M+E +  F
+Sbjct  1165  IVLLGQQRRFAVLDFCYHLLKVQKHDGKDEIIKNVPLKKMVERIRKF  1211
+
+
+> uniprotkb:Q7TMB8  CYFP1_MOUSE Cytoplasmic FMR1-interacting protein 
+1 OS=Mus musculus OX=10090 GN=Cyfip1 PE=1 SV=1
+Length=1253
+
+ Score = 29.3 bits (64),  Expect = 5.6, Method: Composition-based stats.
+ Identities = 26/107 (24%), Positives = 49/107 (46%), Gaps = 22/107 (21%)
+
+Query  181   IWRGPMVQSAIMHMLHNV----VWGQLDFLLIDMPPGTGDAHLTIAQ----KIPLSG---  229
+             IWRGP+  + +MH+   V    +W  + F+   +P GT +   T+ Q     +  +G   
+Sbjct  1108  IWRGPLPSNGVMHVDECVEFHRLWSAMQFVYC-IPVGTHE--FTVEQCFGDGLHWAGCMI  1164
+
+Query  230   VVIVSTPQDLALIDVKRAISMYQK--------MNIPIIGMIENMSYF  268
+             +V++   +  A++D    +   QK         N+P+  M+E +  F
+Sbjct  1165  IVLLGQQRRFAVLDFCYHLLKVQKHDGKDEIIKNVPLKKMVERIRKF  1211
+
+
+> uniprotkb:Q03195  RLI1_YEAST Translation initiation factor RLI1 
+OS=Saccharomyces cerevisiae (strain ATCC 204508 / S288c) 
+OX=559292 GN=RLI1 PE=1 SV=1
+Length=608
+
+ Score = 28.5 bits (62),  Expect = 7.2, Method: Compositional matrix adjust.
+ Identities = 38/146 (26%), Positives = 67/146 (46%), Gaps = 27/146 (18%)
+
+Query  98   VAVASGKGGVGKSTTVVNIACALK-NKGKNVAILDADVY----GPSIPKLL------KIS  146
+            + V  G+ G GK+T +  +A ALK ++G+++  L+  +      P  P  +      KI 
+Sbjct  380  ILVMMGENGTGKTTLIKLLAGALKPDEGQDIPKLNVSMKPQKIAPKFPGTVRQLFFKKIR  439
+
+Query  147  GKVEISDKKFLKPK-ENYGIKIMSMASLVDENVAMIWRGPMVQSAIMHMLHNVVWGQLDF  205
+            G       +FL P+ +   +K + +  ++D+ V  +  G + + AI+  L        D 
+Sbjct  440  G-------QFLNPQFQTDVVKPLRIDDIIDQEVQHLSGGELQRVAIVLALGIPA----DI  488
+
+Query  206  LLIDMPPGTGDAHLTIAQKIPLSGVV  231
+             LID P     A+L   Q+I  S V+
+Sbjct  489  YLIDEP----SAYLDSEQRIICSKVI  510
+
+
+> uniprotkb:P37105  SRP54_BACSU Signal recognition particle protein 
+OS=Bacillus subtilis (strain 168) OX=224308 GN=ffh PE=1 
+SV=1
+Length=446
+
+ Score = 28.5 bits (62),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 23/77 (30%), Positives = 35/77 (45%), Gaps = 16/77 (21%)
+
+Query  103  GKGGVGKSTTVVNIACALKNK-GKNVAILDADVYGPSIPKLLKISGK-------------  148
+            G  G GK+TT   +A  L+ K  +   ++ AD+Y P+  K L+  GK             
+Sbjct  108  GLQGAGKTTTSGKLANLLRKKHNRKPMLVAADIYRPAAIKQLETLGKQLDMPVFSLGDQV  167
+
+Query  149  --VEISDKKFLKPKENY  163
+              VEI+ +   K KE +
+Sbjct  168  SPVEIAKQAIEKAKEEH  184
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2808014107
+
+
+  Database: MINT sequences
+    Posted date:  Jun 22, 2018  11:53 AM
+  Number of letters in database: 14,220,065
+  Number of sequences in database:  24,226
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
